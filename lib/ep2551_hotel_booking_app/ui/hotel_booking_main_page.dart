@@ -30,6 +30,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                 children: [
                   Expanded(
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                         Text("Home"),
@@ -37,7 +38,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
+                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                         Text("Explore"),
@@ -45,7 +46,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
+                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedFavourite),
                         Text("Favorite"),
@@ -53,7 +54,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
+                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedBubbleChat),
                         Text("Messagee"),
@@ -61,7 +62,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
+                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedListView),
                         Text("Orders"),
