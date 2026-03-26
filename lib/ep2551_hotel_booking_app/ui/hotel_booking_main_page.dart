@@ -43,6 +43,31 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                       ],
                     ),
                   ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedFavourite),
+                        Text("Favorite"),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedBubbleChat),
+                        Text("Messagee"),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedListView),
+                        Text("Orders"),
+                      ],
+                    ),
+                  ),
+
                 ],
               ),
             ),
