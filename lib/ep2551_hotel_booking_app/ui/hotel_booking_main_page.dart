@@ -24,7 +24,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
               decoration: BoxDecoration(
                 boxShadow: [BoxShadow(color: Colors.grey[200]!)],
               ),
-              child: Row(children: []),
+              child: Row(children: [Expanded(child: Column(children: [
+                
+              ],))]),
             ),
           ),
         ],
