@@ -21,8 +21,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
             left: 0,
             right: 0,
             child: Container(
-              height: 80,
+              height: 100,
               decoration: BoxDecoration(
+                
                 boxShadow: [BoxShadow(color: Colors.grey[200]!)],
               ),
               child: Row(
