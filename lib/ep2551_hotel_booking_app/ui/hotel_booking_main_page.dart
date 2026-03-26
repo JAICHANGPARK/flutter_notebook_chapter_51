@@ -23,13 +23,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
             child: Container(
               height: 100,
               decoration: BoxDecoration(
-
                 boxShadow: [BoxShadow(color: Colors.grey[200]!)],
               ),
               child: Row(
                 children: [
                   Expanded(
                     child: Column(
+                      spacing: 4,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedHome01),
@@ -38,7 +38,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                         Text("Explore"),
@@ -46,7 +48,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedFavourite),
                         Text("Favorite"),
@@ -54,7 +58,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedBubbleChat),
                         Text("Messagee"),
@@ -62,14 +68,15 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column( mainAxisAlignment: MainAxisAlignment.center,
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedListView),
                         Text("Orders"),
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
