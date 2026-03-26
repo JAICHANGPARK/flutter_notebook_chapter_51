@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class HotelBookingMainPage extends StatefulWidget {
   const HotelBookingMainPage({super.key});
@@ -24,9 +25,26 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
               decoration: BoxDecoration(
                 boxShadow: [BoxShadow(color: Colors.grey[200]!)],
               ),
-              child: Row(children: [Expanded(child: Column(children: [
-                
-              ],))]),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Column(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                        Text("Home"),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                        Text("Explore"),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
