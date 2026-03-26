@@ -2,7 +2,6 @@
 
 A new Flutter project.
 
-
 ## EP2551
 
 - Hotel Booking Mobile App Design
