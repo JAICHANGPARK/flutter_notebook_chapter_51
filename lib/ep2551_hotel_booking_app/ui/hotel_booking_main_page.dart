@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HotelBookingMainPage extends StatefulWidget {
   const HotelBookingMainPage({super.key});
 
@@ -12,9 +11,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
-
+          Positioned(
+            child: Container(height: 80, child: Row(children: [])),
+          ),
         ],
       ),
     );
