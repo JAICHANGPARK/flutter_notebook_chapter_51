@@ -26,6 +26,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                 color: Colors.white,
                 borderRadius: .only(
                   topLeft: .circular(24),
+                  topRight: .circular(24),
                 ),
                 boxShadow: [BoxShadow(color: Colors.grey[200]!, spreadRadius: 4, blurRadius: 3)],
               ),
