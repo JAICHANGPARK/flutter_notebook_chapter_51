@@ -5,7 +5,7 @@ A new Flutter project.
 
 ## EP2551
 
-- Daily Mindfulness & Meditation App – Minimal Wellness Mobile UI
+- Hotel Booking Mobile App Design
 - Sheikh Raihan
 - https://dribbble.com/shots/27173078-Daily-Mindfulness-Meditation-App-Minimal-Wellness-Mobile-UI
 
