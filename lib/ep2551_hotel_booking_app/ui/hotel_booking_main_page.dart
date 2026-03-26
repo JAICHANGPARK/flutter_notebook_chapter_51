@@ -23,7 +23,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
             child: Container(
               height: 100,
               decoration: BoxDecoration(
-                boxShadow: [BoxShadow(color: Colors.grey[200]!)],
+                color: Colors.white,
+                borderRadius: .only(
+                  topLeft: .circular(24),
+                ),
+                boxShadow: [BoxShadow(color: Colors.grey[200]!, spreadRadius: 4, blurRadius: 3)],
               ),
               child: Row(
                 children: [
