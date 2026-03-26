@@ -11,13 +11,21 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
+
       body: Stack(
         children: [
           Positioned(
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 80, child: Row(children: [])),
+            child: Container(height: 80,
+                decoration: BoxDecoration(
+                  boxShadow: [
+
+                  ],
+                ),
+                child: Row(children: [])),
           ),
         ],
       ),
