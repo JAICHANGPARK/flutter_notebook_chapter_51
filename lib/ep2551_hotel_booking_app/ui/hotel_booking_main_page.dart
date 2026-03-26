@@ -14,7 +14,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
