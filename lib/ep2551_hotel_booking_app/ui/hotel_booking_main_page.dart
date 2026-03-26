@@ -19,13 +19,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(height: 80,
-                decoration: BoxDecoration(
-                  boxShadow: [
-
-                  ],
-                ),
-                child: Row(children: [])),
+            child: Container(
+              height: 80,
+              decoration: BoxDecoration(
+                boxShadow: [BoxShadow(color: Colors.grey[200]!)],
+              ),
+              child: Row(children: []),
+            ),
           ),
         ],
       ),
