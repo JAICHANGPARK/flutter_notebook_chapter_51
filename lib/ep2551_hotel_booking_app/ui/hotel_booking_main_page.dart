@@ -19,7 +19,22 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: [],
+                children: [
+                  Row(
+                    children: [
+                     Expanded(child: Column(children: [
+                       Text("Location"),
+                       Row(
+                         children: [
+                           Icon(Icons.location_on),
+                           Text('New York, USA'),
+                           Icon(Icons.keyboard_arrow_down),
+                         ],
+                       )
+                     ],))
+                    ],
+                  )
+                ],
               ),
             ),
           ),
