@@ -18,62 +18,73 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    spacing: 12,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          spacing: 4,
-                          crossAxisAlignment: .start,
-
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      spacing: 16,
+                      crossAxisAlignment: .start,
+                      children: [
+                        Row(
+                          spacing: 12,
                           children: [
-                            Text("Location"),
-                            Row(
-                              spacing: 4,
-                              children: [
-                                Icon(Icons.location_on),
-                                Text('New York, USA'),
-                                Icon(Icons.keyboard_arrow_down),
-                              ],
+                            Expanded(
+                              child: Column(
+                                spacing: 4,
+                                crossAxisAlignment: .start,
+
+                                children: [
+                                  Text("Location"),
+                                  Row(
+                                    spacing: 4,
+                                    children: [
+                                      Icon(Icons.location_on),
+                                      Text('New York, USA'),
+                                      Icon(Icons.keyboard_arrow_down),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(12),
+                              ),
+                              child: Badge(
+                                child: HugeIcon(
+                                  icon: HugeIcons.strokeRoundedNotification01,
+                                ),
+                              ),
                             ),
                           ],
                         ),
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: .circular(12),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: .circular(12),
+                                ),
+                              ),
+                            ),
+                            Container(
+                              padding: .all(12),
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(12),
+                                color: Colors.blue,
+                              ),
+                              child: Icon(Icons.tune, color: Colors.white),
+                            ),
+                          ],
                         ),
-                        child: Badge(
-                          child: HugeIcon(
-                            icon: HugeIcons.strokeRoundedNotification01,
-                          ),
-                        ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: .circular(12),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        padding: .all(12),
-                        decoration: BoxDecoration(
-                          borderRadius: .circular(12),
-                          color: Colors.blue,
-                        ),
-                        child: Icon(Icons.tune, color: Colors.white),
-                      ),
-                    ],
-                  ),
+
                 ],
               ),
             ),
