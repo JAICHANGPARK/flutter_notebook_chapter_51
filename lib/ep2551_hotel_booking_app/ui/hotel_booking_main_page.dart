@@ -96,11 +96,31 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                   Column(
                     children: [
                       Row(
+                        mainAxisAlignment: .spaceBetween,
                         children: [
                           Text("Recommended Hotel"),
                           TextButton(onPressed: () {}, child: Text('See all')),
                         ],
                       ),
+                      Container(
+                        height: 260,
+                        child: Placeholder(),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          Text("Nearby Hotel"),
+                          TextButton(onPressed: () {}, child: Text('See all')),
+                        ],
+                      ),
+                      Container(
+                        height: 260,
+                        child: Placeholder(),
+                      )
                     ],
                   ),
                 ],
