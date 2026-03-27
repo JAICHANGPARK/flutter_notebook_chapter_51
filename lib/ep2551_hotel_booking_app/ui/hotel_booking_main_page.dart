@@ -49,6 +49,24 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                       ),
                     ],
                   ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Container(
+                          
+                          decoration: BoxDecoration(color: Colors.white,
+                          borderRadius: .circular(12)
+                          ),
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: .circular(12),
+                          color: Colors.blue,
+                        ),
+                      )
+                    ],
+                  ),
                 ],
               ),
             ),
