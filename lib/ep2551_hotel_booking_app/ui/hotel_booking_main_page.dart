@@ -12,7 +12,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[100]!,
       body: Stack(
         children: [
           Positioned.fill(
@@ -46,6 +46,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           color: Colors.white,
                           borderRadius: .circular(12),
                         ),
+                        child: Badge(
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedNotification01,
+                          ),
+                        ),
                       ),
                     ],
                   ),
@@ -60,11 +65,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                         ),
                       ),
                       Container(
+                        padding: .all(12),
                         decoration: BoxDecoration(
                           borderRadius: .circular(12),
                           color: Colors.blue,
                         ),
-                        child: Icon(Icons.tune),
+                        child: Icon(Icons.tune, color: Colors.white),
                       ),
                     ],
                   ),
