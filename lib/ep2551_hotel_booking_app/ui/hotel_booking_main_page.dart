@@ -13,7 +13,6 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-
       body: Stack(
         children: [
           Positioned(
