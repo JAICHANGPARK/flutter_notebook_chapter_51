@@ -21,12 +21,17 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    spacing: 12,
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 4,
+                          crossAxisAlignment: .start,
+
                           children: [
                             Text("Location"),
                             Row(
+                              spacing: 4,
                               children: [
                                 Icon(Icons.location_on),
                                 Text('New York, USA'),
