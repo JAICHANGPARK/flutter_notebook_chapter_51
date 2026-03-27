@@ -15,13 +15,14 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned.fill(child: SafeArea(child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              
-
-
-          ],))),
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [],
+              ),
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -34,7 +35,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                   topLeft: .circular(24),
                   topRight: .circular(24),
                 ),
-                boxShadow: [BoxShadow(color: Colors.grey[200]!, spreadRadius: 4, blurRadius: 3)],
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey[200]!,
+                    spreadRadius: 4,
+                    blurRadius: 3,
+                  ),
+                ],
               ),
               child: Row(
                 children: [
