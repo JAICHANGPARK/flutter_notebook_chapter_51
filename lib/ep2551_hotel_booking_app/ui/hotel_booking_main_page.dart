@@ -22,18 +22,28 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                 children: [
                   Row(
                     children: [
-                     Expanded(child: Column(children: [
-                       Text("Location"),
-                       Row(
-                         children: [
-                           Icon(Icons.location_on),
-                           Text('New York, USA'),
-                           Icon(Icons.keyboard_arrow_down),
-                         ],
-                       )
-                     ],))
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Location"),
+                            Row(
+                              children: [
+                                Icon(Icons.location_on),
+                                Text('New York, USA'),
+                                Icon(Icons.keyboard_arrow_down),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: .circular(12),
+                        ),
+                      ),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
