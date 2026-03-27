@@ -62,9 +62,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           ],
                         ),
                         Row(
+                          spacing: 12,
                           children: [
                             Expanded(
                               child: Container(
+                                padding: EdgeInsets.symmetric(horizontal: 16),
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: .circular(12),
@@ -73,6 +75,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                   decoration: InputDecoration(
                                     icon: Icon(Icons.search),
                                     hintText: "Search",
+                                    border: .none,
                                   ),
                                 ),
                               ),
@@ -89,6 +92,16 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                         ),
                       ],
                     ),
+                  ),
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("Recommended Hotel"),
+                          TextButton(onPressed: () {}, child: Text('See all')),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
