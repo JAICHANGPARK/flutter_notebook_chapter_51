@@ -15,6 +15,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
+          Positioned.fill(child: SafeArea(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              
+
+
+          ],))),
           Positioned(
             bottom: 0,
             left: 0,
