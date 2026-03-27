@@ -69,6 +69,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                   color: Colors.white,
                                   borderRadius: .circular(12),
                                 ),
+                                child: TextField(
+                                  decoration: InputDecoration(
+                                    icon: Icon(Icons.search),
+                                    hintText: "Search",
+                                  ),
+                                ),
                               ),
                             ),
                             Container(
@@ -84,7 +90,6 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             ),
