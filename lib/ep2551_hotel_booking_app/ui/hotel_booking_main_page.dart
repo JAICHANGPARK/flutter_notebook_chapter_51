@@ -133,6 +133,24 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                   Expanded(
                                     child: Container(color: Colors.blue),
                                   ),
+                                  Row(
+                                    children: [
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.grey[100],
+                                        ),
+                                        child: Text("20%Off"),
+                                      ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.grey[100],
+                                        ),
+                                        child: Text("20%Off"),
+                                      ),
+                                    ],
+                                  ),
                                 ],
                               ),
                             );
