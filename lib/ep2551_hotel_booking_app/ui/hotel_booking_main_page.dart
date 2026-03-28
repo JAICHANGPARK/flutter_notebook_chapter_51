@@ -148,7 +148,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.grey[100],
                                         ),
-                                        child: Text("20%Off"),
+                                        child: Row(
+                                          children: [
+                                            Icon(Icons.star),
+                                            Text("4.6"),
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
