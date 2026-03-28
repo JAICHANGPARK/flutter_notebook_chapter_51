@@ -141,7 +141,10 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.grey[100],
                                         ),
-                                        child: Text("20%Off"),
+                                        child: Text(
+                                          "20%Off",
+                                          style: TextStyle(color: Colors.blue),
+                                        ),
                                       ),
                                       Container(
                                         decoration: ShapeDecoration(
@@ -150,7 +153,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                         ),
                                         child: Row(
                                           children: [
-                                            Icon(Icons.star),
+                                            Icon(
+                                              Icons.star,
+                                              size: 14,
+                                              color: Colors.orange,
+                                            ),
                                             Text("4.6"),
                                           ],
                                         ),
