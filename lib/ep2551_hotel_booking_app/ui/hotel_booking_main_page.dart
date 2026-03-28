@@ -113,7 +113,20 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           ],
                         ),
                       ),
-                      Container(height: 260, child: Placeholder()),
+                      Container(
+                        height: 260,
+                        child: ListView.builder(
+                          scrollDirection: .horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              width: 160,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                              ),
+                            );
+                          },
+                        ),
+                      ),
                     ],
                   ),
                   Column(
