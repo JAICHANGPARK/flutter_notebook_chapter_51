@@ -156,7 +156,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.grey[100],
                                         ),
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 4,
+                                        ),
                                         child: Row(
+                                          spacing: 4,
                                           children: [
                                             Icon(
                                               Icons.star,
