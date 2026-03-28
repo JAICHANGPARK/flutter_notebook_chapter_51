@@ -99,8 +99,17 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Recommended Hotel"),
-                            TextButton(onPressed: () {}, child: Text('See all')),
+                            Text(
+                              "Recommended Hotel",
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.blue,
+                              ),
+                              child: Text('See all'),
+                            ),
                           ],
                         ),
                       ),
