@@ -127,6 +127,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                 color: Colors.white,
                                 borderRadius: .circular(12),
                               ),
+                              padding: .all(12),
                               child: Column(
                                 children: [
                                   Expanded(
