@@ -134,6 +134,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                     child: Container(color: Colors.blue),
                                   ),
                                   Row(
+                                    mainAxisAlignment: .spaceBetween,
                                     children: [
                                       Container(
                                         decoration: ShapeDecoration(
