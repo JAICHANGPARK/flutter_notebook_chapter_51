@@ -129,6 +129,8 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               ),
                               padding: .all(12),
                               child: Column(
+                                crossAxisAlignment: .start,
+                                spacing: 4,
                                 children: [
                                   Expanded(
                                     child: Container(color: Colors.blue),
@@ -183,14 +185,17 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                     "OasisOverture",
                                     style: TextStyle(fontWeight: .bold),
                                   ),
-                                  Row(children: [Icon(Icons.location_on),
-                                  Text("New York, USA")]),
                                   Row(
                                     children: [
-                                      Text("\$530"),
-                                      Text("/height")
+                                      Icon(Icons.location_on, size: 14),
+                                      Text("New York, USA",style: TextStyle(
+                                        fontSize: 12,
+                                      ),),
                                     ],
-                                  )
+                                  ),
+                                  Row(
+                                    children: [Text("\$530"), Text("/height")],
+                                  ),
                                 ],
                               ),
                             );
