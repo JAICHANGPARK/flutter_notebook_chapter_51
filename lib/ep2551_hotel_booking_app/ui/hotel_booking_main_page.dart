@@ -34,7 +34,6 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               child: Column(
                                 spacing: 4,
                                 crossAxisAlignment: .start,
-
                                 children: [
                                   Text("Location"),
                                   Row(
@@ -102,10 +101,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           TextButton(onPressed: () {}, child: Text('See all')),
                         ],
                       ),
-                      Container(
-                        height: 260,
-                        child: Placeholder(),
-                      )
+                      Container(height: 260, child: Placeholder()),
                     ],
                   ),
                   Column(
@@ -117,10 +113,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           TextButton(onPressed: () {}, child: Text('See all')),
                         ],
                       ),
-                      Container(
-                        height: 260,
-                        child: Placeholder(),
-                      )
+                      Container(height: 260, child: Placeholder()),
                     ],
                   ),
                 ],
