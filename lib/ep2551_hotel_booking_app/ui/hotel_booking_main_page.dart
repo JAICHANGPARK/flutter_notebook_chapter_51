@@ -93,6 +93,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                     ),
                   ),
                   Column(
+                    spacing: 12,
                     children: [
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -120,7 +121,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              width: 160,
+                              width: 200,
                               margin: .only(left: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
