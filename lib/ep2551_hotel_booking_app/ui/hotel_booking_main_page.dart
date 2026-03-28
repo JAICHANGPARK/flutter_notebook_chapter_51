@@ -125,6 +125,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               margin: .only(left: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
+                                borderRadius: .circular(12),
+
+                              ),
+                              child: Column(
+                                children: [
+                                  
+                                ],
                               ),
                             );
                           },
