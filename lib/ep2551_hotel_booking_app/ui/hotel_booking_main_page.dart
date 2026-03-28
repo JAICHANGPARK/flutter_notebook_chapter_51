@@ -115,7 +115,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                         ),
                       ),
                       Container(
-                        height: 260,
+                        height: 280,
 
                         child: ListView.builder(
                           scrollDirection: .horizontal,
@@ -133,10 +133,16 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                 spacing: 8,
                                 children: [
                                   Expanded(
-                                    child: Container(color: Colors.blue),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.blue,
+                                        borderRadius: .circular(12),
+                                      ),
+                                    ),
                                   ),
                                   Column(
                                     spacing: 4,
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Row(
                                         mainAxisAlignment: .spaceBetween,
@@ -177,7 +183,9 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                                 ),
                                                 Text(
                                                   "4.6",
-                                                  style: TextStyle(fontSize: 12),
+                                                  style: TextStyle(
+                                                    fontSize: 12,
+                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -191,17 +199,20 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                       Row(
                                         children: [
                                           Icon(Icons.location_on, size: 14),
-                                          Text("New York, USA",style: TextStyle(
-                                            fontSize: 12,
-                                          ),),
+                                          Text(
+                                            "New York, USA",
+                                            style: TextStyle(fontSize: 12),
+                                          ),
                                         ],
                                       ),
                                       Row(
-                                        children: [Text("\$530"), Text("/height")],
+                                        children: [
+                                          Text("\$530"),
+                                          Text("/height"),
+                                        ],
                                       ),
                                     ],
-                                  )
-
+                                  ),
                                 ],
                               ),
                             );
