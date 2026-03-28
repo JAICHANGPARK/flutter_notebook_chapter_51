@@ -126,11 +126,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: .circular(12),
-
                               ),
                               child: Column(
                                 children: [
-                                  
+                                  Expanded(
+                                    child: Container(color: Colors.blue),
+                                  ),
                                 ],
                               ),
                             );
