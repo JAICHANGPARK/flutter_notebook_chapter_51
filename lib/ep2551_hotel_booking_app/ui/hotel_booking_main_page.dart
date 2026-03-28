@@ -115,11 +115,13 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                       ),
                       Container(
                         height: 260,
+
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
                               width: 160,
+                              margin: .only(left: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
                               ),
