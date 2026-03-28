@@ -147,8 +147,10 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                         ),
                                         child: Text(
                                           "20%Off",
-                                          style: TextStyle(color: Colors.blue,
-                                          fontSize: 12,),
+                                          style: TextStyle(
+                                            color: Colors.blue,
+                                            fontSize: 12,
+                                          ),
                                         ),
                                       ),
                                       Container(
@@ -168,12 +170,27 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                               size: 14,
                                               color: Colors.orange,
                                             ),
-                                            Text("4.6"),
+                                            Text(
+                                              "4.6",
+                                              style: TextStyle(fontSize: 12),
+                                            ),
                                           ],
                                         ),
                                       ),
                                     ],
                                   ),
+                                  Text(
+                                    "OasisOverture",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
+                                  Row(children: [Icon(Icons.location_on),
+                                  Text("New York, USA")]),
+                                  Row(
+                                    children: [
+                                      Text("\$530"),
+                                      Text("/height")
+                                    ],
+                                  )
                                 ],
                               ),
                             );
