@@ -141,9 +141,14 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                           shape: StadiumBorder(),
                                           color: Colors.grey[100],
                                         ),
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 4,
+                                        ),
                                         child: Text(
                                           "20%Off",
-                                          style: TextStyle(color: Colors.blue),
+                                          style: TextStyle(color: Colors.blue,
+                                          fontSize: 12,),
                                         ),
                                       ),
                                       Container(
