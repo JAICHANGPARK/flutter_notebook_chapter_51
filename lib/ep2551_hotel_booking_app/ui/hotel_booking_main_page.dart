@@ -94,12 +94,15 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                   ),
                   Column(
                     children: [
-                      Row(
-                        mainAxisAlignment: .spaceBetween,
-                        children: [
-                          Text("Recommended Hotel"),
-                          TextButton(onPressed: () {}, child: Text('See all')),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text("Recommended Hotel"),
+                            TextButton(onPressed: () {}, child: Text('See all')),
+                          ],
+                        ),
                       ),
                       Container(height: 260, child: Placeholder()),
                     ],
