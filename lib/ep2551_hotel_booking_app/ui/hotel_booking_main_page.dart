@@ -228,8 +228,14 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Nearby Hotel"),
-                            TextButton(onPressed: () {}, child: Text('See all')),
+                            Text(
+                              "Nearby Hotel",
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text('See all'),
+                            ),
                           ],
                         ),
                       ),
