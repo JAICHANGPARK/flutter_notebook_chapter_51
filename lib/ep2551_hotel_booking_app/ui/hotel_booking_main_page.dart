@@ -184,7 +184,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                                 Text(
                                                   "4.6",
                                                   style: TextStyle(
-                                                    fontSize: 12,
+                                                    fontSize: 10,
                                                   ),
                                                 ),
                                               ],
