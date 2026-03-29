@@ -277,12 +277,98 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                       bottom: 12
                                     ),
                                     child: Row(
+                                      spacing: 12,
                                       children: [
                                         Container(
                                           height: 150,
                                           width: 130,
                                           child: Placeholder(),
                                         ),
+                                        Expanded(child:  Column(
+                                          mainAxisAlignment: .spaceBetween,
+                                          spacing: 4,
+                                          crossAxisAlignment: .start,
+                                          children: [
+                                            Row(
+                                              mainAxisAlignment:
+                                                  .spaceBetween,
+                                              children: [
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Colors.grey[100],
+                                                  ),
+                                                  padding:
+                                                  EdgeInsets.symmetric(
+                                                    horizontal: 8,
+                                                    vertical: 4,
+                                                  ),
+                                                  child: Text(
+                                                    "20%Off",
+                                                    style: TextStyle(
+                                                      color: Colors.blue,
+                                                      fontSize: 10,
+                                                      fontWeight: .bold,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Colors.grey[100],
+                                                  ),
+                                                  padding:
+                                                  EdgeInsets.symmetric(
+                                                    horizontal: 8,
+                                                    vertical: 4,
+                                                  ),
+                                                  child: Row(
+                                                    spacing: 4,
+                                                    children: [
+                                                      Icon(
+                                                        Icons.star,
+                                                        size: 14,
+                                                        color: Colors.orange,
+                                                      ),
+                                                      Text(
+                                                        "4.6",
+                                                        style: TextStyle(
+                                                          fontSize: 10,
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            Text(
+                                              "OasisOverture",
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.location_on,
+                                                  size: 14,
+                                                ),
+                                                Text(
+                                                  "New York, USA",
+                                                  style: TextStyle(
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Text("\$530"),
+                                                Text("/height"),
+                                              ],
+                                            ),
+                                          ],
+                                        ),)
                                       ],
                                     ),
                                   );
