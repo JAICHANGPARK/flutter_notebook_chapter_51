@@ -95,6 +95,8 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
+                        crossAxisAlignment: .start,
+                        spacing: 12,
                         children: [
                           Column(
                             spacing: 12,
