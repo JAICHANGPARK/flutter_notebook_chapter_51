@@ -241,7 +241,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                             ],
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Column(
                               children: [
                                 Row(
