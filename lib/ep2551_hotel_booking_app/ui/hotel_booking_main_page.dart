@@ -239,7 +239,12 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                           ],
                         ),
                       ),
-                      Container(height: 260, child: Placeholder()),
+                      List.generate(5, (idx) {
+                        return Container(
+                          height: 140,
+                          child: Placeholder(),
+                        );
+                      }).toList(),
                     ],
                   ),
                 ],
