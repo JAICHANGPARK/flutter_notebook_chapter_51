@@ -258,12 +258,10 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                     ),
                                     TextButton(
                                       onPressed: () {},
-                                      child: Text(
-                                        'See all',
-                                        style: TextButton.styleFrom(
-                                          foregroundColor: Colors.blue,
-                                        ),
+                                      style: TextButton.styleFrom(
+                                        foregroundColor: Colors.blue,
                                       ),
+                                      child: Text('See all'),
                                     ),
                                   ],
                                 ),
