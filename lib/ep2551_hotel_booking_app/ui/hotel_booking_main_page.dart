@@ -240,13 +240,11 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               ),
                             ],
                           ),
-                          Column(
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 16,
-                                ),
-                                child: Row(
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: [
+                                Row(
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
                                     Text(
@@ -265,14 +263,15 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                     ),
                                   ],
                                 ),
-                              ),
-                              ...List.generate(5, (idx) {
-                                return Container(
-                                  height: 140,
-                                  child: Placeholder(),
-                                );
-                              }),
-                            ],
+                                ...List.generate(5, (idx) {
+                                  return Container(
+                                    height: 140,
+
+                                    child: Placeholder(),
+                                  );
+                                }),
+                              ],
+                            ),
                           ),
                         ],
                       ),
