@@ -267,7 +267,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                 ),
                                 ...List.generate(5, (idx) {
                                   return Container(
-                                    height: 150,
+                                    height: 130,
                                     padding: EdgeInsets.all(12),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
@@ -281,7 +281,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                       children: [
                                         Container(
                                           height: 150,
-                                          width: 130,
+                                          width: 100,
                                           child: Placeholder(),
                                         ),
                                         Expanded(child:  Column(
