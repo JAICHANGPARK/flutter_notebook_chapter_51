@@ -268,7 +268,6 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                 ...List.generate(5, (idx) {
                                   return Container(
                                     height: 140,
-
                                     child: Placeholder(),
                                   );
                                 }),
