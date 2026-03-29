@@ -129,7 +129,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                               padding: .all(12),
                               child: Column(
                                 crossAxisAlignment: .start,
-                                spacing: 8,
+                                spacing: 12,
                                 children: [
                                   Expanded(
                                     child: Container(
