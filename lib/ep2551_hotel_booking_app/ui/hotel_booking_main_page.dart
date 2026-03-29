@@ -268,15 +268,19 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                 ...List.generate(5, (idx) {
                                   return Container(
                                     height: 140,
+                                    padding: EdgeInsets.all(12),
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: .circular(12),
+                                    ),
+                                    margin: .only(
+                                      bottom: 12
                                     ),
                                     child: Row(
                                       children: [
                                         Container(
                                           height: 140,
-                                          width: 140,
+                                          width: 120,
                                           child: Placeholder(),
                                         ),
                                       ],
