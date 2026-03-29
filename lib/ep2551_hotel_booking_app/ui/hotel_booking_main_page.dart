@@ -116,7 +116,6 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                       ),
                       Container(
                         height: 280,
-
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
@@ -170,7 +169,7 @@ class _HotelBookingMainPageState extends State<HotelBookingMainPage> {
                                               color: Colors.grey[100],
                                             ),
                                             padding: EdgeInsets.symmetric(
-                                              horizontal: 12,
+                                              horizontal: 8,
                                               vertical: 4,
                                             ),
                                             child: Row(
