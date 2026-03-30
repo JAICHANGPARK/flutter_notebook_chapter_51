@@ -24,8 +24,16 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     height: 42,
                     child: Placeholder(),
                   ),
-                  Container(height: 140, child: Placeholder()),
-                  Container(height: 42, child: Placeholder()),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 16),
+                    height: 140,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(left: 16),
+                    height: 42,
+                    child: Placeholder(),
+                  ),
                   Expanded(
                     child: GridView.builder(
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
