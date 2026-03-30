@@ -14,7 +14,11 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: SafeArea(child: Column(children: [])),
+            child: SafeArea(
+              child: Column(
+                children: [Container(height: 42, child: Placeholder())],
+              ),
+            ),
           ),
         ],
       ),
