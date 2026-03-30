@@ -22,17 +22,30 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Container(height: 42, child: Placeholder()),
                   Expanded(
                     child: GridView.builder(
-                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          crossAxisSpacing: 12,
-                          mainAxisSpacing: 12
-                        ),
-                        itemBuilder: (context, index) {
-                          return Placeholder();
-                        },
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        crossAxisSpacing: 12,
+                        mainAxisSpacing: 12,
+                      ),
+                      itemBuilder: (context, index) {
+                        return Placeholder();
+                      },
                     ),
                   ),
                 ],
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              height: 320,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.grey[100]!, Colors.transparent],
+                ),
               ),
             ),
           ),
