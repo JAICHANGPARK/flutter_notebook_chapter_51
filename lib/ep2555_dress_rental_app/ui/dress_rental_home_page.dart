@@ -16,8 +16,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
+                crossAxisAlignment: .start,
                 children: [
-                  Container(height: 42, child: Placeholder()),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 16),
+                    height: 42,
+                    child: Placeholder(),
+                  ),
                   Container(height: 140, child: Placeholder()),
                   Container(height: 42, child: Placeholder()),
                   Expanded(
@@ -41,10 +47,17 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
             left: 0,
             right: 0,
             child: Container(
-              height: 320,
+              height: 240,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.grey[100]!, Colors.transparent],
+                  begin: .bottomCenter,
+                  end: .topCenter,
+                  stops: [.05, .2, 1],
+                  colors: [
+                    Color.fromRGBO(219, 219, 219, 1),
+                    Color.fromRGBO(232, 232, 232, 1),
+                    Colors.white10,
+                  ],
                 ),
               ),
             ),
