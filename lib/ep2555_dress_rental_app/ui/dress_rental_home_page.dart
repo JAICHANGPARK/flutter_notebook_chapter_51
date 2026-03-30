@@ -11,12 +11,13 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Stack(
-          children: [
-
-          ],
-        ),
-      
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: SafeArea(child: Column(children: [])),
+          ),
+        ],
+      ),
     );
   }
 }
