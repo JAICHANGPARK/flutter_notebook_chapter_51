@@ -15,6 +15,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 crossAxisAlignment: .start,
@@ -35,15 +36,18 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     child: Placeholder(),
                   ),
                   Expanded(
-                    child: GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 12,
-                        mainAxisSpacing: 12,
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          crossAxisSpacing: 12,
+                          mainAxisSpacing: 12,
+                        ),
+                        itemBuilder: (context, index) {
+                          return Placeholder();
+                        },
                       ),
-                      itemBuilder: (context, index) {
-                        return Placeholder();
-                      },
                     ),
                   ),
                 ],
