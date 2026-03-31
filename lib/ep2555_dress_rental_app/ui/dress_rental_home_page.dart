@@ -14,6 +14,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 16,
             child: SafeArea(
               bottom: false,
               child: Column(
