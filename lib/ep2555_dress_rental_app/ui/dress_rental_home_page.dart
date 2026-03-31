@@ -61,6 +61,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     height: 150,
                     width: double.infinity,
                     decoration: BoxDecoration(
+                      borderRadius: .circular(12),
                       image: DecorationImage(
                         image: NetworkImage(
                           "https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg",
