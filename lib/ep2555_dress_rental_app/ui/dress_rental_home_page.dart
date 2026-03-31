@@ -74,6 +74,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: .circular(8),
+                            
                           ),
                           child: Text(
                             "Book Now",
