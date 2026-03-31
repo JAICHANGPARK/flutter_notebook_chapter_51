@@ -95,18 +95,25 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 style: TextStyle(
                                   fontWeight: .bold,
                                   color: Colors.white,
+                                  fontSize: 16,
                                 ),
                               ),
-                              Text("Only for this week",style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 12,
-                              ),),
+                              Text(
+                                "Only for this week",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 12,
+                                ),
+                              ),
                               Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: .circular(8),
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                  vertical: 8,
+                                ),
                                 child: Text(
                                   "Book Now",
                                   style: TextStyle(fontWeight: .bold),
