@@ -24,7 +24,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     height: 42,
-                    child: Placeholder(),
+                    child: Row(
+                      children: [
+                        Expanded(child: Container(decoration: BoxDecoration(
+                          borderRadius: .circular(6),
+                          border: .all(color: Colors.grey[200]!,)
+                        ),))
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
