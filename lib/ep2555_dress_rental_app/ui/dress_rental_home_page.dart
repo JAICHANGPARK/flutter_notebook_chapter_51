@@ -58,7 +58,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
-                    height: 140,
+                    height: 150,
                     width: double.infinity,
                     decoration: BoxDecoration(
                       image: DecorationImage(
