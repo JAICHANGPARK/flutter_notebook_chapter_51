@@ -59,6 +59,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     height: 140,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
@@ -74,7 +82,6 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: .circular(8),
-                            
                           ),
                           child: Text(
                             "Book Now",
