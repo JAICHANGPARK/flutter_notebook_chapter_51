@@ -27,10 +27,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     height: 42,
                     child: Row(
                       children: [
-                        Expanded(child: Container(decoration: BoxDecoration(
-                          borderRadius: .circular(6),
-                          border: .all(color: Colors.grey[200]!,)
-                        ),))
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: .circular(6),
+                              border: .all(color: Colors.grey[200]!),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
