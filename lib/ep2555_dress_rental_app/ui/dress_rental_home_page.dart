@@ -68,25 +68,36 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         fit: BoxFit.cover,
                       ),
                     ),
-                    child: Column(
-                      crossAxisAlignment: .start,
+                    child: Stack(
                       children: [
-                        Text(
-                          "Discount up to 45% on every\ndress rental for events",
-                          style: TextStyle(
-                            fontWeight: .bold,
-                            color: Colors.white,
-                          ),
-                        ),
-                        Text("Only for this week"),
-                        Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: .circular(8),
-                          ),
-                          child: Text(
-                            "Book Now",
-                            style: TextStyle(fontWeight: .bold),
+                        Positioned(
+                          left: 16,
+                          top: 16,
+                          bottom: 16,
+                          right: 16,
+                          child: Column(
+                            mainAxisAlignment: .spaceBetween,
+                            crossAxisAlignment: .start,
+                            children: [
+                              Text(
+                                "Discount up to 45% on every\ndress rental for events",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              Text("Only for this week"),
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: .circular(8),
+                                ),
+                                child: Text(
+                                  "Book Now",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
