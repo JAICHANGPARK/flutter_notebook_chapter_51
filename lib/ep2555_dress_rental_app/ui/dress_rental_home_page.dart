@@ -30,9 +30,17 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                       children: [
                         Expanded(
                           child: Container(
+                            padding: EdgeInsets.only(left: 16),
                             decoration: BoxDecoration(
                               borderRadius: .circular(6),
                               border: .all(color: Colors.grey[300]!),
+                            ),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                icon: Icon(Icons.search),
+                                hintText: "Search dresses...",
+                                border: .none,
+                              ),
                             ),
                           ),
                         ),
