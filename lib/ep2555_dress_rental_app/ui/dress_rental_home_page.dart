@@ -40,6 +40,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 icon: Icon(Icons.search),
                                 hintText: "Search dresses...",
                                 border: .none,
+                                contentPadding: .only(bottom: 9),
                               ),
                             ),
                           ),
@@ -58,7 +59,29 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     height: 140,
-                    child: Placeholder(),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Text(
+                          "Discount up to 45% on every\ndress rental for events",
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Text("Only for this week"),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            b
+                          ),
+                          child: Text(
+                            "Book Now",
+                            style: TextStyle(fontWeight: .bold),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.only(left: 16),
