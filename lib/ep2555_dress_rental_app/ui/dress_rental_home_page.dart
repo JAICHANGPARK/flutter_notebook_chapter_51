@@ -69,8 +69,18 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
                     child: Stack(
                       children: [
+                        Positioned(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [Colors.black, Colors.transparent],
+                              ),
+                            ),
+                          ),
+                        ),
                         Positioned(
                           left: 16,
                           top: 16,
