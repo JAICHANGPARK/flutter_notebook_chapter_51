@@ -112,11 +112,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 ),
                                 padding: EdgeInsets.symmetric(
                                   horizontal: 12,
-                                  vertical: 8,
+                                  vertical: 6,
                                 ),
                                 child: Text(
                                   "Book Now",
-                                  style: TextStyle(fontWeight: .bold),
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    fontSize: 12,
+                                  ),
                                 ),
                               ),
                             ],
