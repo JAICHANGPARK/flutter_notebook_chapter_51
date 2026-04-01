@@ -131,7 +131,29 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Container(
                     margin: EdgeInsets.only(left: 16),
                     height: 42,
-                    child: Placeholder(),
+                    child: Builder(
+                      builder: (context) {
+                        List<String> tabs = [
+                          "All Styles",
+                          "Birthday",
+                          "Wedding",
+                          "Party",
+                          "Casual",
+                        ];
+                        return ListView.builder(
+                          itemCount: tabs.length,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 4,
+                              ),
+                              decoration: BoxDecoration(color: Colors.black),
+                            );
+                          },
+                        );
+                      },
+                    ),
                   ),
                   Expanded(
                     child: Padding(
