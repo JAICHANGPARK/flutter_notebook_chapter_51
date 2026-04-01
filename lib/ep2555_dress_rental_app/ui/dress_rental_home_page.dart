@@ -220,6 +220,17 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                       ),
                     ),
                   ),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: Row(
+                      children: [
+                        IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
