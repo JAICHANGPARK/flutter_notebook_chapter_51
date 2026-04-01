@@ -216,10 +216,12 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
             left: 24,
             right: 24,
             child: Column(
+              spacing: 24,
               children: [
                 Align(
                   alignment: .centerRight,
                   child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
                     decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white,),
                     child: Row(
                       mainAxisSize: .min,
