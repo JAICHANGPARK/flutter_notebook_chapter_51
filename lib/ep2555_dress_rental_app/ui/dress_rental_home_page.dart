@@ -220,8 +220,9 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                 Align(
                   alignment: .centerRight,
                   child: Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white,),
                     child: Row(
+                      mainAxisSize: .min,
                       children: [Icon(Icons.map_outlined), Text("Map")],
                     ),
                   ),
