@@ -229,7 +229,9 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     child: Row(
                       spacing: 4,
                       mainAxisSize: .min,
-                      children: [Icon(Icons.map_outlined), Text("Map")],
+                      children: [Icon(Icons.map_outlined,
+                      size: 18,
+                      ), Text("Map")],
                     ),
                   ),
                 ),
@@ -247,19 +249,19 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(Icons.home_filled),
+                        icon: Icon(Icons.search),
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(Icons.home_filled),
+                        icon: Icon(Icons.calendar_month_sharp),
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(Icons.home_filled),
+                        icon: Icon(Icons.list_alt),
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(Icons.home_filled),
+                        icon: Icon(Icons.person_2_outlined),
                       ),
                     ],
                   ),
