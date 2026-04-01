@@ -130,7 +130,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   ),
                   Container(
                     margin: EdgeInsets.only(left: 16),
-                    height: 42,
+                    height: 34,
                     child: Builder(
                       builder: (context) {
                         List<String> tabs = [
