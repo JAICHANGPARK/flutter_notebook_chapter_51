@@ -154,7 +154,8 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                     ? Colors.black
                                     : Colors.grey[100],
                               ),
-                              child: Text("${tabs[index]}", style: TextStyle()),
+                              margin: EdgeInsets.only(right: 8),
+                              child: Center(child: Text("${tabs[index]}", style: TextStyle())),
                             );
                           },
                         );
