@@ -149,10 +149,12 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 horizontal: 12,
                                 vertical: 4,
                               ),
-                              decoration: BoxDecoration(color: Colors.black),
-                              child: Text("${tabs[index]}",style: TextStyle(
-
-                              ),),
+                              decoration: BoxDecoration(
+                                color: index == 0
+                                    ? Colors.black
+                                    : Colors.grey[100],
+                              ),
+                              child: Text("${tabs[index]}", style: TextStyle()),
                             );
                           },
                         );
