@@ -238,6 +238,22 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         onPressed: () {},
                         icon: Icon(Icons.home_filled),
                       ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.home_filled),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.home_filled),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.home_filled),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.home_filled),
+                      ),
                     ],
                   ),
                 ),
