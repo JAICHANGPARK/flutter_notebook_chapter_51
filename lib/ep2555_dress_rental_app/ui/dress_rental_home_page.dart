@@ -153,7 +153,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 color: index == 0
                                     ? Colors.black
                                     : Colors.grey[100],
-                                borderRadius: .circular(4)
+                                borderRadius: .circular(4),
                               ),
                               margin: EdgeInsets.only(right: 8),
                               child: Center(
@@ -208,6 +208,19 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     Colors.white10,
                   ],
                 ),
+              ),
+              child: Column(
+                children: [
+                  Align(
+                    alignment: .centerRight,
+                    child: Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [Icon(Icons.map_outlined), Text("Map")],
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
