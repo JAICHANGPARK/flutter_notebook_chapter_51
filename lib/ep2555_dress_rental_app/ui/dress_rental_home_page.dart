@@ -158,7 +158,11 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                               child: Center(
                                 child: Text(
                                   "${tabs[index]}",
-                                  style: TextStyle(color: Colors.white,),
+                                  style: TextStyle(
+                                    color: index == 0
+                                        ? Colors.white
+                                        : Colors.black,
+                                  ),
                                 ),
                               ),
                             );
