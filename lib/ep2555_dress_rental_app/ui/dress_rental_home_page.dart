@@ -141,6 +141,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           "Casual",
                         ];
                         return ListView.builder(
+                          scrollDirection: .horizontal,
                           itemCount: tabs.length,
                           itemBuilder: (context, index) {
                             return Container(
