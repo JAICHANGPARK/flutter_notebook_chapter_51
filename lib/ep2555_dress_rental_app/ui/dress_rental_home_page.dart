@@ -209,30 +209,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   ],
                 ),
               ),
-              child: Column(
-                children: [
-                  Align(
-                    alignment: .centerRight,
-                    child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [Icon(Icons.map_outlined), Text("Map")],
-                      ),
-                    ),
-                  ),
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.white,
-                    ),
-                    child: Row(
-                      children: [
-                        IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
+              
             ),
           ),
         ],
