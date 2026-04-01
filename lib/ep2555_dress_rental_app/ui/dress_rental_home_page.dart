@@ -224,6 +224,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
                     decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white,),
                     child: Row(
+                      spacing: 4,
                       mainAxisSize: .min,
                       children: [Icon(Icons.map_outlined), Text("Map")],
                     ),
