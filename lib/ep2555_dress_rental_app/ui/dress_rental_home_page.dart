@@ -150,6 +150,9 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 vertical: 4,
                               ),
                               decoration: BoxDecoration(color: Colors.black),
+                              child: Text("${tabs[index]}",style: TextStyle(
+
+                              ),),
                             );
                           },
                         );
