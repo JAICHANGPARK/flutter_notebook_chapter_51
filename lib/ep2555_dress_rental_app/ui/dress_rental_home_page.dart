@@ -233,6 +233,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     color: Colors.white,
                   ),
                   child: Row(
+                    mainAxisSize: .min,
                     children: [
                       IconButton(
                         onPressed: () {},
