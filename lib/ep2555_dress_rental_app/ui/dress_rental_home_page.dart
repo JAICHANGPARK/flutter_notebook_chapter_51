@@ -153,6 +153,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                 color: index == 0
                                     ? Colors.black
                                     : Colors.grey[100],
+                                borderRadius: .circular(4)
                               ),
                               margin: EdgeInsets.only(right: 8),
                               child: Center(
