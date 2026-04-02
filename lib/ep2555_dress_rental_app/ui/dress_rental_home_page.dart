@@ -192,6 +192,17 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                   child: Container(
                                     decoration: BoxDecoration(
                                       color: Colors.brown,
+                                      borderRadius: .circular(8),
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          child: CircleAvatar(
+                                            radius: 16,
+                                            backgroundColor: Colors.white,
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -234,12 +245,12 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                 gradient: LinearGradient(
                   begin: .bottomCenter,
                   end: .topCenter,
-                  stops: [.05, .2,  .8, 1],
+                  stops: [.05, .2, .8, 1],
                   colors: [
                     Color.fromRGBO(219, 219, 219, 1),
                     Color.fromRGBO(232, 232, 232, 1),
                     Colors.white10,
-                    Colors.transparent
+                    Colors.transparent,
                   ],
                 ),
               ),
