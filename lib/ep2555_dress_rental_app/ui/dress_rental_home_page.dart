@@ -182,7 +182,11 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           mainAxisSpacing: 12,
                         ),
                         itemBuilder: (context, index) {
-                          return Placeholder();
+                          return Container(
+                            child: Column(
+                              children: [],
+                            ),
+                          );
                         },
                       ),
                     ),
