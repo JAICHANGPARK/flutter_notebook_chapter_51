@@ -202,17 +202,31 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                           child: CircleAvatar(
                                             radius: 14,
                                             backgroundColor: Colors.white,
-                                            child: Icon(Icons.favorite_border, size: 12,),
+                                            child: Icon(
+                                              Icons.favorite_border,
+                                              size: 12,
+                                            ),
                                           ),
                                         ),
                                         Positioned(
-                                            bottom: 12,child: Container(child: Column(
-                                          spacing: 4,
-                                          children: [
-                                          CircleAvatar(radius: 4,),
-                                          CircleAvatar(radius: 4,),
-                                          CircleAvatar(radius: 4,),
-                                        ],),))
+                                          right: 12,
+                                          bottom: 12,
+                                          child: Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.white,
+                                            ),
+                                            padding: EdgeInsets.all(3),
+                                            child: Column(
+                                              spacing: 4,
+                                              children: [
+                                                CircleAvatar(radius: 4),
+                                                CircleAvatar(radius: 4),
+                                                CircleAvatar(radius: 4),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
                                       ],
                                     ),
                                   ),
