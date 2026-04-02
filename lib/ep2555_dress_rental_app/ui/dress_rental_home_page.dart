@@ -185,18 +185,25 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             child: Column(
+                              spacing: 12,
                               crossAxisAlignment: .start,
                               children: [
                                 Expanded(child: Placeholder()),
-                                Text('Velvet Dream Dress'),
-                                Text.rich(
-                                  TextSpan(
-                                    children: [
-                                      TextSpan(text: "\$25.50"),
-                                      TextSpan(text: "/day"),
-                                    ],
-                                  ),
-                                ),
+                                Column(
+                                  spacing: 4,
+                                  children: [
+                                    Text('Velvet Dream Dress'),
+                                    Text.rich(
+                                      TextSpan(
+                                        children: [
+                                          TextSpan(text: "\$25.50"),
+                                          TextSpan(text: "/day"),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                )
+
                               ],
                             ),
                           );
