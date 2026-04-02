@@ -180,15 +180,23 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           crossAxisCount: 2,
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
-                          childAspectRatio: 0.7
+                          childAspectRatio: 0.7,
                         ),
                         itemBuilder: (context, index) {
                           return Container(
                             child: Column(
+                              crossAxisAlignment: .start,
                               children: [
                                 Expanded(child: Placeholder()),
                                 Text('Velvet Dream Dress'),
-                                Text.rich(TextSpan(children: []))
+                                Text.rich(
+                                  TextSpan(
+                                    children: [
+                                      TextSpan(text: "\$25.50"),
+                                      TextSpan(text: "/day"),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           );
@@ -238,9 +246,10 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     child: Row(
                       spacing: 4,
                       mainAxisSize: .min,
-                      children: [Icon(Icons.map_outlined,
-                      size: 18,
-                      ), Text("Map")],
+                      children: [
+                        Icon(Icons.map_outlined, size: 18),
+                        Text("Map"),
+                      ],
                     ),
                   ),
                 ),
@@ -256,18 +265,12 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         onPressed: () {},
                         icon: Icon(Icons.home_filled),
                       ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.search),
-                      ),
+                      IconButton(onPressed: () {}, icon: Icon(Icons.search)),
                       IconButton(
                         onPressed: () {},
                         icon: Icon(Icons.calendar_month_sharp),
                       ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.list_alt),
-                      ),
+                      IconButton(onPressed: () {}, icon: Icon(Icons.list_alt)),
                       IconButton(
                         onPressed: () {},
                         icon: Icon(Icons.person_2_outlined),
