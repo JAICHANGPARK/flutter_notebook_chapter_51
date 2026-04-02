@@ -187,6 +187,8 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                             child: Column(
                               children: [
                                 Expanded(child: Placeholder()),
+                                Text('Velvet Dream Dress'),
+                                Text.rich(TextSpan(children: []))
                               ],
                             ),
                           );
