@@ -188,7 +188,13 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                               spacing: 12,
                               crossAxisAlignment: .start,
                               children: [
-                                Expanded(child: Placeholder()),
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.brown,
+                                    ),
+                                  ),
+                                ),
                                 Column(
                                   crossAxisAlignment: .start,
                                   spacing: 4,
