@@ -180,7 +180,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           crossAxisCount: 2,
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
-                          childAspectRatio: 0.8
+                          childAspectRatio: 0.7
                         ),
                         itemBuilder: (context, index) {
                           return Container(
