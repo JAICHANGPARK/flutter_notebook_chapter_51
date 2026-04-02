@@ -234,11 +234,12 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                 gradient: LinearGradient(
                   begin: .bottomCenter,
                   end: .topCenter,
-                  stops: [.05, .2, 1],
+                  stops: [.05, .2,  .8, 1],
                   colors: [
                     Color.fromRGBO(219, 219, 219, 1),
                     Color.fromRGBO(232, 232, 232, 1),
                     Colors.white10,
+                    Colors.transparent
                   ],
                 ),
               ),
