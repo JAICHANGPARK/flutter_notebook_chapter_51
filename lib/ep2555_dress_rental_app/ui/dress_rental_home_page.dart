@@ -190,6 +190,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                               children: [
                                 Expanded(child: Placeholder()),
                                 Column(
+                                  crossAxisAlignment: .start,
                                   spacing: 4,
                                   children: [
                                     Text('Velvet Dream Dress'),
