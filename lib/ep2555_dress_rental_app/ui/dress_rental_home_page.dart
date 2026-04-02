@@ -193,7 +193,10 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                   crossAxisAlignment: .start,
                                   spacing: 4,
                                   children: [
-                                    Text('Velvet Dream Dress'),
+                                    Text(
+                                      'Velvet Dream Dress',
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
                                     Text.rich(
                                       TextSpan(
                                         children: [
@@ -203,8 +206,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                       ),
                                     ),
                                   ],
-                                )
-
+                                ),
                               ],
                             ),
                           );
