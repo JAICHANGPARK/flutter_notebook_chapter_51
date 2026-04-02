@@ -216,13 +216,13 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                               shape: StadiumBorder(),
                                               color: Colors.white,
                                             ),
-                                            padding: EdgeInsets.all(3),
+                                            padding: EdgeInsets.all(6),
                                             child: Column(
-                                              spacing: 4,
+                                              spacing: 6,
                                               children: [
-                                                CircleAvatar(radius: 4),
-                                                CircleAvatar(radius: 4),
-                                                CircleAvatar(radius: 4),
+                                                CircleAvatar(radius: 5),
+                                                CircleAvatar(radius: 5),
+                                                CircleAvatar(radius: 5),
                                               ],
                                             ),
                                           ),
