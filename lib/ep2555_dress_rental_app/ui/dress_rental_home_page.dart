@@ -198,8 +198,9 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                                       children: [
                                         Positioned(
                                           child: CircleAvatar(
-                                            radius: 16,
+                                            radius: 14,
                                             backgroundColor: Colors.white,
+                                            child: Icon(Icons.favorite_border, size: 12,),
                                           ),
                                         ),
                                       ],
