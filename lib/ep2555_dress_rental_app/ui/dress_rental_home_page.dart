@@ -177,86 +177,88 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                             },
                           ),
                         ),
-                        Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: GridView.builder(
-                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 2,
-                              crossAxisSpacing: 12,
-                              mainAxisSpacing: 12,
-                              childAspectRatio: 0.7,
-                            ),
-                            itemBuilder: (context, index) {
-                              return Container(
-                                child: Column(
-                                  spacing: 12,
-                                  crossAxisAlignment: .start,
-                                  children: [
-                                    Expanded(
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          color: Colors.brown,
-                                          borderRadius: .circular(8),
-                                        ),
-                                        child: Stack(
-                                          children: [
-                                            Positioned(
-                                              right: 12,
-                                              top: 12,
-                                              child: CircleAvatar(
-                                                radius: 14,
-                                                backgroundColor: Colors.white,
-                                                child: Icon(
-                                                  Icons.favorite_border,
-                                                  size: 12,
-                                                ),
-                                              ),
-                                            ),
-                                            Positioned(
-                                              right: 12,
-                                              bottom: 12,
-                                              child: Container(
-                                                decoration: ShapeDecoration(
-                                                  shape: StadiumBorder(),
-                                                  color: Colors.white,
-                                                ),
-                                                padding: EdgeInsets.all(6),
-                                                child: Column(
-                                                  spacing: 6,
-                                                  children: [
-                                                    CircleAvatar(radius: 5),
-                                                    CircleAvatar(radius: 5),
-                                                    CircleAvatar(radius: 5),
-                                                  ],
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
-                                    Column(
-                                      crossAxisAlignment: .start,
-                                      spacing: 4,
-                                      children: [
-                                        Text(
-                                          'Velvet Dream Dress',
-                                          style: TextStyle(fontWeight: .bold),
-                                        ),
-                                        Text.rich(
-                                          TextSpan(
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: GridView.builder(
+                              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                                crossAxisSpacing: 12,
+                                mainAxisSpacing: 12,
+                                childAspectRatio: 0.7,
+                              ),
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  child: Column(
+                                    spacing: 12,
+                                    crossAxisAlignment: .start,
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.brown,
+                                            borderRadius: .circular(8),
+                                          ),
+                                          child: Stack(
                                             children: [
-                                              TextSpan(text: "\$25.50"),
-                                              TextSpan(text: "/day"),
+                                              Positioned(
+                                                right: 12,
+                                                top: 12,
+                                                child: CircleAvatar(
+                                                  radius: 14,
+                                                  backgroundColor: Colors.white,
+                                                  child: Icon(
+                                                    Icons.favorite_border,
+                                                    size: 12,
+                                                  ),
+                                                ),
+                                              ),
+                                              Positioned(
+                                                right: 12,
+                                                bottom: 12,
+                                                child: Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Colors.white,
+                                                  ),
+                                                  padding: EdgeInsets.all(6),
+                                                  child: Column(
+                                                    spacing: 6,
+                                                    children: [
+                                                      CircleAvatar(radius: 5),
+                                                      CircleAvatar(radius: 5),
+                                                      CircleAvatar(radius: 5),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
-                                      ],
-                                    ),
-                                  ],
-                                ),
-                              );
-                            },
+                                      ),
+                                      Column(
+                                        crossAxisAlignment: .start,
+                                        spacing: 4,
+                                        children: [
+                                          Text(
+                                            'Velvet Dream Dress',
+                                            style: TextStyle(fontWeight: .bold),
+                                          ),
+                                          Text.rich(
+                                            TextSpan(
+                                              children: [
+                                                TextSpan(text: "\$25.50"),
+                                                TextSpan(text: "/day"),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                            ),
                           ),
                         ),
                       ],),
