@@ -324,11 +324,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         },
                         icon: Icon(Icons.home_filled),
                       ),
-                      IconButton(onPressed: () {
-                        setState(() {
-                          pageNum = 1;
-                        });
-                      }, icon: Icon(Icons.search)),
+                      IconButton(
+                        onPressed: () {
+                          setState(() {
+                            pageNum = 1;
+                          });
+                        },
+                        icon: Icon(Icons.search),
+                      ),
                       IconButton(
                         onPressed: () {
                           setState(() {
@@ -337,11 +340,14 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         },
                         icon: Icon(Icons.calendar_month_sharp),
                       ),
-                      IconButton(onPressed: () {
-                        setState(() {
-                          pageNum = 3;
-                        });
-                      }, icon: Icon(Icons.list_alt)),
+                      IconButton(
+                        onPressed: () {
+                          setState(() {
+                            pageNum = 3;
+                          });
+                        },
+                        icon: Icon(Icons.list_alt),
+                      ),
                       IconButton(
                         onPressed: () {
                           setState(() {
