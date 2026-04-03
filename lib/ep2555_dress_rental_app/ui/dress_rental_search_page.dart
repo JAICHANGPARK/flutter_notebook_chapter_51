@@ -36,6 +36,7 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
           ),
           GridView.builder(
             itemCount: 6,
+            physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
