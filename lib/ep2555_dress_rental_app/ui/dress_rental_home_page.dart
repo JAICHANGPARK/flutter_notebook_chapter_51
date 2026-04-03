@@ -58,6 +58,9 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                       ],
                     ),
                   ),
+                  Expanded(child: Column(children: [
+
+                  ],))
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     height: 150,
