@@ -55,7 +55,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                             borderRadius: .circular(4),
                           ),
                           child: switch (pageNum) {
-                            1 => Icon(Icons.notifications_none),
+                            1 => Icon(Icons.tune),
                             _ => Icon(Icons.notifications_none),
                           },
                         ),
