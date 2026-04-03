@@ -61,210 +61,208 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Expanded(child: IndexedStack(
                     children: [
                       Column(children: [
-
-                      ],),
-                    ],
-                  ))
-                  Container(
-                    margin: EdgeInsets.symmetric(horizontal: 16),
-                    height: 150,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      borderRadius: .circular(12),
-                      image: DecorationImage(
-                        image: NetworkImage(
-                          "https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg",
-                        ),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    clipBehavior: Clip.antiAliasWithSaveLayer,
-                    child: Stack(
-                      children: [
-                        Positioned(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: [Colors.black, Colors.transparent],
+                        Container(
+                          margin: EdgeInsets.symmetric(horizontal: 16),
+                          height: 150,
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            borderRadius: .circular(12),
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://cdn.pixabay.com/photo/2016/11/19/15/40/clothes-1839935_1280.jpg",
                               ),
+                              fit: BoxFit.cover,
                             ),
                           ),
-                        ),
-                        Positioned(
-                          left: 16,
-                          top: 16,
-                          bottom: 16,
-                          right: 16,
-                          child: Column(
-                            mainAxisAlignment: .spaceBetween,
-                            crossAxisAlignment: .start,
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          child: Stack(
                             children: [
-                              Text(
-                                "Discount up to 45% on every\ndress rental for events",
-                                style: TextStyle(
-                                  fontWeight: .bold,
-                                  color: Colors.white,
-                                  fontSize: 16,
-                                ),
-                              ),
-                              Text(
-                                "Only for this week",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Container(
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: .circular(8),
-                                ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                  vertical: 6,
-                                ),
-                                child: Text(
-                                  "Book Now",
-                                  style: TextStyle(
-                                    fontWeight: .bold,
-                                    fontSize: 12,
+                              Positioned(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                      colors: [Colors.black, Colors.transparent],
+                                    ),
                                   ),
+                                ),
+                              ),
+                              Positioned(
+                                left: 16,
+                                top: 16,
+                                bottom: 16,
+                                right: 16,
+                                child: Column(
+                                  mainAxisAlignment: .spaceBetween,
+                                  crossAxisAlignment: .start,
+                                  children: [
+                                    Text(
+                                      "Discount up to 45% on every\ndress rental for events",
+                                      style: TextStyle(
+                                        fontWeight: .bold,
+                                        color: Colors.white,
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    Text(
+                                      "Only for this week",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: .circular(8),
+                                      ),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 6,
+                                      ),
+                                      child: Text(
+                                        "Book Now",
+                                        style: TextStyle(
+                                          fontWeight: .bold,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                             ],
                           ),
                         ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.only(left: 16),
-                    height: 34,
-                    child: Builder(
-                      builder: (context) {
-                        List<String> tabs = [
-                          "All Styles",
-                          "Birthday",
-                          "Wedding",
-                          "Party",
-                          "Casual",
-                        ];
-                        return ListView.builder(
-                          scrollDirection: .horizontal,
-                          itemCount: tabs.length,
-                          itemBuilder: (context, index) {
-                            return Container(
-                              padding: EdgeInsets.symmetric(
-                                horizontal: 12,
-                                vertical: 4,
-                              ),
-                              decoration: BoxDecoration(
-                                color: index == 0
-                                    ? Colors.black
-                                    : Colors.grey[100],
-                                borderRadius: .circular(4),
-                              ),
-                              margin: EdgeInsets.only(right: 8),
-                              child: Center(
-                                child: Text(
-                                  "${tabs[index]}",
-                                  style: TextStyle(
-                                    color: index == 0
-                                        ? Colors.white
-                                        : Colors.black,
-                                  ),
-                                ),
-                              ),
-                            );
-                          },
-                        );
-                      },
-                    ),
-                  ),
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: GridView.builder(
-                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          crossAxisSpacing: 12,
-                          mainAxisSpacing: 12,
-                          childAspectRatio: 0.7,
-                        ),
-                        itemBuilder: (context, index) {
-                          return Container(
-                            child: Column(
-                              spacing: 12,
-                              crossAxisAlignment: .start,
-                              children: [
-                                Expanded(
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.brown,
-                                      borderRadius: .circular(8),
+                        Container(
+                          margin: EdgeInsets.only(left: 16),
+                          height: 34,
+                          child: Builder(
+                            builder: (context) {
+                              List<String> tabs = [
+                                "All Styles",
+                                "Birthday",
+                                "Wedding",
+                                "Party",
+                                "Casual",
+                              ];
+                              return ListView.builder(
+                                scrollDirection: .horizontal,
+                                itemCount: tabs.length,
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 4,
                                     ),
-                                    child: Stack(
-                                      children: [
-                                        Positioned(
-                                          right: 12,
-                                          top: 12,
-                                          child: CircleAvatar(
-                                            radius: 14,
-                                            backgroundColor: Colors.white,
-                                            child: Icon(
-                                              Icons.favorite_border,
-                                              size: 12,
-                                            ),
-                                          ),
+                                    decoration: BoxDecoration(
+                                      color: index == 0
+                                          ? Colors.black
+                                          : Colors.grey[100],
+                                      borderRadius: .circular(4),
+                                    ),
+                                    margin: EdgeInsets.only(right: 8),
+                                    child: Center(
+                                      child: Text(
+                                        "${tabs[index]}",
+                                        style: TextStyle(
+                                          color: index == 0
+                                              ? Colors.white
+                                              : Colors.black,
                                         ),
-                                        Positioned(
-                                          right: 12,
-                                          bottom: 12,
-                                          child: Container(
-                                            decoration: ShapeDecoration(
-                                              shape: StadiumBorder(),
-                                              color: Colors.white,
+                                      ),
+                                    ),
+                                  );
+                                },
+                              );
+                            },
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: GridView.builder(
+                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2,
+                              crossAxisSpacing: 12,
+                              mainAxisSpacing: 12,
+                              childAspectRatio: 0.7,
+                            ),
+                            itemBuilder: (context, index) {
+                              return Container(
+                                child: Column(
+                                  spacing: 12,
+                                  crossAxisAlignment: .start,
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.brown,
+                                          borderRadius: .circular(8),
+                                        ),
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              right: 12,
+                                              top: 12,
+                                              child: CircleAvatar(
+                                                radius: 14,
+                                                backgroundColor: Colors.white,
+                                                child: Icon(
+                                                  Icons.favorite_border,
+                                                  size: 12,
+                                                ),
+                                              ),
                                             ),
-                                            padding: EdgeInsets.all(6),
-                                            child: Column(
-                                              spacing: 6,
-                                              children: [
-                                                CircleAvatar(radius: 5),
-                                                CircleAvatar(radius: 5),
-                                                CircleAvatar(radius: 5),
-                                              ],
+                                            Positioned(
+                                              right: 12,
+                                              bottom: 12,
+                                              child: Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(),
+                                                  color: Colors.white,
+                                                ),
+                                                padding: EdgeInsets.all(6),
+                                                child: Column(
+                                                  spacing: 6,
+                                                  children: [
+                                                    CircleAvatar(radius: 5),
+                                                    CircleAvatar(radius: 5),
+                                                    CircleAvatar(radius: 5),
+                                                  ],
+                                                ),
+                                              ),
                                             ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Column(
+                                      crossAxisAlignment: .start,
+                                      spacing: 4,
+                                      children: [
+                                        Text(
+                                          'Velvet Dream Dress',
+                                          style: TextStyle(fontWeight: .bold),
+                                        ),
+                                        Text.rich(
+                                          TextSpan(
+                                            children: [
+                                              TextSpan(text: "\$25.50"),
+                                              TextSpan(text: "/day"),
+                                            ],
                                           ),
                                         ),
                                       ],
                                     ),
-                                  ),
-                                ),
-                                Column(
-                                  crossAxisAlignment: .start,
-                                  spacing: 4,
-                                  children: [
-                                    Text(
-                                      'Velvet Dream Dress',
-                                      style: TextStyle(fontWeight: .bold),
-                                    ),
-                                    Text.rich(
-                                      TextSpan(
-                                        children: [
-                                          TextSpan(text: "\$25.50"),
-                                          TextSpan(text: "/day"),
-                                        ],
-                                      ),
-                                    ),
                                   ],
                                 ),
-                              ],
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                  ),
+                              );
+                            },
+                          ),
+                        ),
+                      ],),
+                    ],
+                  ))
+
                 ],
               ),
             ),
