@@ -59,6 +59,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     ),
                   ),
                   Expanded(child: IndexedStack(
+                    index: pageNum,
                     children: [
                       Column(children: [
                         Container(
