@@ -8,6 +8,8 @@ class DressRentalHomePage extends StatefulWidget {
 }
 
 class _DressRentalHomePageState extends State<DressRentalHomePage> {
+  int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -315,7 +317,11 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                     mainAxisSize: .min,
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          setState(() {
+                            pageNum = 0;
+                          });
+                        },
                         icon: Icon(Icons.home_filled),
                       ),
                       IconButton(onPressed: () {}, icon: Icon(Icons.search)),
