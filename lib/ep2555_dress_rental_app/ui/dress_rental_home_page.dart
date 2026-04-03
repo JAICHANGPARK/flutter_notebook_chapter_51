@@ -343,7 +343,11 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                         });
                       }, icon: Icon(Icons.list_alt)),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          setState(() {
+                            pageNum = 4;
+                          });
+                        },
                         icon: Icon(Icons.person_2_outlined),
                       ),
                     ],
