@@ -263,6 +263,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           ),
                         ),
                       ],),
+
                     ],
                   ))
 
