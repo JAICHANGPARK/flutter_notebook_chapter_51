@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_51/ep2555_dress_rental_app/ui/dress_rental_search_page.dart';
 
 class DressRentalHomePage extends StatefulWidget {
   const DressRentalHomePage({super.key});
@@ -61,7 +62,10 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                   Expanded(child: IndexedStack(
                     index: pageNum,
                     children: [
-                      Column(children: [
+                      Column(
+                        spacing: 12,
+                        crossAxisAlignment: .start,
+                        children: [
                         Container(
                           margin: EdgeInsets.symmetric(horizontal: 16),
                           height: 150,
@@ -263,7 +267,7 @@ class _DressRentalHomePageState extends State<DressRentalHomePage> {
                           ),
                         ),
                       ],),
-
+                      DressRentalSearchPage(),
                     ],
                   ))
 
