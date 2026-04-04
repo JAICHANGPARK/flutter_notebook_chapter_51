@@ -30,6 +30,7 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
 
                   decoration: BoxDecoration(
                     borderRadius: .circular(8),
+                    color: Colors.blue,
                   ),
                   child: Text("Birthday"),
                 );
