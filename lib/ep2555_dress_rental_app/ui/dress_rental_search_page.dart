@@ -26,7 +26,13 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
                 childAspectRatio: 2,
               ),
               itemBuilder: (context, index) {
-                return Placeholder();
+                return Container(
+
+                  decoration: BoxDecoration(
+                    borderRadius: .circular(8),
+                  ),
+                  child: Text("Birthday"),
+                );
               },
             ),
             Row(
