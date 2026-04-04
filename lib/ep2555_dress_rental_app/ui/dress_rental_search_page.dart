@@ -20,11 +20,12 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
               itemCount: 6,
               physics: NeverScrollableScrollPhysics(),
               shrinkWrap: true,
+              padding: .zero,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
-                childAspectRatio: 2,
+                childAspectRatio: 2.2,
               ),
               itemBuilder: (context, index) {
                 return Container(
