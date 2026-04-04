@@ -21,6 +21,8 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
               shrinkWrap: true,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
+                crossAxisSpacing: 12,
+                mainAxisSpacing: 12,
                 childAspectRatio: 2,
               ),
               itemBuilder: (context, index) {
