@@ -32,7 +32,10 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
                     borderRadius: .circular(8),
                     color: Colors.blue,
                   ),
-                  child: Text("Birthday"),
+                  padding: EdgeInsets.all(16),
+                  child: Align(
+                      alignment: .centerLeft,
+                      child: Text("Birthday")),
                 );
               },
             ),
