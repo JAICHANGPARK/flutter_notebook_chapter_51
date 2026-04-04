@@ -48,11 +48,18 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
               children: [
                 Text(
                   "Featured products",
-                  style: TextStyle(fontSize: 20, fontWeight: .bold,
-                  ),
+                  style: TextStyle(fontSize: 20, fontWeight: .bold),
                 ),
                 Container(
-                  child: Row(children: [Icon(Icons.apps), Text("View All")]),
+                  decoration: BoxDecoration(
+                    border: .all(color: Colors.grey[200]!),
+                    borderRadius: .circular(6),
+                  ),
+                  child: Row(
+                     spacing: 4,
+                      children: [Icon(Icons.apps,size: 13,), Text("View All",style: TextStyle(
+                        fontSize: 12,
+                      ),)]),
                 ),
               ],
             ),
