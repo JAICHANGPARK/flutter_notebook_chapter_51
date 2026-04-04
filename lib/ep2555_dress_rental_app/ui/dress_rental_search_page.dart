@@ -58,10 +58,12 @@ class _DressRentalSearchPageState extends State<DressRentalSearchPage> {
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 6, vertical: 4),
                   child: Row(
-                     spacing: 4,
-                      children: [Icon(Icons.apps,size: 13,), Text("View All",style: TextStyle(
-                        fontSize: 12,
-                      ),)]),
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.apps, size: 13),
+                      Text("View All", style: TextStyle(fontSize: 12)),
+                    ],
+                  ),
                 ),
               ],
             ),
