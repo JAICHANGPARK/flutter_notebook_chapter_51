@@ -10,6 +10,13 @@ class SmartHomePage extends StatefulWidget {
 class _SmartHomePageState extends State<SmartHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
