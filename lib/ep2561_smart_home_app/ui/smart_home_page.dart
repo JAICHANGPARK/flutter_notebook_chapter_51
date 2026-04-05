@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SmartHomePage extends StatefulWidget {
   const SmartHomePage({super.key});
 
@@ -11,8 +10,6 @@ class SmartHomePage extends StatefulWidget {
 class _SmartHomePageState extends State<SmartHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-    );
+    return Scaffold();
   }
 }
