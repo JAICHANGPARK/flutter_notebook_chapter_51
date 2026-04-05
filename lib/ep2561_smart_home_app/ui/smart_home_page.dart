@@ -11,6 +11,8 @@ class SmartHomePage extends StatefulWidget {
 class _SmartHomePageState extends State<SmartHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
