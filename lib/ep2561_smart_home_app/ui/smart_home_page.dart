@@ -17,11 +17,14 @@ class _SmartHomePageState extends State<SmartHomePage> {
           crossAxisAlignment: .start,
           spacing: 16,
           children: [
-            Row(children: [
-              CircleAvatar(),
-              Expanded(child: Column()),
-
-            ]),
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Column()),
+                CircleAvatar(),
+                CircleAvatar(),
+              ],
+            ),
             Text("Smart Home,\nSmooth Service"),
             Container(
               decoration: ShapeDecoration(shape: StadiumBorder()),
