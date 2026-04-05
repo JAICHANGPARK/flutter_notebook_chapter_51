@@ -6,7 +6,7 @@ A new Flutter project.
 
 - Smart Home Mobile App UI/UX
 - Amrita Ranjan
-- https://dribbble.com/shots/27227832-Shopping-app-Dress-Rental
+- https://dribbble.com/shots/27247171-Smart-Home-Mobile-App-UI-UX
 
 <img src="https://cdn.dribbble.com/userupload/47211864/file/a11c727ff4158ae1941e0a725d837174.png?resize=1905x1429&vertical=center" alt=""/>
 
