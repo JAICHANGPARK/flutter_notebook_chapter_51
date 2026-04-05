@@ -12,10 +12,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+        
+          ],
+        ),
       ),
     );
   }
