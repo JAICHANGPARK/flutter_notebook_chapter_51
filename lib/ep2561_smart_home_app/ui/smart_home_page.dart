@@ -14,34 +14,36 @@ class _SmartHomePageState extends State<SmartHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-
           children: [
-          Row(
-            children: [
-
-            ],
-          )  ,
-            Text("Smart Home,\nSmooth Service",),
-            Container(
-              decoration: ShapeDecoration(shape: StadiumBorder()),
-            ),
-            SizedBox(height: 52,child: Placeholder(),),
+            Row(children: []),
+            Text("Smart Home,\nSmooth Service"),
+            Container(decoration: ShapeDecoration(shape: StadiumBorder())),
+            SizedBox(height: 52, child: Placeholder()),
             Expanded(child: Placeholder()),
             Container(
               height: 72,
               child: Row(
                 children: [
-                  CircleAvatar(),
-                  Container(decoration: ShapeDecoration(shape: StadiumBorder()),
-                  child: Row(
-                    children: [
-                      CircleAvatar(),
-                    ],
-                  ),)
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+
+                    ),
+                    child: CircleAvatar(radius: 32),
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(
+                      children: [
+                        CircleAvatar(),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                      ],
+                    ),
+                  ),
                 ],
               ),
-            )
-        
+            ),
           ],
         ),
       ),
