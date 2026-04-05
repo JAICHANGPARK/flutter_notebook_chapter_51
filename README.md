@@ -8,7 +8,7 @@ A new Flutter project.
 - Amrita Ranjan
 - https://dribbble.com/shots/27247171-Smart-Home-Mobile-App-UI-UX
 
-<img src="https://cdn.dribbble.com/userupload/47211864/file/a11c727ff4158ae1941e0a725d837174.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/47276965/file/8db08fff44088b0637c32ae70b01e491.png?resize=1600x1260&vertical=center" alt=""/>
 
 ## EP2555-2560
 
