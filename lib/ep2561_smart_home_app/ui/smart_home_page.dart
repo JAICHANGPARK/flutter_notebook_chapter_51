@@ -23,19 +23,26 @@ class _SmartHomePageState extends State<SmartHomePage> {
             Container(
               height: 72,
               child: Row(
+                mainAxisAlignment: .center,
+                crossAxisAlignment: .center,
                 spacing: 12,
                 children: [
                   Container(
+                    padding: EdgeInsets.all(4),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-
+                      color: Colors.black,
                     ),
-                    child: CircleAvatar(radius: 32),
+                    child: CircleAvatar(radius: 30),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    padding: EdgeInsets.all(4),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
                     child: Row(
-                      spacing: 3,
+                      spacing: 2,
                       children: [
                         CircleAvatar(radius: 30),
                         CircleAvatar(radius: 30),
