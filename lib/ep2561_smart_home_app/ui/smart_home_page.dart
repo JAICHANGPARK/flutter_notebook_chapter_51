@@ -23,6 +23,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
             Container(
               height: 72,
               child: Row(
+                spacing: 12,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
@@ -34,10 +35,11 @@ class _SmartHomePageState extends State<SmartHomePage> {
                   Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(
+                      spacing: 3,
                       children: [
-                        CircleAvatar(),
-                        CircleAvatar(),
-                        CircleAvatar(),
+                        CircleAvatar(radius: 30),
+                        CircleAvatar(radius: 30),
+                        CircleAvatar(radius: 30),
                       ],
                     ),
                   ),
