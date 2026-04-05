@@ -2,10 +2,10 @@
 
 A new Flutter project.
 
-## EP2555-2560
+## EP2561
 
-- Shopping app | Dress Rental
-- Wavespace - UI/UX Design Agency
+- Smart Home Mobile App UI/UX
+- Amrita Ranjan
 - https://dribbble.com/shots/27227832-Shopping-app-Dress-Rental
 
 <img src="https://cdn.dribbble.com/userupload/47211864/file/a11c727ff4158ae1941e0a725d837174.png?resize=1905x1429&vertical=center" alt=""/>
