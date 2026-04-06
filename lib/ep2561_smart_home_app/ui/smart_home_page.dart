@@ -96,6 +96,30 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     ),
                     child: Center(child: Text("All", style: TextStyle(color: Colors.white))),
                   ),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 32),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(241, 245, 247, 1),
+                    ),
+                    child: Center(child: Text("Cleaning", style: TextStyle(color: Colors.black))),
+                  ),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 32),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(241, 245, 247, 1),
+                    ),
+                    child: Center(child: Text("Plumbers", style: TextStyle(color: Colors.black))),
+                  ),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 32),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(241, 245, 247, 1),
+                    ),
+                    child: Center(child: Text("Cleaning", style: TextStyle(color: Colors.black))),
+                  ),
                 ],
               ),
             ),
