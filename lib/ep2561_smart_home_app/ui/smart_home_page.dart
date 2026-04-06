@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class SmartHomePage extends StatefulWidget {
   const SmartHomePage({super.key});
@@ -53,6 +54,8 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     child: CircleAvatar(
                       radius: 30,
                       backgroundColor: Color.fromRGBO(65, 73, 77, 1),
+                      foregroundColor: Colors.white,
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                     ),
                   ),
                   Container(
