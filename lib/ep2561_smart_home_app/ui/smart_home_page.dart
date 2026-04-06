@@ -88,10 +88,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
                 scrollDirection: .horizontal,
                 children: [
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 32),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
+                    child: Center(child: Text("All", style: TextStyle(color: Colors.white))),
                   ),
                 ],
               ),
