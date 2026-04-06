@@ -87,6 +87,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                           radius: 30,
                           foregroundColor: Colors.white,
                           backgroundColor: Color.fromRGBO(65, 73, 77, 1),
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedUser,
+                          ),
                         ),
                       ],
                     ),
