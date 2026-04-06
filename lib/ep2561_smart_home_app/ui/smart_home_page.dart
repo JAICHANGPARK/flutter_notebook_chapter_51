@@ -82,7 +82,19 @@ class _SmartHomePageState extends State<SmartHomePage> {
               ),
             ),
 
-            SizedBox(height: 52, child: Placeholder()),
+            SizedBox(
+              height: 52,
+              child: ListView(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
+                  ),
+                ],
+              ),
+            ),
             Expanded(child: Placeholder()),
             Container(
               height: 72,
