@@ -25,7 +25,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                 spacing: 16,
                 children: [
                   Row(
-                    spacing: 6,
+                    spacing: 8,
                     children: [
                       CircleAvatar(
                         radius: 24,
@@ -34,7 +34,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: .start,
-                          children: [Text("Welcome,"), Text("Dreamwalker")],
+                          children: [
+                            Text("Welcome,", style: TextStyle(fontSize: 12)),
+                            Text("Dreamwalker", style: TextStyle(fontSize: 16)),
+                          ],
                         ),
                       ),
                       CircleAvatar(
@@ -47,10 +50,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       ),
                     ],
                   ),
-                  Text("Smart Home,\nSmooth Service",style: TextStyle(
-                    fontSize: 36,
-                    fontWeight: .bold,
-                  ),),
+                  Text(
+                    "Smart Home,\nSmooth Service",
+                    style: TextStyle(fontSize: 36, fontWeight: .bold),
+                  ),
                   Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(
