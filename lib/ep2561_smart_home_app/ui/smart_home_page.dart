@@ -75,6 +75,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                         CircleAvatar(
                           radius: 30,
                           backgroundColor: Color.fromRGBO(65, 73, 77, 1),
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedShoppingBag01),
                         ),
                         CircleAvatar(
                           radius: 30,
