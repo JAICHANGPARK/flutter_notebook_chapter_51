@@ -85,6 +85,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
             SizedBox(
               height: 52,
               child: ListView(
+                scrollDirection: .horizontal,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
