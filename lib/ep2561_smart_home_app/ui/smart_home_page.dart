@@ -61,7 +61,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     child: Row(
                       spacing: 2,
                       children: [
-                        CircleAvatar(radius: 30),
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Color.fromRGBO(65, 73, 77, 1),
+                        ),
                         CircleAvatar(radius: 30),
                         CircleAvatar(radius: 30),
                       ],
