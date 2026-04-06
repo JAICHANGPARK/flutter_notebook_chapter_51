@@ -61,16 +61,20 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       color: Color.fromRGBO(241, 245, 247, 1),
                     ),
                     child: Row(
-                      spacing: 16,
+                      spacing: 12,
                       children: [
                         CircleAvatar(
                           radius: 22,
+                          backgroundColor: Colors.grey[300],
                         ),
-                        Expanded(child: TextField(
-                          decoration: InputDecoration(
-                            hintText: "Search...",
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search...",
+                              border: .none,
+                            ),
                           ),
-                        )),
+                        ),
                       ],
                     ),
                   ),
