@@ -55,11 +55,22 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     style: TextStyle(fontSize: 36, fontWeight: .bold),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    padding: EdgeInsets.all(6),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(241, 245, 247, 1),
+                    ),
                     child: Row(
+                      spacing: 16,
                       children: [
-                        CircleAvatar(),
-                        Expanded(child: TextField()),
+                        CircleAvatar(
+                          radius: 22,
+                        ),
+                        Expanded(child: TextField(
+                          decoration: InputDecoration(
+                            hintText: "Search...",
+                          ),
+                        )),
                       ],
                     ),
                   ),
