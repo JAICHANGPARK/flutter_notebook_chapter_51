@@ -18,13 +18,20 @@ class _SmartHomePageState extends State<SmartHomePage> {
           crossAxisAlignment: .start,
           spacing: 16,
           children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(child: Column()),
-                CircleAvatar(),
-                CircleAvatar(),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  CircleAvatar(),
+                  Expanded(
+                    child: Column(
+                      children: [Text("Welcome,"), Text("Dreamwalker")],
+                    ),
+                  ),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
+              ),
             ),
             Text("Smart Home,\nSmooth Service"),
             Container(
@@ -87,9 +94,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                           radius: 30,
                           foregroundColor: Colors.white,
                           backgroundColor: Color.fromRGBO(65, 73, 77, 1),
-                          child: HugeIcon(
-                            icon: HugeIcons.strokeRoundedUser,
-                          ),
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedUser),
                         ),
                       ],
                     ),
