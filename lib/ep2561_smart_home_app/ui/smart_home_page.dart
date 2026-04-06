@@ -21,10 +21,13 @@ class _SmartHomePageState extends State<SmartHomePage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
+                spacing: 6,
+                
                 children: [
                   CircleAvatar(),
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [Text("Welcome,"), Text("Dreamwalker")],
                     ),
                   ),
