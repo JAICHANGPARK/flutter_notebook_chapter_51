@@ -50,7 +50,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(38, 46, 50, 1),
                     ),
-                    child: CircleAvatar(radius: 30),
+                    child: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Color.fromRGBO(65, 73, 77, 1),
+                    ),
                   ),
                   Container(
                     padding: EdgeInsets.all(4),
