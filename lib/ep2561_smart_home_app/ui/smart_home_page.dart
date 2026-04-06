@@ -22,17 +22,26 @@ class _SmartHomePageState extends State<SmartHomePage> {
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 spacing: 6,
-                
+
                 children: [
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                  ),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [Text("Welcome,"), Text("Dreamwalker")],
                     ),
                   ),
-                  CircleAvatar(),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                  ),
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                  ),
                 ],
               ),
             ),
