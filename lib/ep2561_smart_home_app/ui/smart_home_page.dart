@@ -19,7 +19,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
           spacing: 16,
           children: [
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const .symmetric(horizontal: 16),
               child: Column(
                 crossAxisAlignment: .start,
                 spacing: 16,
@@ -82,7 +82,8 @@ class _SmartHomePageState extends State<SmartHomePage> {
               ),
             ),
 
-            SizedBox(
+            Container(
+              padding: EdgeInsets.only(left: 16),
               height: 52,
               child: ListView(
                 scrollDirection: .horizontal,
