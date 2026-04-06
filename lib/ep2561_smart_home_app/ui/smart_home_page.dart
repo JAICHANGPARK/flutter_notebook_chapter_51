@@ -19,42 +19,51 @@ class _SmartHomePageState extends State<SmartHomePage> {
           spacing: 16,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Row(
-                spacing: 6,
-
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: .start,
+                spacing: 16,
                 children: [
-                  CircleAvatar(
-                    radius: 24,
-                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                  Row(
+                    spacing: 6,
+                    children: [
+                      CircleAvatar(
+                        radius: 24,
+                        backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                      ),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [Text("Welcome,"), Text("Dreamwalker")],
+                        ),
+                      ),
+                      CircleAvatar(
+                        radius: 24,
+                        backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                      ),
+                      CircleAvatar(
+                        radius: 24,
+                        backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                      ),
+                    ],
                   ),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      children: [Text("Welcome,"), Text("Dreamwalker")],
+                  Text("Smart Home,\nSmooth Service",style: TextStyle(
+                    fontSize: 36,
+                    fontWeight: .bold,
+                  ),),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(
+                      children: [
+                        CircleAvatar(),
+                        Expanded(child: TextField()),
+                      ],
                     ),
                   ),
-                  CircleAvatar(
-                    radius: 24,
-                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
-                  ),
-                  CircleAvatar(
-                    radius: 24,
-                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
-                  ),
                 ],
               ),
             ),
-            Text("Smart Home,\nSmooth Service"),
-            Container(
-              decoration: ShapeDecoration(shape: StadiumBorder()),
-              child: Row(
-                children: [
-                  CircleAvatar(),
-                  Expanded(child: TextField()),
-                ],
-              ),
-            ),
+
             SizedBox(height: 52, child: Placeholder()),
             Expanded(child: Placeholder()),
             Container(
