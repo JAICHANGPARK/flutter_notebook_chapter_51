@@ -48,7 +48,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     padding: EdgeInsets.all(4),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.black,
+                      color: Color.fromRGBO(38, 46, 50, 1),
                     ),
                     child: CircleAvatar(radius: 30),
                   ),
@@ -56,7 +56,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     padding: EdgeInsets.all(4),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.black,
+                      color: Color.fromRGBO(38, 46, 50, 1),
                     ),
                     child: Row(
                       spacing: 2,
