@@ -94,10 +94,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
+                    margin: EdgeInsets.only(right: 12),
                     child: Center(child: Text("All", style: TextStyle(color: Colors.white))),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 32),
+                    margin: EdgeInsets.only(right: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(241, 245, 247, 1),
@@ -106,6 +108,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 32),
+                    margin: EdgeInsets.only(right: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(241, 245, 247, 1),
