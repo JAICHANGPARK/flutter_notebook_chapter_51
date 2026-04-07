@@ -147,6 +147,25 @@ class _SmartHomePageState extends State<SmartHomePage> {
               child: Stack(
                 children: [
                   Positioned(
+                    left: 24,
+                    right: 24,
+                    bottom: 16,
+                    top: 32,
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(42),
+                        ),
+                        color: Color.fromRGBO(241, 247, 250, 1),
+                      ),
+                      child: Stack(
+                        children: [
+                     
+                        ],
+                      ),
+                    ),
+                  ),
+                  Positioned(
                     left: 16,
                     right: 16,
                     bottom: 16,
@@ -161,8 +180,11 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       child: Stack(
                         children: [
                           Positioned(left: 16, top: 16, right: 16, bottom: 16,
-                          child: Column(children: [
-                            
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [
+
+
                           ],),),
                         ],
                       ),
