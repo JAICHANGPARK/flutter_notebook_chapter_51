@@ -95,7 +95,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       color: Colors.black,
                     ),
                     margin: EdgeInsets.only(right: 12),
-                    child: Center(child: Text("All", style: TextStyle(color: Colors.white))),
+                    child: Center(
+                      child: Text("All", style: TextStyle(color: Colors.white)),
+                    ),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 32),
@@ -104,7 +106,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(241, 245, 247, 1),
                     ),
-                    child: Center(child: Text("Cleaning", style: TextStyle(color: Colors.black))),
+                    child: Center(
+                      child: Text(
+                        "Cleaning",
+                        style: TextStyle(color: Colors.black),
+                      ),
+                    ),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 32),
@@ -113,7 +120,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(241, 245, 247, 1),
                     ),
-                    child: Center(child: Text("Plumbers", style: TextStyle(color: Colors.black))),
+                    child: Center(
+                      child: Text(
+                        "Plumbers",
+                        style: TextStyle(color: Colors.black),
+                      ),
+                    ),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 32),
@@ -121,12 +133,17 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(241, 245, 247, 1),
                     ),
-                    child: Center(child: Text("Cleaning", style: TextStyle(color: Colors.black))),
+                    child: Center(
+                      child: Text(
+                        "Cleaning",
+                        style: TextStyle(color: Colors.black),
+                      ),
+                    ),
                   ),
                 ],
               ),
             ),
-            Expanded(child: Placeholder()),
+            Expanded(child: Stack(children: [])),
             Container(
               height: 72,
               child: Row(
