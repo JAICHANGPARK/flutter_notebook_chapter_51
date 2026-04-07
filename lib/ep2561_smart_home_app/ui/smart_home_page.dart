@@ -153,7 +153,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     top: 42,
                     child: Container(
                       decoration: ShapeDecoration(
-                        shape: RoundedSuperellipseBorder(),
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(32),
+                        ),
                         color: Color.fromRGBO(241, 247, 250, 1),
                       ),
                     ),
