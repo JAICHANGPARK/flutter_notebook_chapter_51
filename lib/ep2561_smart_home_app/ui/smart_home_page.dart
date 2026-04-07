@@ -237,6 +237,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                     shape: StadiumBorder(),
                                   ),
                                   child: Row(
+                                    spacing: 8,
                                     children: [
                                       CircleAvatar(),
                                       Expanded(child: Text("Book Now")),
