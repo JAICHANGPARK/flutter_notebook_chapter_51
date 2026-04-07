@@ -84,12 +84,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
 
             Container(
               padding: EdgeInsets.only(left: 16),
-              height: 48,
+              height: 46,
               child: ListView(
                 scrollDirection: .horizontal,
                 children: [
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 32),
+                    padding: EdgeInsets.symmetric(horizontal: 28),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.black,
