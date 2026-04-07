@@ -197,6 +197,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                             bottom: 24,
                             child: Column(
                               crossAxisAlignment: .start,
+                              spacing:24,
                               children: [
                                 Row(
                                   mainAxisAlignment: .spaceBetween,
@@ -221,8 +222,8 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                   ),
                                   child: Row(
                                     children: [
-                                      Icon(Icons.star, size: 16),
-                                      Text("4.5"),
+                                      Icon(Icons.cleaning_services, size: 16),
+                                      Text("Fresh, Fast Cleaning"),
                                     ],
                                   ),
                                 ),
