@@ -199,6 +199,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                               crossAxisAlignment: .start,
                               children: [
                                 Row(
+                                  mainAxisAlignment: .spaceBetween,
                                   children: [
                                     CircleAvatar(),
                                     Container(
