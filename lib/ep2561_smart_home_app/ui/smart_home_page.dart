@@ -150,7 +150,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                     left: 16,
                     right: 16,
                     bottom: 16,
-                    top: 32,
+                    top: 42,
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(),
