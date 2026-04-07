@@ -84,7 +84,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
 
             Container(
               padding: EdgeInsets.only(left: 16),
-              height: 52,
+              height: 48,
               child: ListView(
                 scrollDirection: .horizontal,
                 children: [
