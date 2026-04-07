@@ -200,6 +200,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                               spacing:24,
                               children: [
                                 Row(
+
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
                                     CircleAvatar(),
@@ -208,6 +209,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         shape: StadiumBorder(),
                                       ),
                                       child: Row(
+                                        spacing: 4,
                                         children: [
                                           Icon(Icons.star, size: 16),
                                           Text("4.5"),
@@ -221,6 +223,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                     shape: StadiumBorder(),
                                   ),
                                   child: Row(
+                                    spacing: 4,
                                     children: [
                                       Icon(Icons.cleaning_services, size: 16),
                                       Text("Fresh, Fast Cleaning"),
