@@ -191,10 +191,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       child: Stack(
                         children: [
                           Positioned(
-                            left: 16,
-                            top: 16,
-                            right: 16,
-                            bottom: 16,
+                            left: 24,
+                            top: 24,
+                            right: 24,
+                            bottom: 24,
                             child: Column(
                               crossAxisAlignment: .start,
                               children: [
