@@ -143,7 +143,20 @@ class _SmartHomePageState extends State<SmartHomePage> {
                 ],
               ),
             ),
-            Expanded(child: Stack(children: [])),
+            Expanded(
+              child: Stack(
+                children: [
+                  Positioned(
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(),
+                        color: Color.fromRGBO(241, 247, 250, 1),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
             Container(
               height: 72,
               child: Row(
