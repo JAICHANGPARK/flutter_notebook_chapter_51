@@ -147,6 +147,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
               child: Stack(
                 children: [
                   Positioned(
+                    left: 16,
+                    right: 16,
+                    bottom: 16,
+                    top: 32,
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(),
