@@ -147,6 +147,21 @@ class _SmartHomePageState extends State<SmartHomePage> {
               child: Stack(
                 children: [
                   Positioned(
+                    left: 42,
+                    right: 42,
+                    bottom: 16,
+                    top: 12,
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(42),
+                        ),
+                        color: Color.fromRGBO(248, 248, 248, 1),
+                      ),
+                      child: Stack(children: []),
+                    ),
+                  ),
+                  Positioned(
                     left: 28,
                     right: 28,
                     bottom: 16,
@@ -158,11 +173,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                         ),
                         color: Color.fromRGBO(238, 240, 244, 1),
                       ),
-                      child: Stack(
-                        children: [
-
-                        ],
-                      ),
+                      child: Stack(children: []),
                     ),
                   ),
                   Positioned(
@@ -179,13 +190,58 @@ class _SmartHomePageState extends State<SmartHomePage> {
                       ),
                       child: Stack(
                         children: [
-                          Positioned(left: 16, top: 16, right: 16, bottom: 16,
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            children: [
-
-
-                          ],),),
+                          Positioned(
+                            left: 16,
+                            top: 16,
+                            right: 16,
+                            bottom: 16,
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              children: [
+                                Row(
+                                  children: [
+                                    CircleAvatar(),
+                                    Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Icon(Icons.star, size: 16),
+                                          Text("4.5"),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Icon(Icons.star, size: 16),
+                                      Text("4.5"),
+                                    ],
+                                  ),
+                                ),
+                                Text("Quick Home\nCleaning Service"),
+                                Spacer(),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      CircleAvatar(),
+                                      Expanded(child: Text("Book Now")),
+                                      CircleAvatar(),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
