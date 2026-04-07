@@ -158,6 +158,14 @@ class _SmartHomePageState extends State<SmartHomePage> {
                         ),
                         color: Color.fromRGBO(241, 247, 250, 1),
                       ),
+                      child: Stack(
+                        children: [
+                          Positioned(left: 16, top: 16, right: 16, bottom: 16,
+                          child: Column(children: [
+                            
+                          ],),),
+                        ],
+                      ),
                     ),
                   ),
                 ],
