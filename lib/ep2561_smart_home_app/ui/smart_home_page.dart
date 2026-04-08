@@ -297,6 +297,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                           50,
                                           1,
                                         ),
+                                        foregroundColor: Colors.white,
                                         child: Icon(
                                           Icons.shopping_bag_outlined,
                                         ),
@@ -304,6 +305,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                       Expanded(child: Text("Book Now")),
                                       CircleAvatar(
                                         radius: 24,
+                                        foregroundColor: Colors.white,
                                         backgroundColor: Color.fromRGBO(
                                           38,
                                           46,
