@@ -256,11 +256,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
 
                                     shape: StadiumBorder(
                                       side: BorderSide(
-                                        color: Colors.grey[500]!,
+                                        color: Colors.grey[300]!,
                                       ),
                                     ),
                                   ),
                                   child: Row(
+                                    mainAxisSize: .min,
                                     spacing: 4,
                                     children: [
                                       Icon(Icons.cleaning_services, size: 16),
