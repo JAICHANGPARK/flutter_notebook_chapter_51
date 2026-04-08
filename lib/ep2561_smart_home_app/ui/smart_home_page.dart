@@ -205,17 +205,17 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                 Row(
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
-                                    CircleAvatar(
-                                      radius: 24,
-                                    ),
+                                    CircleAvatar(radius: 24),
                                     Container(
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 24,
+                                        vertical: 12,
+                                      ),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(
-                                          side: BorderSide(
-                                            color: Colors.white,
-                                          )
+                                          side: BorderSide(color: Colors.white),
                                         ),
-
+                                        gradient: LinearGradient(colors: []),
                                       ),
                                       child: Row(
                                         spacing: 4,
