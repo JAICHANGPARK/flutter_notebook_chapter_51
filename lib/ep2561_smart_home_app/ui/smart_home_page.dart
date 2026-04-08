@@ -215,7 +215,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         shape: StadiumBorder(
                                           side: BorderSide(color: Colors.white),
                                         ),
-                                        gradient: LinearGradient(colors: []),
+                                        gradient: LinearGradient(colors: [
+                                          Colors.grey[100]!,
+                                          Colors.white12
+                                        ]),
                                       ),
                                       child: Row(
                                         spacing: 4,
