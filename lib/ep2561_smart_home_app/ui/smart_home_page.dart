@@ -285,10 +285,12 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                     spacing: 8,
                                     children: [
                                       CircleAvatar(
+                                        radius: 24,
                                         backgroundColor: Color.fromRGBO(38, 46, 50, 1),
                                       ),
                                       Expanded(child: Text("Book Now")),
                                       CircleAvatar(
+                                        radius: 24,
                                         backgroundColor: Color.fromRGBO(38, 46, 50, 1),
                                       ),
                                     ],
