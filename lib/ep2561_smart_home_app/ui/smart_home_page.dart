@@ -211,19 +211,15 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         horizontal: 24,
                                         vertical: 12,
                                       ),
-                                      decoration: ShapeDecoration(
-                                        shape: StadiumBorder(
-                                          side: BorderSide(color: Colors.white),
-                                        ),
-                                        gradient: LinearGradient(
-                                          begin: .topLeft,
-                                          end: .bottomRight,
-                                          colors: [
-                                            Colors.grey[100]!,
-                                            Colors.white12,
-                                          ],
-                                          stops: [.1, .9],
-                                        ),
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey[300],
+                                        boxShadow: [
+                                          BoxShadow(color: Colors.grey[500]!,
+                                            offset: Offset(4,4),
+                                            blurRadius: 10,
+                                            spreadRadius: 1,
+                                          ),
+                                        ],
                                       ),
                                       child: Row(
                                         spacing: 4,
@@ -233,7 +229,13 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                             size: 16,
                                             color: Colors.orange,
                                           ),
-                                          Text("4.5"),
+                                          Text(
+                                            "4.5",
+                                            style: TextStyle(
+                                              fontWeight: .bold,
+                                              fontSize: 16,
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ),
