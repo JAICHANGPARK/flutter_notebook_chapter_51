@@ -66,6 +66,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
                         CircleAvatar(
                           radius: 22,
                           backgroundColor: Colors.grey[300],
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                         ),
                         Expanded(
                           child: TextField(
