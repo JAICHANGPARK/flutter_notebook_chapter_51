@@ -269,7 +269,10 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                     ],
                                   ),
                                 ),
-                                Text("Quick Home\nCleaning Service"),
+                                Text("Quick Home\nCleaning Service",style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 20,
+                                ),),
                                 Spacer(),
                                 Container(
                                   decoration: ShapeDecoration(
@@ -278,9 +281,13 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                   child: Row(
                                     spacing: 8,
                                     children: [
-                                      CircleAvatar(),
+                                      CircleAvatar(
+                                        backgroundColor: Color.fromRGBO(38, 46, 50, 1),
+                                      ),
                                       Expanded(child: Text("Book Now")),
-                                      CircleAvatar(),
+                                      CircleAvatar(
+                                        backgroundColor: Color.fromRGBO(38, 46, 50, 1),
+                                      ),
                                     ],
                                   ),
                                 ),
