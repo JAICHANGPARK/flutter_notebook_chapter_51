@@ -215,15 +215,24 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         shape: StadiumBorder(
                                           side: BorderSide(color: Colors.white),
                                         ),
-                                        gradient: LinearGradient(colors: [
-                                          Colors.grey[100]!,
-                                          Colors.white12
-                                        ]),
+                                        gradient: LinearGradient(
+                                          begin: .topLeft,
+                                          end: .bottomRight,
+                                          colors: [
+                                            Colors.grey[100]!,
+                                            Colors.white12,
+                                          ],
+                                          stops: [.1, .9],
+                                        ),
                                       ),
                                       child: Row(
                                         spacing: 4,
                                         children: [
-                                          Icon(Icons.star, size: 16),
+                                          Icon(
+                                            Icons.star,
+                                            size: 16,
+                                            color: Colors.orange,
+                                          ),
                                           Text("4.5"),
                                         ],
                                       ),
