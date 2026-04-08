@@ -302,7 +302,13 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                           Icons.shopping_bag_outlined,
                                         ),
                                       ),
-                                      Expanded(child: Text("Book Now")),
+                                      Expanded(
+                                        child: Text(
+                                          "Book Now",
+                                          style: TextStyle(fontWeight: .bold,
+                                          fontSize: 16,),
+                                        ),
+                                      ),
                                       CircleAvatar(
                                         radius: 24,
                                         foregroundColor: Colors.white,
