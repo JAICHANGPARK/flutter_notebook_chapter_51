@@ -212,16 +212,15 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         vertical: 12,
                                       ),
                                       decoration: BoxDecoration(
-                                        color: Color(0xFFE6E9EF),
+                                        // color: Color(0xFFE6E9EF),
                                         borderRadius: .circular(62),
-                                        
                                         boxShadow: [
                                           BoxShadow(
                                             color: Color(0xFFD1D9E6),
                                             offset: Offset(18, 18),
                                             // blurRadius: 10,
                                             blurRadius: 30,
-                                              spreadRadius: -25.0,
+                                            spreadRadius: -25.0,
                                           ),
                                           BoxShadow(
                                             color: Colors.white,
@@ -253,7 +252,11 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                 ),
                                 Container(
                                   decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                                    shape: StadiumBorder(
+                                      side: BorderSide(
+                                        color: Colors.grey[200]!,
+                                      ),
+                                    ),
                                   ),
                                   child: Row(
                                     spacing: 4,
