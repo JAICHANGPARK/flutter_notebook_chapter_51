@@ -66,7 +66,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                         CircleAvatar(
                           radius: 22,
                           backgroundColor: Colors.grey[300],
-                          child: HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedSearch01,
+                          ),
                         ),
                         Expanded(
                           child: TextField(
@@ -198,10 +200,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                             bottom: 24,
                             child: Column(
                               crossAxisAlignment: .start,
-                              spacing:24,
+                              spacing: 24,
                               children: [
                                 Row(
-
                                   mainAxisAlignment: .spaceBetween,
                                   children: [
                                     CircleAvatar(),
