@@ -275,8 +275,11 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                 ),),
                                 Spacer(),
                                 Container(
+                                  padding: EdgeInsets.all(5),
                                   decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                                    shape: StadiumBorder(
+                                      side: BorderSide(color: Colors.white,)
+                                    ),
                                   ),
                                   child: Row(
                                     spacing: 8,
