@@ -256,7 +256,7 @@ class _SmartHomePageState extends State<SmartHomePage> {
 
                                     shape: StadiumBorder(
                                       side: BorderSide(
-                                        color: Colors.grey[200]!,
+                                        color: Colors.grey[500]!,
                                       ),
                                     ),
                                   ),
