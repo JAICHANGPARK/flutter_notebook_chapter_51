@@ -212,18 +212,19 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         vertical: 12,
                                       ),
                                       decoration: BoxDecoration(
-                                        color: Colors.grey[300],
+                                        color: Color(0xFFE6E9EF),
+                                        borderRadius: .circular(62),
                                         
                                         boxShadow: [
                                           BoxShadow(
-                                            color: Colors.grey[500]!,
-                                            offset: Offset(4, 4),
+                                            color: Color(0xFFD1D9E6),
+                                            offset: Offset(18, 18),
                                             blurRadius: 10,
                                             spreadRadius: 1,
                                           ),
                                           BoxShadow(
                                             color: Colors.white,
-                                            offset: Offset(-4, -4),
+                                            offset: Offset(4, 4),
                                             spreadRadius: 1,
                                             blurRadius: 10,
                                           ),
