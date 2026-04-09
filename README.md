@@ -1,7 +1,5 @@
 # flutter_notebook_chapter_51
 
-
-
 ## EP2561
 
 - Smart Home Mobile App UI/UX
