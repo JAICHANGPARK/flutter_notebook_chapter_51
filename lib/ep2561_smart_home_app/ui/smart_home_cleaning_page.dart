@@ -14,19 +14,22 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          spacing: 16,
-          crossAxisAlignment: .start,
-          children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(child: Center(child: Text("Cleaning"),)),
-                CircleAvatar(),
-              ],
-            ),
-            Expanded(child: Placeholder(),),
-          ],
+        child: Padding(
+          
+          child: Column(
+            spacing: 16,
+            crossAxisAlignment: .start,
+            children: [
+              Row(
+                children: [
+                  CircleAvatar(),
+                  Expanded(child: Center(child: Text("Cleaning"),)),
+                  CircleAvatar(),
+                ],
+              ),
+              Expanded(child: Placeholder(),),
+            ],
+          ),
         ),
       ),
     );
