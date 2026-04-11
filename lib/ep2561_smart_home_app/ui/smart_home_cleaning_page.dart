@@ -13,6 +13,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
+        bottom: false,
         child: Padding(
           padding: EdgeInsets.all(16),
           child: Column(
@@ -37,7 +38,9 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
               Expanded(
                 child: ListView.builder(
                   itemBuilder: (context, index) {
-                    return Placeholder();
+                    return Container(
+                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
+                    )
                   },
                 ),
               ),
