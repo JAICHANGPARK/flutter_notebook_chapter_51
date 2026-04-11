@@ -14,7 +14,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          
+          crossAxisAlignment: .start,
           children: [
             Row(
               children: [
