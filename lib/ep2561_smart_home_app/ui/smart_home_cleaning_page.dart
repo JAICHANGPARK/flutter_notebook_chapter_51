@@ -42,8 +42,8 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(
                           borderRadius: .circular(32),
-                          
                         ),
+                        color: Color.fromRGBO(241, 247, 250, 1),
                       ),
                       padding: EdgeInsets.all(8),
                       margin: EdgeInsets.only(bottom: 12),
@@ -54,10 +54,11 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                             height: 160,
                             width: 150,
                             child: Placeholder(),
-                          ),
-                          Expanded(child: Column(children: [
+                            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
 
-                          ],))
+                            )),
+                          ),
+                          Expanded(child: Column(children: [])),
                         ],
                       ),
                     );
