@@ -14,6 +14,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          spacing: 16,
           crossAxisAlignment: .start,
           children: [
             Row(
@@ -22,7 +23,8 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                 Expanded(child: Center(child: Text("Cleaning"),)),
                 CircleAvatar(),
               ],
-            )
+            ),
+            Expanded(child: Placeholder(),),
           ],
         ),
       ),
