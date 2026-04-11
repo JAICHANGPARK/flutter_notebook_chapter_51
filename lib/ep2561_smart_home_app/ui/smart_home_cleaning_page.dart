@@ -15,7 +15,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
-          
+          padding: EdgeInsets.all(16),
           child: Column(
             spacing: 16,
             crossAxisAlignment: .start,
