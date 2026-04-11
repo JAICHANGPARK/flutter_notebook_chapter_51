@@ -23,11 +23,13 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
               Row(
                 children: [
                   CircleAvatar(
+                    radius: 24,
                     backgroundColor: Color.fromRGBO(241, 245, 247, 1),
-                    
+
                   ),
                   Expanded(child: Center(child: Text("Cleaning"),)),
                   CircleAvatar(
+                    radius: 24,
                     backgroundColor: Color.fromRGBO(241, 245, 247, 1),
                   ),
                 ],
