@@ -27,7 +27,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                   CircleAvatar(),
                 ],
               ),
-              Expanded(child: Placeholder(),),
+              Expanded(child: ListView.builder(itemBuilder: (context,index){return Placeholder();}),),
             ],
           ),
         ),
