@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SmartHomeCleaningPage extends StatefulWidget {
   const SmartHomeCleaningPage({super.key});
 
@@ -25,16 +24,23 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                   CircleAvatar(
                     radius: 24,
                     backgroundColor: Color.fromRGBO(241, 245, 247, 1),
-
+                    child: Icon(Icons.keyboard_arrow_left),
                   ),
-                  Expanded(child: Center(child: Text("Cleaning"),)),
+                  Expanded(child: Center(child: Text("Cleaning"))),
                   CircleAvatar(
                     radius: 24,
                     backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                    child: Icon(Icons.menu),
                   ),
                 ],
               ),
-              Expanded(child: ListView.builder(itemBuilder: (context,index){return Placeholder();}),),
+              Expanded(
+                child: ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Placeholder();
+                  },
+                ),
+              ),
             ],
           ),
         ),
