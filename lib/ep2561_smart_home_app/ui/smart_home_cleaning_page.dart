@@ -45,12 +45,16 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                         ),
                       ),
                       child: Row(
+                        spacing: 12,
                         children: [
                           Container(
-                            height: 140,
-                            width: 140,
+                            height: 160,
+                            width: 150,
                             child: Placeholder(),
-                          )
+                          ),
+                          Expanded(child: Column(children: [
+
+                          ],))
                         ],
                       ),
                     );
