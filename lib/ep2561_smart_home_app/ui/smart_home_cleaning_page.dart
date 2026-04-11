@@ -22,9 +22,14 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
             children: [
               Row(
                 children: [
-                  CircleAvatar(),
+                  CircleAvatar(
+                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                    
+                  ),
                   Expanded(child: Center(child: Text("Cleaning"),)),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    backgroundColor: Color.fromRGBO(241, 245, 247, 1),
+                  ),
                 ],
               ),
               Expanded(child: ListView.builder(itemBuilder: (context,index){return Placeholder();}),),
