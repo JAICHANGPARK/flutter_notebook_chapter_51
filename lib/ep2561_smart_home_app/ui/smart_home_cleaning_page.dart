@@ -60,7 +60,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                               color: Colors.yellow[100],
 
                             ),
-                            child: Placeholder(),
+                            
                           ),
                           Expanded(child: Column(children: [])),
                         ],
