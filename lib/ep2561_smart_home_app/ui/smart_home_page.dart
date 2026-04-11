@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_51/ep2561_smart_home_app/ui/smart_home_cleaning_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class SmartHomePage extends StatefulWidget {
@@ -305,13 +306,20 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                       Expanded(
                                         child: Text(
                                           "Book Now",
-                                          style: TextStyle(fontWeight: .bold,
-                                          fontSize: 16,),
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                       ),
                                       GestureDetector(
-                                        onTap: (){
-                                          Navigator.of(context).push(MaterialPageRoute(builder: builder))
+                                        onTap: () {
+                                          Navigator.of(context).push(
+                                            MaterialPageRoute(
+                                              builder: (context) =>
+                                                  SmartHomeCleaningPage(),
+                                            ),
+                                          );
                                         },
                                         child: CircleAvatar(
                                           radius: 24,
