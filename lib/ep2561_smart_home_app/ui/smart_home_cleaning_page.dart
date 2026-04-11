@@ -39,8 +39,12 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                 child: ListView.builder(
                   itemBuilder: (context, index) {
                     return Container(
-                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
-                    )
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(32),
+                        ),
+                      ),
+                    );
                   },
                 ),
               ),
