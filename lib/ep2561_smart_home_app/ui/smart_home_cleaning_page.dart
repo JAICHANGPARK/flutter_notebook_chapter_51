@@ -12,6 +12,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           spacing: 16,
