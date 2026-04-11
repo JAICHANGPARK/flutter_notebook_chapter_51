@@ -310,6 +310,9 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                         ),
                                       ),
                                       GestureDetector(
+                                        onTap: (){
+                                          Navigator.of(context).push(MaterialPageRoute(builder: builder))
+                                        },
                                         child: CircleAvatar(
                                           radius: 24,
                                           foregroundColor: Colors.white,
