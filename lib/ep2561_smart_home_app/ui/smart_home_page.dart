@@ -309,16 +309,18 @@ class _SmartHomePageState extends State<SmartHomePage> {
                                           fontSize: 16,),
                                         ),
                                       ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                        foregroundColor: Colors.white,
-                                        backgroundColor: Color.fromRGBO(
-                                          38,
-                                          46,
-                                          50,
-                                          1,
+                                      GestureDetector(
+                                        child: CircleAvatar(
+                                          radius: 24,
+                                          foregroundColor: Colors.white,
+                                          backgroundColor: Color.fromRGBO(
+                                            38,
+                                            46,
+                                            50,
+                                            1,
+                                          ),
+                                          child: Icon(Icons.chevron_right),
                                         ),
-                                        child: Icon(Icons.chevron_right),
                                       ),
                                     ],
                                   ),
