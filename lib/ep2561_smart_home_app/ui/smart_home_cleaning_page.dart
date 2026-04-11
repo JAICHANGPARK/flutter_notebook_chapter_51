@@ -19,7 +19,8 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
             Row(
               children: [
                 CircleAvatar(),
-                Expanded(child: Center(child: Text(""),))
+                Expanded(child: Center(child: Text("Cleaning"),)),
+                CircleAvatar(),
               ],
             )
           ],
