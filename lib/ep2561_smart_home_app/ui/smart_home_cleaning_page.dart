@@ -44,6 +44,15 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                           borderRadius: .circular(32),
                         ),
                       ),
+                      child: Row(
+                        children: [
+                          Container(
+                            height: 140,
+                            width: 140,
+                            child: Placeholder(),
+                          )
+                        ],
+                      ),
                     );
                   },
                 ),
