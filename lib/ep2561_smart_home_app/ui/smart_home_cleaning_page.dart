@@ -12,8 +12,18 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        
+      body: SafeArea(
+        child: Column(
+          
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Center(child: Text(""),))
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
