@@ -62,12 +62,16 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                           ),
                           Expanded(
                             child: Column(
+                              spacing: 12,
                               children: [
                                 Row(
+                                  spacing: 4,
                                   children: [
                                     CircleAvatar(),
                                     Expanded(
                                       child: Column(
+                                        spacing: 5,
+                                        crossAxisAlignment: .start,
                                         children: [
                                           Text("Home Cleaning"),
                                           Text("Home spotless quickly"),
