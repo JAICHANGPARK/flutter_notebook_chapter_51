@@ -80,6 +80,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                               "Home Cleaning",
                                               style: TextStyle(
                                                 fontWeight: .bold,
+                                                fontSize: 16,
                                               ),
                                             ),
                                             Text("Home spotless quickly"),
@@ -94,7 +95,8 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                   children: [
                                     Text(
                                       "\$240",
-                                      style: TextStyle(fontWeight: .bold),
+                                      style: TextStyle(fontWeight: .bold,
+                                      fontSize: 20,),
                                     ),
                                     Container(
                                       decoration: ShapeDecoration(
