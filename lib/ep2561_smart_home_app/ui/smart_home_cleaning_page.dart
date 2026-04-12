@@ -71,14 +71,16 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                     CircleAvatar(),
                                     Expanded(
                                       child: Padding(
-                                        padding: const EdgeInsets.only(top:8),
+                                        padding: const EdgeInsets.only(top: 8),
                                         child: Column(
                                           spacing: 5,
                                           crossAxisAlignment: .start,
                                           children: [
                                             Text(
                                               "Home Cleaning",
-                                              style: TextStyle(fontWeight: .bold),
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                              ),
                                             ),
                                             Text("Home spotless quickly"),
                                           ],
@@ -90,7 +92,10 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                 Row(
                                   spacing: 12,
                                   children: [
-                                    Text("\$240"),
+                                    Text(
+                                      "\$240",
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
                                     Container(
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
