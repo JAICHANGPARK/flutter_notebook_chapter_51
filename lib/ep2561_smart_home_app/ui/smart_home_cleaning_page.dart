@@ -82,7 +82,9 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                     Container(
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
+                                        
                                       ),
+                                      child: Text("Book Now"),
                                     ),
                                   ],
                                 ),
