@@ -1,5 +1,14 @@
 # flutter_notebook_chapter_51
 
+## EP2568
+
+- Smart Home Mobile App UI/UX
+- Amrita Ranjan
+- https://dribbble.com/shots/27247171-Smart-Home-Mobile-App-UI-UX
+
+<img src="https://cdn.dribbble.com/userupload/47276965/file/8db08fff44088b0637c32ae70b01e491.png?resize=1600x1260&vertical=center" alt=""/>
+
+
 ## EP2561-2567
 
 - Smart Home Mobile App UI/UX
