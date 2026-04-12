@@ -70,16 +70,19 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                   children: [
                                     CircleAvatar(),
                                     Expanded(
-                                      child: Column(
-                                        spacing: 5,
-                                        crossAxisAlignment: .start,
-                                        children: [
-                                          Text(
-                                            "Home Cleaning",
-                                            style: TextStyle(fontWeight: .bold),
-                                          ),
-                                          Text("Home spotless quickly"),
-                                        ],
+                                      child: Padding(
+                                        padding: const EdgeInsets.only(top:8),
+                                        child: Column(
+                                          spacing: 5,
+                                          crossAxisAlignment: .start,
+                                          children: [
+                                            Text(
+                                              "Home Cleaning",
+                                              style: TextStyle(fontWeight: .bold),
+                                            ),
+                                            Text("Home spotless quickly"),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ],
