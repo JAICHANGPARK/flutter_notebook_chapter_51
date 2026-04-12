@@ -73,7 +73,10 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                         spacing: 5,
                                         crossAxisAlignment: .start,
                                         children: [
-                                          Text("Home Cleaning"),
+                                          Text(
+                                            "Home Cleaning",
+                                            style: TextStyle(fontWeight: .bold),
+                                          ),
                                           Text("Home spotless quickly"),
                                         ],
                                       ),
@@ -81,6 +84,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                   ],
                                 ),
                                 Row(
+                                  spacing: 12,
                                   children: [
                                     Text("\$240"),
                                     Container(
@@ -88,7 +92,10 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                         shape: StadiumBorder(),
                                         color: Colors.black,
                                       ),
-                                      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 24,
+                                        vertical: 12,
+                                      ),
                                       child: Text(
                                         "Book Now",
                                         style: TextStyle(color: Colors.white),
