@@ -3,7 +3,7 @@
 ## EP2568
 
 - Food Delivery Mobile App UI - Fast and Easy Ordering Experience
-- Amrita Ranjan
+- Tonmoy Das
 - https://dribbble.com/shots/27247171-Smart-Home-Mobile-App-UI-UX
 
 <img src="https://cdn.dribbble.com/userupload/47276965/file/8db08fff44088b0637c32ae70b01e491.png?resize=1600x1260&vertical=center" alt=""/>
