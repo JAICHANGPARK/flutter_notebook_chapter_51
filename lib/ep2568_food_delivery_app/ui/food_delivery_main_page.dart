@@ -13,31 +13,34 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          spacing: 16,
-          children: [
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              height: 60,
-              decoration: BoxDecoration(border: .all()),
-            ),
-            Container(
-              margin: .only(left: 16),
-              height: 60,
-              decoration: BoxDecoration(border: .all()),
-            ),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Placeholder(),
+        child: Padding(
+          padding: const EdgeInsets.only(top: 24, bottom: 24),
+          child: Column(
+            spacing: 16,
+            children: [
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                height: 60,
+                decoration: BoxDecoration(border: .all()),
               ),
-            ),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 16),
-              height: 72,
-              decoration: BoxDecoration(border: .all(), color: Colors.white),
-            ),
-          ],
+              Container(
+                margin: .only(left: 16),
+                height: 60,
+                decoration: BoxDecoration(border: .all()),
+              ),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Placeholder(),
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                height: 72,
+                decoration: BoxDecoration(border: .all(), color: Colors.white),
+              ),
+            ],
+          ),
         ),
       ),
     );
