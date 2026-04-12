@@ -6,7 +6,7 @@
 - Tonmoy Das
 - https://dribbble.com/shots/27270837-Food-Delivery-Mobile-App-UI-Fast-and-Easy-Ordering-Experience
 
-<img src="https://cdn.dribbble.com/userupload/47276965/file/8db08fff44088b0637c32ae70b01e491.png?resize=1600x1260&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/47358974/file/28aa37b1868eae48b278f0c45276ee05.png?resize=2048x1536&vertical=center" alt=""/>
 
 
 ## EP2561-2567
