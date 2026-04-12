@@ -11,6 +11,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           spacing: 16,
@@ -26,7 +27,10 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   padding: const EdgeInsets.all(16.0),
                   child: Placeholder(),
                 )),
-            Container(height: 80, decoration: BoxDecoration(border: .all())),
+            Container(
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                height: 80, decoration: BoxDecoration(border: .all(),
+            color: Colors.white)),
           ],
         ),
       ),
