@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_51
 
-## EP2561
+## EP2561-2567
 
 - Smart Home Mobile App UI/UX
 - Amrita Ranjan
