@@ -17,20 +17,26 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
           spacing: 16,
           children: [
             Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                height: 60, decoration: BoxDecoration(border: .all())),
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              height: 60,
+              decoration: BoxDecoration(border: .all()),
+            ),
             Container(
-                margin: .only(left: 16),
-                height: 60, decoration: BoxDecoration(border: .all())),
+              margin: .only(left: 16),
+              height: 60,
+              decoration: BoxDecoration(border: .all()),
+            ),
             Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Placeholder(),
-                )),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Placeholder(),
+              ),
+            ),
             Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                height: 80, decoration: BoxDecoration(border: .all(),
-            color: Colors.white)),
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              height: 72,
+              decoration: BoxDecoration(border: .all(), color: Colors.white),
+            ),
           ],
         ),
       ),
