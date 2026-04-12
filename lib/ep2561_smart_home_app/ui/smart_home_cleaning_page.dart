@@ -78,9 +78,14 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                 ),
                                 Row(
                                   children: [
-                                    Text("")
+                                    Text("\$240"),
+                                    Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                      ),
+                                    ),
                                   ],
-                                )
+                                ),
                               ],
                             ),
                           ),
