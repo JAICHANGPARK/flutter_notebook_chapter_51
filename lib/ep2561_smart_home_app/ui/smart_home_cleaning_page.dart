@@ -55,21 +55,35 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                             width: 150,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
-                                borderRadius: .circular(32)
+                                borderRadius: .circular(32),
                               ),
                               color: Colors.yellow[100],
                             ),
                           ),
-                          Expanded(child: Column(children: [
-                            Row(
+                          Expanded(
+                            child: Column(
                               children: [
-                                CircleAvatar(),
-                                Expanded(child: Column(children: [
-                                  
-                                ],))
+                                Row(
+                                  children: [
+                                    CircleAvatar(),
+                                    Expanded(
+                                      child: Column(
+                                        children: [
+                                          Text("Home Cleaning"),
+                                          Text("Home spotless quickly"),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Text("")
+                                  ],
+                                )
                               ],
-                            )
-                          ])),
+                            ),
+                          ),
                         ],
                       ),
                     );
