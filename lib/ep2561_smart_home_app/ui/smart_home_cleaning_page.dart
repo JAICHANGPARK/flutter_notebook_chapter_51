@@ -65,7 +65,8 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                               spacing: 12,
                               children: [
                                 Row(
-                                  spacing: 4,
+                                  crossAxisAlignment: .start,
+                                  spacing: 8,
                                   children: [
                                     CircleAvatar(),
                                     Expanded(
