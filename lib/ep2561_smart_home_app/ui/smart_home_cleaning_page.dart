@@ -58,9 +58,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                 borderRadius: .circular(32)
                               ),
                               color: Colors.yellow[100],
-
                             ),
-
                           ),
                           Expanded(child: Column(children: [])),
                         ],
