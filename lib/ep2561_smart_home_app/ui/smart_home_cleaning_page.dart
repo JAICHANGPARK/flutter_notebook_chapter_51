@@ -52,7 +52,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                         children: [
                           Container(
                             height: 160,
-                            width: 150,
+                            width: 140,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: .circular(32),
@@ -83,7 +83,9 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                                 fontSize: 16,
                                               ),
                                             ),
-                                            Text("Home spotless quickly"),
+                                            Text("Home spotless quickly",style: TextStyle(
+                                              fontSize: 13,
+                                            ),),
                                           ],
                                         ),
                                       ),
