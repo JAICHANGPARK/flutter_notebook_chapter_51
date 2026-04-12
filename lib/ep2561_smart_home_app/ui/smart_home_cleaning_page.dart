@@ -88,6 +88,7 @@ class _SmartHomeCleaningPageState extends State<SmartHomeCleaningPage> {
                                         shape: StadiumBorder(),
                                         color: Colors.black,
                                       ),
+                                      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                                       child: Text(
                                         "Book Now",
                                         style: TextStyle(color: Colors.white),
