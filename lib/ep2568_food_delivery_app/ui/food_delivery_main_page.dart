@@ -21,7 +21,11 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
             Container(
                 margin: .only(left: 16),
                 height: 60, decoration: BoxDecoration(border: .all())),
-            Expanded(child: Placeholder()),
+            Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Placeholder(),
+                )),
             Container(height: 80, decoration: BoxDecoration(border: .all())),
           ],
         ),
