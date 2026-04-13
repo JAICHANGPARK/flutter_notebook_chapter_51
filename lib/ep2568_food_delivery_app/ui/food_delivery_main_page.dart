@@ -105,7 +105,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 decoration: BoxDecoration(
 
                   boxShadow: [BoxShadow(color: Colors.grey[200]!,
-                  blurRadius: 2,spreadRadius: 2,)],
+                  blurRadius: 8,spreadRadius: 1,)],
                   color: Colors.white,
                 ),
               ),
