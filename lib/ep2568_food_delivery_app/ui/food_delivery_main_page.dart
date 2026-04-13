@@ -45,7 +45,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               ),
               Container(
                 margin: .only(left: 16),
-                height: 80,
+                height: 86,
 
                 child: Builder(
                   builder: (context) {
@@ -64,6 +64,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         return Padding(
                           padding: const EdgeInsets.only(right: 8),
                           child: Column(
+                            spacing: 6,
                             children: [
                               Expanded(
                                 child: Container(
@@ -74,7 +75,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                   ),
                                 ),
                               ),
-                              Text("Offers"),
+                              Text("${items[index]}"),
                             ],
                           ),
                         );
