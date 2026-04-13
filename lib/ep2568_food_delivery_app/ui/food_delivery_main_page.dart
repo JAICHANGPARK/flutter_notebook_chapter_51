@@ -22,6 +22,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 height: 60,
                 decoration: BoxDecoration(border: .all()),
+                child: Row(
+                  children: [
+                    Icon(Icons.search),
+                    Expanded(child: TextField()),
+                    VerticalDivider(),
+                  ],
+                ),
               ),
               Container(
                 margin: .only(left: 16),
