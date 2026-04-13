@@ -66,10 +66,12 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                           child: Column(
                             children: [
                               Expanded(
-
                                 child: Container(
                                   width: 62,
-                                  decoration: BoxDecoration(color: Colors.black),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    border: .all(color: Colors.grey[200]!),
+                                  ),
                                 ),
                               ),
                               Text("Offers"),
