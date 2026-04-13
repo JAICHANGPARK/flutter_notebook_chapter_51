@@ -28,7 +28,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 child: Row(
                   spacing: 12,
                   children: [
-                    Icon(Icons.search, color: Colors.grey[300]!),
+                    Icon(Icons.search, color: Colors.grey[400]!),
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(
@@ -39,7 +39,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ),
                     VerticalDivider(indent: 8, endIndent: 8),
-                    Icon(Icons.tune, color: Colors.grey[300]!),
+                    Icon(Icons.tune, color: Colors.grey[400]!),
                   ],
                 ),
               ),
