@@ -22,13 +22,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 padding: EdgeInsets.symmetric(horizontal: 12),
                 height: 60,
-                decoration: BoxDecoration(border: .all(
-                  color: Colors.grey[200]!,
-                )),
+                decoration: BoxDecoration(
+                  border: .all(color: Colors.grey[200]!),
+                ),
                 child: Row(
                   spacing: 12,
                   children: [
-                    Icon(Icons.search),
+                    Icon(Icons.search, color: Colors.grey[300]!),
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(
@@ -39,7 +39,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       ),
                     ),
                     VerticalDivider(indent: 8, endIndent: 8),
-                    Icon(Icons.tune),
+                    Icon(Icons.tune, color: Colors.grey[300]!),
                   ],
                 ),
               ),
