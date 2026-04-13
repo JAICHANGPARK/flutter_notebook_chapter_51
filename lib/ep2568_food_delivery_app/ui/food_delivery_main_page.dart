@@ -45,7 +45,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               ),
               Container(
                 margin: .only(left: 16),
-                height: 60,
+                height: 80,
 
                 child: Builder(
                   builder: (context) {
