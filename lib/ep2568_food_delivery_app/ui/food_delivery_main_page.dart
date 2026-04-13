@@ -71,7 +71,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                   width: 62,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
-                                    border: .all(color: Colors.grey[200]!),
+                                    border: .all(color: Colors.grey[400]!),
                                   ),
                                 ),
                               ),
@@ -87,7 +87,16 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
-                  child: Placeholder(),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2024/08/23/11/59/ai-generated-8991573_1280.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
                 ),
               ),
               Container(
