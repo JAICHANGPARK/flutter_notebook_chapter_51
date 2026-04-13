@@ -27,8 +27,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   spacing: 12,
                   children: [
                     Icon(Icons.search),
-                    Expanded(child: TextField()),
-                    VerticalDivider(),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Search",
+                          hintStyle: TextStyle(color: Colors.grey),
+                        ),
+                      ),
+                    ),
+                    VerticalDivider(indent: 8, endIndent: 8),
                     Icon(Icons.tune),
                   ],
                 ),
