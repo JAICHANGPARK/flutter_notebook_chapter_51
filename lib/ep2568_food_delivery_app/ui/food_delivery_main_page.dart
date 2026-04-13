@@ -64,7 +64,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         return Column(
                           children: [
                             Expanded(
+
                               child: Container(
+                                width: 62,
                                 decoration: BoxDecoration(color: Colors.black),
                               ),
                             ),
