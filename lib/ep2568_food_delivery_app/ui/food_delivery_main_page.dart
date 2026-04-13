@@ -102,7 +102,12 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 height: 72,
-                decoration: BoxDecoration(border: .all(), color: Colors.white),
+                decoration: BoxDecoration(
+                  border: .all(),
+                  boxShadow: [BoxShadow(color: Colors.grey[400]!,
+                  blurRadius: 4,spreadRadius: 4,)],
+                  color: Colors.white,
+                ),
               ),
             ],
           ),
