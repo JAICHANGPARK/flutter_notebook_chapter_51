@@ -20,13 +20,16 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
             children: [
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 16),
+                padding: EdgeInsets.symmetric(horizontal: 12),
                 height: 60,
                 decoration: BoxDecoration(border: .all()),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Icon(Icons.search),
                     Expanded(child: TextField()),
                     VerticalDivider(),
+                    Icon(Icons.tune),
                   ],
                 ),
               ),
