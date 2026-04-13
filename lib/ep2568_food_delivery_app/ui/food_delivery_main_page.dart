@@ -61,17 +61,20 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       scrollDirection: .horizontal,
                       itemCount: items.length,
                       itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            Expanded(
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 8),
+                          child: Column(
+                            children: [
+                              Expanded(
 
-                              child: Container(
-                                width: 62,
-                                decoration: BoxDecoration(color: Colors.black),
+                                child: Container(
+                                  width: 62,
+                                  decoration: BoxDecoration(color: Colors.black),
+                                ),
                               ),
-                            ),
-                            Text("Offers"),
-                          ],
+                              Text("Offers"),
+                            ],
+                          ),
                         );
                       },
                     );
