@@ -22,7 +22,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 padding: EdgeInsets.symmetric(horizontal: 12),
                 height: 60,
-                decoration: BoxDecoration(border: .all()),
+                decoration: BoxDecoration(border: .all(
+                  color: Colors.grey[200]!,
+                )),
                 child: Row(
                   spacing: 12,
                   children: [
@@ -32,6 +34,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         decoration: InputDecoration(
                           hintText: "Search",
                           hintStyle: TextStyle(color: Colors.grey),
+                          border: .none,
                         ),
                       ),
                     ),
