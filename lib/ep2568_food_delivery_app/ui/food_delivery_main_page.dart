@@ -59,6 +59,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     ];
                     return ListView.builder(
                       scrollDirection: .horizontal,
+                      itemCount: items.length,
                       itemBuilder: (context, index) {
                         return Column(
                           children: [
