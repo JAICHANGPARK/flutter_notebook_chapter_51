@@ -103,9 +103,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 height: 72,
                 decoration: BoxDecoration(
-                  border: .all(),
-                  boxShadow: [BoxShadow(color: Colors.grey[400]!,
-                  blurRadius: 4,spreadRadius: 4,)],
+
+                  boxShadow: [BoxShadow(color: Colors.grey[200]!,
+                  blurRadius: 2,spreadRadius: 2,)],
                   color: Colors.white,
                 ),
               ),
