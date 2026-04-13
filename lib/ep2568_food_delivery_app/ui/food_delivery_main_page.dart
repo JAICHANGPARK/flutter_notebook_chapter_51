@@ -47,6 +47,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: .only(left: 16),
                 height: 60,
                 decoration: BoxDecoration(border: .all()),
+                child: ListView.builder(itemBuilder: (context, index) {}),
               ),
               Expanded(
                 child: Padding(
