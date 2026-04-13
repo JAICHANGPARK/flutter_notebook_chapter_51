@@ -47,14 +47,19 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: .only(left: 16),
                 height: 60,
 
-                child: ListView.builder(itemBuilder: (context, index) {
-                  return Column(
-                    children: [
-                    Expanded(child: Container()),
-                      Text("Offers")
-                    ],
-                  );
-                }),
+                child: Builder(
+                  builder: (context) {
+                    List<String> items = ["Offers", "Pasta", "Momos","Sushi", "Stake", "Noodle"];
+                    return ListView.builder(itemBuilder: (context, index) {
+                      return Column(
+                        children: [
+                        Expanded(child: Container()),
+                          Text("Offers")
+                        ],
+                      );
+                    });
+                  }
+                ),
               ),
               Expanded(
                 child: Padding(
