@@ -23,7 +23,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 padding: EdgeInsets.symmetric(horizontal: 12),
                 height: 60,
                 decoration: BoxDecoration(
-                  border: .all(color: Colors.grey[200]!),
+                  border: .all(color: Colors.grey[300]!),
                 ),
                 child: Row(
                   spacing: 12,
@@ -45,7 +45,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               ),
               Container(
                 margin: .only(left: 16),
-                height: 86,
+                height: 90,
 
                 child: Builder(
                   builder: (context) {
