@@ -104,26 +104,32 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 height: 72,
                 decoration: BoxDecoration(
-                  boxShadow: [BoxShadow(color: Colors.grey[200]!,
-                  blurRadius: 8,spreadRadius: 1,)],
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[200]!,
+                      blurRadius: 8,
+                      spreadRadius: 1,
+                    ),
+                  ],
                   color: Colors.white,
                 ),
                 child: Row(
+                  mainAxisAlignment: .spaceBetween,
                   children: [
                     Container(
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-
-                      ),
+                      decoration: BoxDecoration(color: Colors.black),
                       child: Row(
                         spacing: 12,
                         children: [
-                          HugeIcon(icon: HugeIcons.strokeRoundedHome01,),
-                          Text("Home")
+                          HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                          Text("Home"),
                         ],
                       ),
                     ),
-                    HugeIcon(icon: HugeIcons.strokeRoundedPercent,)
+                    HugeIcon(icon: HugeIcons.strokeRoundedPercent),
+                    HugeIcon(icon: HugeIcons.strokeRoundedShoppingCart01),
+                    HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                    HugeIcon(icon: HugeIcons.strokeRoundedUser),
                   ],
                 ),
               ),
