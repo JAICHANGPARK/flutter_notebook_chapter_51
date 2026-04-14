@@ -111,13 +111,13 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: .bold,
-                                      fontSize: 16,
+                                      fontSize: 18,
                                     ),
                                   ),
                                   Text(
                                     "Chicken Shawarma",
                                     style: TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 18,
                                       fontWeight: .bold,
                                       color: Colors.white,
                                     ),
@@ -130,6 +130,19 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                               decoration: BoxDecoration(color: Colors.white),
                               child: Icon(Icons.favorite, color: Colors.red),
                             ),
+                          ],
+                        ),
+                        Spacer(),
+                        Row(
+                          children: [
+                            Text(
+                              "\$7.99",
+                              style: TextStyle(decoration: .lineThrough,
+                              color: Colors.white,
+                              fontWeight: .bold,
+                              fontSize: 20,),
+                            ),
+                            Text("\$5.99"),
                           ],
                         ),
                       ],
