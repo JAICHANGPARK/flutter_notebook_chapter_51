@@ -99,6 +99,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                     ),
                     padding: EdgeInsets.all(16),
                     child: Column(
+                      spacing: 12,
                       children: [
                         Row(
                           children: [
@@ -155,7 +156,15 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                             ),
                           ],
                         ),
-                        Row(children: [Icon(Icons.star), Text("4.6(8.4k)")]),
+                        Row(
+                          children: [
+                            Icon(Icons.star, size: 14, color: Colors.yellow),
+                            Text(
+                              "4.6(8.4k)",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ],
+                        ),
                         Container(
                           height: 52,
                           child: Row(
@@ -171,8 +180,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                               ),
                               Container(
                                 padding: EdgeInsets.all(16),
-                                decoration: BoxDecoration(color: Colors.white),
-                                child: Icon(Icons.favorite, color: Colors.red),
+                                decoration: BoxDecoration(color: Colors.black12),
+                                child: Icon(Icons.arrow_forward_outlined, color: Colors.white),
                               ),
                             ],
                           ),
