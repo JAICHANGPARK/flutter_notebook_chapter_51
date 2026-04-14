@@ -96,6 +96,18 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         ),
                         fit: BoxFit.cover,
                       ),
+
+                    ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(child: Column(children: [
+                              
+                            ],))
+                          ],
+                        )
+                      ],
                     ),
                   ),
                 ),
@@ -113,7 +125,9 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   ],
                   color: Colors.white,
                 ),
+                padding: EdgeInsets.only(right: 12),
                 child: Row(
+
                   mainAxisAlignment: .spaceBetween,
                   children: [
                     Container(
@@ -123,8 +137,11 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          HugeIcon(icon: HugeIcons.strokeRoundedHome01),
-                          Text("Home"),
+                          HugeIcon(
+                            icon: HugeIcons.strokeRoundedHome01,
+                            color: Colors.white,
+                          ),
+                          Text("Home", style: TextStyle(color: Colors.white)),
                         ],
                       ),
                     ),
