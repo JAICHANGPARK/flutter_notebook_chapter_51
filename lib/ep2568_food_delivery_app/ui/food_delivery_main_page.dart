@@ -134,17 +134,30 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         ),
                         Spacer(),
                         Row(
+                          spacing: 12,
                           children: [
                             Text(
                               "\$7.99",
-                              style: TextStyle(decoration: .lineThrough,
-                              color: Colors.white,
-                              fontWeight: .bold,
-                              fontSize: 20,),
+                              style: TextStyle(
+                                decoration: .lineThrough,
+                                color: Colors.white,
+                                fontWeight: .bold,
+                                fontSize: 20,
+                              ),
                             ),
-                            Text("\$5.99"),
+                            Text(
+                              "\$5.99",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: .bold,
+                                fontSize: 20,
+                              ),
+                            ),
                           ],
                         ),
+                        Row(children: [Icon(Icons.star),
+                        Text("4.6(8.4k)"),
+                        ],),
                       ],
                     ),
                   ),
