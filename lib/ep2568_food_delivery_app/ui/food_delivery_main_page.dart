@@ -97,19 +97,36 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    padding: EdgeInsets.all(16),
                     child: Column(
                       children: [
                         Row(
                           children: [
                             Expanded(
                               child: Column(
+                                crossAxisAlignment: .start,
                                 children: [
-                                  Text('Creamy Garlic'),
-                                  Text("Chicken Shawarma"),
+                                  Text(
+                                    'Creamy Garlic',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: .bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Chicken Shawarma",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: .bold,
+                                      color: Colors.white,
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
                             Container(
+                              padding: EdgeInsets.all(16),
                               decoration: BoxDecoration(color: Colors.white),
                               child: Icon(Icons.favorite, color: Colors.red),
                             ),
