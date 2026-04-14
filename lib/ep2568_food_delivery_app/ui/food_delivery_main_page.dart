@@ -117,6 +117,8 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                   mainAxisAlignment: .spaceBetween,
                   children: [
                     Container(
+                      height: double.infinity,
+                      padding: EdgeInsets.symmetric(horizontal: 24),
                       decoration: BoxDecoration(color: Colors.black),
                       child: Row(
                         spacing: 12,
