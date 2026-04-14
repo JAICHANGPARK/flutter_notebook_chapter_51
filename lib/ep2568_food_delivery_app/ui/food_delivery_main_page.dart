@@ -155,9 +155,28 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                             ),
                           ],
                         ),
-                        Row(children: [Icon(Icons.star),
-                        Text("4.6(8.4k)"),
-                        ],),
+                        Row(children: [Icon(Icons.star), Text("4.6(8.4k)")]),
+                        Container(
+                          height: 52,
+                          child: Row(
+                            spacing: 12,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
+                                  child: Center(child: Text('Add to Cart')),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                decoration: BoxDecoration(color: Colors.white),
+                                child: Icon(Icons.favorite, color: Colors.red),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
