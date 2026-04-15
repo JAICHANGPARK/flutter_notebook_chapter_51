@@ -58,14 +58,16 @@ class _FintechHomePageState extends State<FintechHomePage> {
                       ),
                       Expanded(child: Column(children: [
                         Row(
+                          mainAxisAlignment: .spaceBetween,
                           children: [
                             Text("Supermarket"),
                             Text("-40\$"),
                           ],
                         ),
                         Row(
+                          mainAxisAlignment: .spaceBetween,
                           children: [
-                            
+
                             Text("Today, 12:00"),
                             Text("payment")
                           ],
