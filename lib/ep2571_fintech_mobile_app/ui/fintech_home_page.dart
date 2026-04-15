@@ -14,7 +14,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
