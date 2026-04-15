@@ -12,6 +12,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
+        bottom: false,
         child: Column(
           crossAxisAlignment: .start,
           spacing: 12,
@@ -47,7 +48,9 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
-            Expanded(child: SingleChildScrollView(child: Column(children: [
+            Expanded(child: SingleChildScrollView(child: Column(
+              crossAxisAlignment: .start,
+              children: [
               Padding(
                 padding: const EdgeInsets.only(left: 16),
                 child: Column(
