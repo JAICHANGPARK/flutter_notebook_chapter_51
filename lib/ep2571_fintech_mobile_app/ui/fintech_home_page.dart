@@ -63,7 +63,14 @@ class _FintechHomePageState extends State<FintechHomePage> {
                             Text("-40\$"),
                           ],
                         ),
-                        
+                        Row(
+                          children: [
+                            
+                            Text("Today, 12:00"),
+                            Text("payment")
+                          ],
+                        )
+
                       ],))
 
                     ]);
