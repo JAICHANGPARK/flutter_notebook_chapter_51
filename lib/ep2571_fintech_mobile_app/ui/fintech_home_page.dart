@@ -47,7 +47,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only( left: 16),
+              padding: const EdgeInsets.only(left: 16),
               child: Column(
                 children: [
                   Row(
@@ -72,16 +72,14 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
-            Container(height: 140,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  color: Colors.blue
-                ),
-                child: Column(
-              children: [
-
-              ],
-            )),
+            Container(
+              height: 140,
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Colors.blue,
+              ),
+            ),
             Container(
               decoration: BoxDecoration(color: Colors.grey[100]!),
               padding: EdgeInsets.all(16),
