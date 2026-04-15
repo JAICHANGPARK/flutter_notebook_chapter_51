@@ -12,8 +12,16 @@ class _FintechHomePageState extends State<FintechHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       body: Column(
         children: [
+          Row(
+            children: [
+              CircleAvatar(),
+              Expanded(child: Text("Hello, Dream")),
+              IconButton(onPressed: (){}, icon: Icon(Icons.notifications_none)
+            ],
+          )
 
         ],
       ),
