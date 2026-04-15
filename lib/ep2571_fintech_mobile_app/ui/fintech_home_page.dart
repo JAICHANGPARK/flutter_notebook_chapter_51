@@ -13,6 +13,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
     return Scaffold(
       body: Column(
         crossAxisAlignment: .start,
+        spacing: 12,
         children: [
           Row(
             children: [
