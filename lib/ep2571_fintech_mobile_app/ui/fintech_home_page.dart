@@ -123,9 +123,13 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                 ),
                                 child: Column(
                                   crossAxisAlignment: .start,
+                                  mainAxisAlignment: .spaceBetween,
                                   children: [
                                     Container(
-                                      decoration: BoxDecoration(),
+                                      decoration: BoxDecoration(
+                                        color: Colors.purple[200]!
+                                      ),
+                                      padding: .all(8),
                                       child: Icon(Icons.star_border),
                                     ),
                                     Text("My bonuses"),
