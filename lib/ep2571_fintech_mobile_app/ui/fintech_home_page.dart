@@ -66,6 +66,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                     SizedBox(height: 180, child: ListView.builder(itemBuilder: (context,index){
                       return Container(
                         width: 180,
+                        child: Placeholder(),
                       );
 
                     },)),
