@@ -93,11 +93,11 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                         mainAxisAlignment: .spaceBetween,
                                         children: [
                                           Text("**1234"),
-                                          Text("01/04")
+                                          Text("01/04"),
                                         ],
-                                      )
+                                      ),
                                     ],
-                                  )
+                                  ),
                                 );
                               },
                             ),
@@ -112,34 +112,37 @@ class _FintechHomePageState extends State<FintechHomePage> {
                         crossAxisAlignment: .start,
                         children: [
                           Text("FINANCE"),
-                          SizedBox(height: 120, child: ListView.builder(
-                            scrollDirection: .horizontal,
-                            itemBuilder: (context, index) {
-                              return Container(
-                                width: 120,
-                                padding: EdgeInsets.all(12),
-                                margin: EdgeInsets.only(right: 12),
-                                decoration: BoxDecoration(
-                                  color: Colors.grey[200]!,
-                                  borderRadius: .circular(12)
-                                ),
-                                child: Column(
-                                  crossAxisAlignment: .start,
-                                  mainAxisAlignment: .spaceBetween,
-                                  children: [
-                                    Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.purple[200]!
+                          SizedBox(
+                            height: 120,
+                            child: ListView.builder(
+                              scrollDirection: .horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  width: 120,
+                                  padding: EdgeInsets.all(12),
+                                  margin: EdgeInsets.only(right: 12),
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: .circular(12),
+                                  ),
+                                  child: Column(
+                                    crossAxisAlignment: .start,
+                                    mainAxisAlignment: .spaceBetween,
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.purple[200]!,
+                                        ),
+                                        padding: .all(8),
+                                        child: Icon(Icons.star_border),
                                       ),
-                                      padding: .all(8),
-                                      child: Icon(Icons.star_border),
-                                    ),
-                                    Text("My bonuses"),
-                                  ],
-                                ),
-                              );
-                            },
-                          ),),
+                                      Text("My bonuses"),
+                                    ],
+                                  ),
+                                );
+                              },
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -169,15 +172,19 @@ class _FintechHomePageState extends State<FintechHomePage> {
                               return Row(
                                 children: [
                                   Container(
-                                    height: 42,
-                                    width: 42,
+                                    height: 52,
+                                    width: 52,
+
                                     decoration: BoxDecoration(
                                       color: Colors.black,
-                                      borderRadius: .circular(8)
+                                      borderRadius: .circular(8),
                                     ),
                                     child: Center(
-                                      child: Icon(Icons.shopping_cart_outlined),
-                                    )
+                                      child: Icon(
+                                        Icons.shopping_cart_outlined,
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ),
                                   Expanded(
                                     child: Column(
