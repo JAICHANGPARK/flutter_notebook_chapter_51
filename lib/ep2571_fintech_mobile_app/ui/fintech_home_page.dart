@@ -12,6 +12,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        crossAxisAlignment: .start,
         children: [
           Row(
             children: [
@@ -31,13 +32,22 @@ class _FintechHomePageState extends State<FintechHomePage> {
               TextButton(onPressed: () {}, child: Text("Add +")),
             ],
           ),
-          SizedBox(height: 140, child: Placeholder()),
+          SizedBox(height: 180, child: Placeholder()),
           Text("FINANCE"),
-          SizedBox(height: 100, child: Placeholder()),
-          SizedBox(height: 100, child: Placeholder()),
-          Container(
-
-          )
+          SizedBox(height: 120, child: Placeholder()),
+          SizedBox(height: 140, child: Placeholder()),
+          Container(decoration: BoxDecoration(color: Colors.grey[100]!,
+          ),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  
+                ],
+              )
+            ],
+          ),
+          ),
         ],
       ),
     );
