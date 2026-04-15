@@ -50,7 +50,21 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ),
                 Column(
                   children: List.generate(6, (idx) {
-                    return Row(children: []);
+                    return Row(children: [
+                      Container(
+                        height: 42,
+                        width: 42,
+                        child: Placeholder(),
+                      ),
+                      Expanded(child: Column(children: [
+                        Row(
+                          children: [
+                            
+                          ],
+                        )
+                      ],))
+
+                    ]);
                   }),
                 ),
               ],
