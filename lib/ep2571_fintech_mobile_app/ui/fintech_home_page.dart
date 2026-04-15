@@ -158,6 +158,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                       decoration: BoxDecoration(color: Colors.grey[100]!),
                       padding: EdgeInsets.all(16),
                       child: Column(
+                        spacing: 16,
                         children: [
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                               Icon(Icons.keyboard_arrow_right),
                             ],
                           ),
+
                           Column(
                             children: List.generate(6, (idx) {
                               return Padding(
