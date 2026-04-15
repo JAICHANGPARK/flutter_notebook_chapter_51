@@ -64,6 +64,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
             Padding(
               padding: const EdgeInsets.only(left: 16),
               child: Column(
+                spacing: 4,
                 crossAxisAlignment: .start,
                 children: [
                   Text("FINANCE"),
@@ -71,9 +72,16 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
+            Container(height: 140,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12),
+                  color: Colors.blue
+                ),
+                child: Column(
+              children: [
 
-
-            SizedBox(height: 140, child: Placeholder()),
+              ],
+            )),
             Container(
               decoration: BoxDecoration(color: Colors.grey[100]!),
               padding: EdgeInsets.all(16),
