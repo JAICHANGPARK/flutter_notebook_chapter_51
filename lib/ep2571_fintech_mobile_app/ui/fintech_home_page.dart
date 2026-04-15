@@ -80,6 +80,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                     borderRadius: .circular(12),
                                   ),
                                   padding: EdgeInsets.all(16),
+                                  margin: EdgeInsets.only(right: 12),
                                   child: Column(
                                     crossAxisAlignment: .start,
                                     children: [
