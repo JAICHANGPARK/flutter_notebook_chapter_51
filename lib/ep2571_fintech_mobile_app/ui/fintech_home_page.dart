@@ -11,6 +11,12 @@ class FintechHomePage extends StatefulWidget {
 class _FintechHomePageState extends State<FintechHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
