@@ -48,101 +48,112 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
-            Expanded(child: SingleChildScrollView(child: Column(
-              crossAxisAlignment: .start,
-              spacing: 16,
-              children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 16),
+            Expanded(
+              child: SingleChildScrollView(
                 child: Column(
-                  children: [
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
-                      children: [
-                        Text("CARDS"),
-                        TextButton(onPressed: () {}, child: Text("Add +")),
-                      ],
-                    ),
-                    SizedBox(height: 180, child: ListView.builder(itemBuilder: (context,index){
-                      return Container(
-                        width: 180,
-                        child: Placeholder(),
-                      );
-
-                    },)),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(left: 16),
-                child: Column(
-                  spacing: 4,
                   crossAxisAlignment: .start,
+                  spacing: 16,
                   children: [
-                    Text("FINANCE"),
-                    SizedBox(height: 120, child: Placeholder()),
-                  ],
-                ),
-              ),
-              Container(
-                height: 140,
-                margin: EdgeInsets.symmetric(horizontal: 16),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  color: Colors.blue,
-                ),
-              ),
-              Container(
-                decoration: BoxDecoration(color: Colors.grey[100]!),
-                padding: EdgeInsets.all(16),
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Text("LAST TRANSACTIONS"),
-                        Spacer(),
-                        Text("See all"),
-                        Icon(Icons.keyboard_arrow_right),
-                      ],
-                    ),
-                    Column(
-                      children: List.generate(6, (idx) {
-                        return Row(
-                          children: [
-                            Container(
-                              height: 42,
-                              width: 42,
-                              child: Placeholder(),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 16),
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: .spaceBetween,
+                            children: [
+                              Text("CARDS"),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("Add +"),
+                              ),
+                            ],
+                          ),
+                          SizedBox(
+                            height: 180,
+                            child: ListView.builder(
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  width: 180,
+                                  child: Placeholder(),
+                                );
+                              },
                             ),
-                            Expanded(
-                              child: Column(
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 16),
+                      child: Column(
+                        spacing: 4,
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text("FINANCE"),
+                          SizedBox(height: 120, child: Placeholder()),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      height: 140,
+                      margin: EdgeInsets.symmetric(horizontal: 16),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.blue,
+                      ),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(color: Colors.grey[100]!),
+                      padding: EdgeInsets.all(16),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Text("LAST TRANSACTIONS"),
+                              Spacer(),
+                              Text("See all"),
+                              Icon(Icons.keyboard_arrow_right),
+                            ],
+                          ),
+                          Column(
+                            children: List.generate(6, (idx) {
+                              return Row(
                                 children: [
-                                  Row(
-                                    mainAxisAlignment: .spaceBetween,
-                                    children: [
-                                      Text("Supermarket"),
-                                      Text("-40\$"),
-                                    ],
+                                  Container(
+                                    height: 42,
+                                    width: 42,
+                                    child: Placeholder(),
                                   ),
-                                  Row(
-                                    mainAxisAlignment: .spaceBetween,
-                                    children: [
-                                      Text("Today, 12:00"),
-                                      Text("payment"),
-                                    ],
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Row(
+                                          mainAxisAlignment: .spaceBetween,
+                                          children: [
+                                            Text("Supermarket"),
+                                            Text("-40\$"),
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment: .spaceBetween,
+                                          children: [
+                                            Text("Today, 12:00"),
+                                            Text("payment"),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ],
-                              ),
-                            ),
-                          ],
-                        );
-                      }),
+                              );
+                            }),
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
               ),
-            ],),))
-
+            ),
           ],
         ),
       ),
