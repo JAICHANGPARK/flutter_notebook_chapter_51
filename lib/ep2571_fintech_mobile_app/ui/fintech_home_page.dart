@@ -27,9 +27,11 @@ class _FintechHomePageState extends State<FintechHomePage> {
           Text("\$8 600"),
           Row(
             children: [
-              
+              Text("CARDS"),
+              TextButton(onPressed: () {}, child: Text("Add +")),
             ],
-          )
+          ),
+          SizedBox(height: 140, child: Placeholder()),
         ],
       ),
     );
