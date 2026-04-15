@@ -69,16 +69,17 @@ class _FintechHomePageState extends State<FintechHomePage> {
                             ],
                           ),
                           SizedBox(
-                            height: 180,
+                            height: 160,
                             child: ListView.builder(
                               scrollDirection: .horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  width: 180,
+                                  width: 160,
                                   decoration: BoxDecoration(
                                     color: Colors.purple,
                                     borderRadius: .circular(12),
                                   ),
+                                  padding: EdgeInsets.all(16),
                                   child: Column(
                                     crossAxisAlignment: .start,
                                     children: [
