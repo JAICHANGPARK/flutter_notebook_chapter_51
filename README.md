@@ -6,7 +6,7 @@
 - ByteTown
 - https://dribbble.com/shots/25801816-Fintech-Design-l-Fintech-Mobile-App-Design-l-Home-Screen-UIUX
 
-<img src="https://cdn.dribbble.com/userupload/47358974/file/28aa37b1868eae48b278f0c45276ee05.png?resize=2048x1536&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/42601145/file/original-32d36edb0b8388fe9db0dd13b5abfc06.jpg?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2568-2570
 
