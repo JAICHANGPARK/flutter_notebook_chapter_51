@@ -85,6 +85,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                     crossAxisAlignment: .start,
                                     children: [
                                       Text("VISA"),
+                                      Spacer(),
                                       Text("Salary"),
                                       Text("\$0 000"),
                                       Row(
