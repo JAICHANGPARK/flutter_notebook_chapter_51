@@ -75,12 +75,18 @@ class _FintechHomePageState extends State<FintechHomePage> {
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 180,
+                                  decoration: BoxDecoration(
+                                    color: Colors.purple,
+                                    borderRadius: .circular(12),
+                                  ),
                                   child: Column(
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Text("VISA"),
                                       Text("Salary"),
                                       Text("\$0 000"),
                                       Row(
+                                        mainAxisAlignment: .spaceBetween,
                                         children: [
                                           Text("**1234"),
                                           Text("01/04")
