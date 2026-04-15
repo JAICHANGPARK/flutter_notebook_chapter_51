@@ -36,17 +36,25 @@ class _FintechHomePageState extends State<FintechHomePage> {
           Text("FINANCE"),
           SizedBox(height: 120, child: Placeholder()),
           SizedBox(height: 140, child: Placeholder()),
-          Container(decoration: BoxDecoration(color: Colors.grey[100]!,
-          ),
-          child: Column(
-            children: [
-              Row(
-                children: [
-                  
-                ],
-              )
-            ],
-          ),
+          Container(
+            decoration: BoxDecoration(color: Colors.grey[100]!),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("LAST TRANSACTIONS"),
+                    Spacer(),
+                    Text("See all"),
+                    Icon(Icons.keyboard_arrow_right),
+                  ],
+                ),
+                Column(
+                  children: List.generate(6, (idx) {
+                    return Row(children: []);
+                  }),
+                ),
+              ],
+            ),
           ),
         ],
       ),
