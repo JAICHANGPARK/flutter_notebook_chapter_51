@@ -59,9 +59,11 @@ class _FintechHomePageState extends State<FintechHomePage> {
                       Expanded(child: Column(children: [
                         Row(
                           children: [
-                            
+                            Text("Supermarket"),
+                            Text("-40\$"),
                           ],
-                        )
+                        ),
+                        
                       ],))
 
                     ]);
