@@ -115,7 +115,20 @@ class _FintechHomePageState extends State<FintechHomePage> {
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 120,
-                                child: Placeholder(),
+                                margin: EdgeInsets.only(right: 12),
+                                decoration: BoxDecoration(
+                                  color: Colors.grey[200]!,
+                                  borderRadius: .circular(12)
+                                ),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                      decoration: BoxDecoration(),
+                                      child: Icon(Icons.star_border),
+                                    ),
+                                    Text("My bonuses"),
+                                  ],
+                                ),
                               );
                             },
                           ),),
