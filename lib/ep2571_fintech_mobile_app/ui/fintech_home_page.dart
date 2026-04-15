@@ -50,6 +50,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
             ),
             Expanded(child: SingleChildScrollView(child: Column(
               crossAxisAlignment: .start,
+              spacing: 16,
               children: [
               Padding(
                 padding: const EdgeInsets.only(left: 16),
