@@ -3,7 +3,7 @@
 ## EP2571
 
 - Fintech Design Fintech Mobile App Design Home Screen UIUX
-- Tonmoy Das
+- ByteTown
 - https://dribbble.com/shots/27270837-Food-Delivery-Mobile-App-UI-Fast-and-Easy-Ordering-Experience
 
 <img src="https://cdn.dribbble.com/userupload/47358974/file/28aa37b1868eae48b278f0c45276ee05.png?resize=2048x1536&vertical=center" alt=""/>
