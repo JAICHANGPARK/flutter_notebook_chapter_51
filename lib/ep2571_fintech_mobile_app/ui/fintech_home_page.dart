@@ -46,17 +46,21 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
-            Column(
-              children: [
-                Row(
-                  children: [
-                    Text("CARDS"),
-                    TextButton(onPressed: () {}, child: Text("Add +")),
-                  ],
-                ),
-                SizedBox(height: 180, child: Placeholder()),
-              ],
-            )
+            Padding(
+              padding: const EdgeInsets.only( left: 16),
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: .spaceBetween,
+                    children: [
+                      Text("CARDS"),
+                      TextButton(onPressed: () {}, child: Text("Add +")),
+                    ],
+                  ),
+                  SizedBox(height: 180, child: Placeholder()),
+                ],
+              ),
+            ),
 
             Text("FINANCE"),
             SizedBox(height: 120, child: Placeholder()),
