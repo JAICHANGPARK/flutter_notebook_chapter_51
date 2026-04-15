@@ -38,6 +38,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
           SizedBox(height: 140, child: Placeholder()),
           Container(
             decoration: BoxDecoration(color: Colors.grey[100]!),
+            padding: EdgeInsets.all(16),
             child: Column(
               children: [
                 Row(
