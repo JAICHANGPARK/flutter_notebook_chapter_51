@@ -61,9 +61,14 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
+            Column(
+              children: [
+                Text("FINANCE"),
+                SizedBox(height: 120, child: Placeholder()),
+              ],
+            ),
 
-            Text("FINANCE"),
-            SizedBox(height: 120, child: Placeholder()),
+
             SizedBox(height: 140, child: Placeholder()),
             Container(
               decoration: BoxDecoration(color: Colors.grey[100]!),
