@@ -2,7 +2,7 @@
 
 ## EP2571
 
-- Food Delivery Mobile App UI - Fast and Easy Ordering Experience
+- Fintech Design Fintech Mobile App Design Home Screen UIUX
 - Tonmoy Das
 - https://dribbble.com/shots/27270837-Food-Delivery-Mobile-App-UI-Fast-and-Easy-Ordering-Experience
 
