@@ -169,44 +169,48 @@ class _FintechHomePageState extends State<FintechHomePage> {
                           ),
                           Column(
                             children: List.generate(6, (idx) {
-                              return Row(
-                                children: [
-                                  Container(
-                                    height: 52,
-                                    width: 52,
+                              return Padding(
+                                padding: const EdgeInsets.only(bottom: 12),
+                                child: Row(
+                                  spacing: 6,
+                                  children: [
+                                    Container(
+                                      height: 52,
+                                      width: 52,
 
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                      borderRadius: .circular(8),
-                                    ),
-                                    child: Center(
-                                      child: Icon(
-                                        Icons.shopping_cart_outlined,
-                                        color: Colors.white,
+                                      decoration: BoxDecoration(
+                                        color: Colors.black,
+                                        borderRadius: .circular(8),
+                                      ),
+                                      child: Center(
+                                        child: Icon(
+                                          Icons.shopping_cart_outlined,
+                                          color: Colors.white,
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      children: [
-                                        Row(
-                                          mainAxisAlignment: .spaceBetween,
-                                          children: [
-                                            Text("Supermarket"),
-                                            Text("-40\$"),
-                                          ],
-                                        ),
-                                        Row(
-                                          mainAxisAlignment: .spaceBetween,
-                                          children: [
-                                            Text("Today, 12:00"),
-                                            Text("payment"),
-                                          ],
-                                        ),
-                                      ],
+                                    Expanded(
+                                      child: Column(
+                                        children: [
+                                          Row(
+                                            mainAxisAlignment: .spaceBetween,
+                                            children: [
+                                              Text("Supermarket"),
+                                              Text("-40\$"),
+                                            ],
+                                          ),
+                                          Row(
+                                            mainAxisAlignment: .spaceBetween,
+                                            children: [
+                                              Text("Today, 12:00"),
+                                              Text("payment"),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               );
                             }),
                           ),
