@@ -71,6 +71,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                           SizedBox(
                             height: 180,
                             child: ListView.builder(
+                              scrollDirection: .horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 180,
@@ -90,6 +91,7 @@ class _FintechHomePageState extends State<FintechHomePage> {
                         children: [
                           Text("FINANCE"),
                           SizedBox(height: 120, child: ListView.builder(
+                            scrollDirection: .horizontal,
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 120,
