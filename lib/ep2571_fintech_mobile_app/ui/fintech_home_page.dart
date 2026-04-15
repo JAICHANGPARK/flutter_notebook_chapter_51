@@ -23,6 +23,13 @@ class _FintechHomePageState extends State<FintechHomePage> {
               ),
             ],
           ),
+          Text("Total balance"),
+          Text("\$8 600"),
+          Row(
+            children: [
+              
+            ],
+          )
         ],
       ),
     );
