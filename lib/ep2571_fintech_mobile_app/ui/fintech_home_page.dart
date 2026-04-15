@@ -76,13 +76,14 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                 return Container(
                                   width: 160,
                                   decoration: BoxDecoration(
-                                    color: Colors.purple,
+                                    color: Colors.purple[200],
                                     borderRadius: .circular(12),
                                   ),
                                   padding: EdgeInsets.all(16),
                                   margin: EdgeInsets.only(right: 12),
                                   child: Column(
                                     crossAxisAlignment: .start,
+                                    spacing: 4,
                                     children: [
                                       Text("VISA"),
                                       Spacer(),
