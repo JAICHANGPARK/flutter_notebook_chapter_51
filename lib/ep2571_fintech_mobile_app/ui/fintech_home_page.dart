@@ -61,12 +61,15 @@ class _FintechHomePageState extends State<FintechHomePage> {
                 ],
               ),
             ),
-            Column(
-              crossAxisAlignment: .start,
-              children: [
-                Text("FINANCE"),
-                SizedBox(height: 120, child: Placeholder()),
-              ],
+            Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Text("FINANCE"),
+                  SizedBox(height: 120, child: Placeholder()),
+                ],
+              ),
             ),
 
 
