@@ -171,7 +171,13 @@ class _FintechHomePageState extends State<FintechHomePage> {
                                   Container(
                                     height: 42,
                                     width: 42,
-                                    child: Placeholder(),
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: .circular(8)
+                                    ),
+                                    child: Center(
+                                      child: Icon(Icons.shopping_cart_outlined),
+                                    )
                                   ),
                                   Expanded(
                                     child: Column(
