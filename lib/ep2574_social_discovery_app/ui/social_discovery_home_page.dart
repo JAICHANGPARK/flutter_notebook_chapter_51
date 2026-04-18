@@ -48,12 +48,17 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                   ),
                   Column(
                     children: [
+                      Row(
+                        children: [
+
+                        ],
+                      ),
                       Container(
-                        height: 240,
+                        height: 180,
                         child: Placeholder(),
                       ),
                     ],
-                  )
+                  ),
 
 
                   Align(
