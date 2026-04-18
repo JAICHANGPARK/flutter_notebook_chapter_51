@@ -1,5 +1,13 @@
 # flutter_notebook_chapter_51
 
+## EP2574
+
+- Connectly – Personal Moments & Social Discovery App
+- UIX Maruf Hossen
+- https://dribbble.com/shots/27281326-Connectly-Personal-Moments-Social-Discovery-App
+
+<img src="https://cdn.dribbble.com/userupload/42601145/file/original-32d36edb0b8388fe9db0dd13b5abfc06.jpg?resize=1905x1429&vertical=center" alt=""/>
+
 
 ## EP2571-2573
 
