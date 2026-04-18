@@ -50,6 +50,8 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     children: [
                       Row(
                         children: [
+                          Text("Suggested Connections"),
+                          TextButton(onPressed: (){}, child: Text("See All"),),
 
                         ],
                       ),
