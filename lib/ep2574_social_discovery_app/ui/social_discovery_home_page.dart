@@ -33,6 +33,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Row(children: []),
                   Text(
