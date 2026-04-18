@@ -30,7 +30,28 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
               ),
             ),
           ),
-          Positioned(child: Column(children: [],),),
+          Positioned.fill(child: SafeArea(
+            child: Column(children: [
+              Row(
+                children: [
+            
+                ],
+              ),
+              Expanded(child: Placeholder()),
+              Container(
+                height: 82,
+                decoration: BoxDecoration(
+                  border: .all(color: Colors.white30)
+                ),
+                child: Row(
+                  children: [
+                    
+                  ],
+                ),
+              )
+            
+            ],),
+          ),),
         ],
       ),
     );
