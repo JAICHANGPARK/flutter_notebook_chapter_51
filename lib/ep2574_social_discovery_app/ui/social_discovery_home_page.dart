@@ -18,6 +18,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
             gradient: LinearGradient(colors: [
               Color.fromRGBO(199, 208, 207, 1),
               Color.fromRGBO(232, 237, 235, 1),
+              Color.fromRGBO(112, 142, 128, 1),
             ],)
           ),))
         ],
