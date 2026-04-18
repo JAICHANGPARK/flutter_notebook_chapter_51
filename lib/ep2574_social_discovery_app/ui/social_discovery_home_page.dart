@@ -49,9 +49,10 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                   Column(
                     children: [
                       Row(
+                        mainAxisAlignment: .spaceBetween,
                         children: [
                           Text("Suggested Connections"),
-                          TextButton(onPressed: (){}, child: Text("See All"),),
+                          TextButton(onPressed: () {}, child: Text("See All"),),
 
                         ],
                       ),
