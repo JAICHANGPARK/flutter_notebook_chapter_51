@@ -6,7 +6,7 @@
 - UIX Maruf Hossen
 - https://dribbble.com/shots/27281326-Connectly-Personal-Moments-Social-Discovery-App
 
-<img src="https://cdn.dribbble.com/userupload/42601145/file/original-32d36edb0b8388fe9db0dd13b5abfc06.jpg?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/47397057/file/ce25b2c8874dad85a97a7f9bc8d1b356.png?resize=1905x1429&vertical=center" alt=""/>
 
 
 ## EP2571-2573
