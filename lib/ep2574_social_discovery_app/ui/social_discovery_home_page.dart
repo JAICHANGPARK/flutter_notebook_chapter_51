@@ -14,7 +14,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(child: Container(decoration: BoxDecoration(
+          Positioned.fill(child: Container(decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
               Color.fromRGBO(199, 208, 207, 1),
               Color.fromRGBO(232, 237, 235, 1),
