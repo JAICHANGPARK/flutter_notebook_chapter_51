@@ -30,33 +30,31 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
               ),
             ),
           ),
-          Positioned.fill(child: SafeArea(
-            child: Column(children: [
-              Row(
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
                 children: [
-            
+                  Row(children: []),
+                  Text(
+                    "All The Moments\nThat Matter",
+                    style: TextStyle(fontWeight: .bold, fontSize: 26),
+                  ),
+                  Expanded(child: Placeholder()),
+                  Align(
+                    alignment: .center,
+                    child: Container(
+                      height: 82,
+                      decoration: BoxDecoration(
+                        border: .all(color: Colors.white30),
+                      ),
+
+                      child: Row(mainAxisSize: .min, children: []),
+                    ),
+                  ),
                 ],
               ),
-              Expanded(child: Placeholder()),
-              Align(
-                alignment: .center,
-                child: Container(
-                  height: 82,
-                  decoration: BoxDecoration(
-                    border: .all(color: Colors.white30)
-                  ),
-
-                  child: Row(
-                    mainAxisSize: .min,
-                    children: [
-
-                    ],
-                  ),
-                ),
-              )
-            
-            ],),
-          ),),
+            ),
+          ),
         ],
       ),
     );
