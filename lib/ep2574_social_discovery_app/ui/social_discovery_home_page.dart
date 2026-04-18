@@ -38,15 +38,20 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                 ],
               ),
               Expanded(child: Placeholder()),
-              Container(
-                height: 82,
-                decoration: BoxDecoration(
-                  border: .all(color: Colors.white30)
-                ),
-                child: Row(
-                  children: [
-                    
-                  ],
+              Align(
+                alignment: .center,
+                child: Container(
+                  height: 82,
+                  decoration: BoxDecoration(
+                    border: .all(color: Colors.white30)
+                  ),
+
+                  child: Row(
+                    mainAxisSize: .min,
+                    children: [
+
+                    ],
+                  ),
                 ),
               )
             
