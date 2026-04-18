@@ -30,6 +30,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
               ),
             ),
           ),
+          Positioned(child: Column(children: [],),),
         ],
       ),
     );
