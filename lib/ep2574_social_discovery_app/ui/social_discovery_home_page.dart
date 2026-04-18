@@ -40,6 +40,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     "All The Moments\nThat Matter",
                     style: TextStyle(fontWeight: .bold, fontSize: 26),
                   ),
+                  SizedBox(height: 62,),
                   Expanded(child: Placeholder()),
                   Align(
                     alignment: .center,
