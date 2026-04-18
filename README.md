@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/47397057/file/ce25b2c8874dad85a97a7f9bc8d1b356.png?resize=1905x1429&vertical=center" alt=""/>
 
-
 ## EP2571-2573
 
 - Fintech Design Fintech Mobile App Design Home Screen UIUX
@@ -24,7 +23,6 @@
 - https://dribbble.com/shots/27270837-Food-Delivery-Mobile-App-UI-Fast-and-Easy-Ordering-Experience
 
 <img src="https://cdn.dribbble.com/userupload/47358974/file/28aa37b1868eae48b278f0c45276ee05.png?resize=2048x1536&vertical=center" alt=""/>
-
 
 ## EP2561-2567
 
