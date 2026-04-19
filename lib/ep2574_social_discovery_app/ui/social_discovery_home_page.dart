@@ -42,12 +42,16 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: .start,
-                            children: [Text("Hello,",style: TextStyle(
-                              fontSize: 16,
-                            ),), Text("Dream Walker!",style: TextStyle(
-                              fontWeight: .bold,
-                              fontSize: 24,
-                            ),)],
+                            children: [
+                              Text("Hello,", style: TextStyle(fontSize: 16)),
+                              Text(
+                                "Dream Walker!",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 24,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         Container(
@@ -60,13 +64,13 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           child: Row(
                             children: [
                               Expanded(child: Icon(Icons.notifications)),
-                              Expanded(child: Container(decoration: BoxDecoration(
-                                color: Colors.blue,
-                              ),))
-
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(color: Colors.blue),
+                                ),
+                              ),
                             ],
                           ),
-
                         ),
                       ],
                     ),
@@ -78,7 +82,18 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       style: TextStyle(fontWeight: .bold, fontSize: 26),
                     ),
                   ),
-                  SizedBox(height: 62, child: Placeholder()),
+                  Container(height: 62, child: ListView(
+                      scrollDirection: .horizontal,
+                      children: [
+                        Container(
+                          height: 62,
+                          width: 62,
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.teal)
+                          ),
+                        )
+
+                  ])),
                   Container(height: 240, child: Placeholder()),
                   Column(
                     children: [
