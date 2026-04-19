@@ -52,13 +52,14 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         ),
                         Container(
                           decoration: BoxDecoration(
+                            border: .all(color: Colors.white, width: 2),
                             color: Color.fromRGBO(231, 235, 236, 1),
                           ),
                           height: 52,
-                          width: 100,
+                          width: 90,
                           child: Row(
                             children: [
-                              
+
                             ],
                           ),
 
