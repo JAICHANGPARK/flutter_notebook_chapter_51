@@ -164,7 +164,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         ),
                       ),
                       Container(
-                        height: 180,
+                        height: 160,
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
@@ -182,7 +182,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                   Align(
                     alignment: .center,
                     child: Container(
-                      height: 82,
+                      height: 72,
                       decoration: BoxDecoration(
                         border: .all(color: Colors.white30),
                       ),
