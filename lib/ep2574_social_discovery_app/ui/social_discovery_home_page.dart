@@ -40,29 +40,20 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     "All The Moments\nThat Matter",
                     style: TextStyle(fontWeight: .bold, fontSize: 26),
                   ),
-                  SizedBox(height: 62,
-                  child: Placeholder(),),
-                  Container(
-                    height: 240,
-                    child: Placeholder(),
-                  ),
+                  SizedBox(height: 62, child: Placeholder()),
+                  Container(height: 240, child: Placeholder()),
                   Column(
                     children: [
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
                           Text("Suggested Connections"),
-                          TextButton(onPressed: () {}, child: Text("See All"),),
-
+                          TextButton(onPressed: () {}, child: Text("See All")),
                         ],
                       ),
-                      Container(
-                        height: 180,
-                        child: Placeholder(),
-                      ),
+                      Container(height: 180, child: Placeholder()),
                     ],
                   ),
-
 
                   Align(
                     alignment: .center,
