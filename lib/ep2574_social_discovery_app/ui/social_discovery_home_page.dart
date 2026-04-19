@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class SocialDiscoveryHomePage extends StatefulWidget {
   const SocialDiscoveryHomePage({super.key});
@@ -82,7 +83,11 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       style: TextStyle(fontWeight: .bold, fontSize: 26),
                     ),
                   ),
-                  Container(height: 62, child: ListView(
+                  Container(
+                    padding: .only(
+                      left: 16
+                    ),
+                      height: 62, child: ListView(
                       scrollDirection: .horizontal,
                       children: [
                         Container(
@@ -94,6 +99,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         )
 
                   ])),
+                  Gap(24),
                   Container(height: 240, child: Placeholder()),
                   Column(
                     children: [
