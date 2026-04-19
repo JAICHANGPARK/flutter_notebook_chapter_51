@@ -56,7 +56,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                             color: Color.fromRGBO(231, 235, 236, 1),
                           ),
                           height: 52,
-                          width: 90,
+                          width: 100,
                           child: Row(
                             children: [
                               Expanded(child: Icon(Icons.notifications)),
@@ -71,9 +71,12 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       ],
                     ),
                   ),
-                  Text(
-                    "All The Moments\nThat Matter",
-                    style: TextStyle(fontWeight: .bold, fontSize: 26),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Text(
+                      "All The Moments\nThat Matter",
+                      style: TextStyle(fontWeight: .bold, fontSize: 26),
+                    ),
                   ),
                   SizedBox(height: 62, child: Placeholder()),
                   Container(height: 240, child: Placeholder()),
