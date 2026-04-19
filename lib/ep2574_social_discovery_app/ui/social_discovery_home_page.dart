@@ -42,6 +42,11 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           children: [Text("Hello,"), Text("Dream Walker!")],
                         ),
                       ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Color.fromRGBO(231, 235, 236, 1),
+                        ),
+                      ),
                     ],
                   ),
                   Text(
