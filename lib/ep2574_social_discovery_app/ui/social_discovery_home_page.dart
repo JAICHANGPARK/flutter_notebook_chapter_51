@@ -141,20 +141,27 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       itemBuilder: (context, index) {
                         return Container(
                           margin: EdgeInsets.only(right: 16),
-                          width: 240,
+                          width: 200,
                           child: Placeholder(),
                         );
                       },
                     ),
                   ),
+                  Gap(16),
                   Column(
                     children: [
-                      Row(
-                        mainAxisAlignment: .spaceBetween,
-                        children: [
-                          Text("Suggested Connections"),
-                          TextButton(onPressed: () {}, child: Text("See All")),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text(
+                              "Suggested Connections",
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
+                            ),
+                            TextButton(onPressed: () {}, child: Text("See All")),
+                          ],
+                        ),
                       ),
                       Container(
                         height: 180,
