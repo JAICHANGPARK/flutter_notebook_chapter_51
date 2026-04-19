@@ -143,7 +143,12 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           TextButton(onPressed: () {}, child: Text("See All")),
                         ],
                       ),
-                      Container(height: 180, child: Placeholder()),
+                      Container(
+                        height: 180,
+                        child: ListView.builder(
+                          itemBuilder: (context, index) {},
+                        ),
+                      ),
                     ],
                   ),
 
