@@ -165,6 +165,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       ),
                       Container(
                         height: 160,
+                        margin: .only(left: 16),
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
