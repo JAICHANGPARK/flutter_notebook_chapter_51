@@ -42,7 +42,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: .start,
-                            children: [Text("Hello,"), Text("Dream Walker!",style: TextStyle(
+                            children: [Text("Hello,",style: TextStyle(
+                              fontSize: 16,
+                            ),), Text("Dream Walker!",style: TextStyle(
                               fontWeight: .bold,
                               fontSize: 24,
                             ),)],
