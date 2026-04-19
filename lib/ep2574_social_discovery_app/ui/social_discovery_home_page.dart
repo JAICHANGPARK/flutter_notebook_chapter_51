@@ -93,8 +93,33 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         Container(
                           height: 62,
                           width: 62,
+                          margin: .only(right: 16),
                           decoration: BoxDecoration(
                             border: .all(color: Colors.teal)
+                          ),
+                        ),
+                        Container(
+                          height: 62,
+                          width: 62,
+                          margin: .only(right: 16),
+                          decoration: BoxDecoration(
+                              border: .all(color: Colors.teal)
+                          ),
+                        ),
+                        Container(
+                          height: 62,
+                          width: 62,
+                          margin: .only(right: 16),
+                          decoration: BoxDecoration(
+                              border: .all(color: Colors.teal)
+                          ),
+                        ),
+                        Container(
+                          height: 62,
+                          width: 62,
+                          margin: .only(right: 16),
+                          decoration: BoxDecoration(
+                              border: .all(color: Colors.teal)
                           ),
                         )
 
