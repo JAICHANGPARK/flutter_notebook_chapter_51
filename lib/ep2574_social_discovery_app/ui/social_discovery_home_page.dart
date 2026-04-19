@@ -84,10 +84,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     ),
                   ),
                   Container(
-                    padding: .only(
-                      left: 16
-                    ),
-                      height: 62, child: ListView(
+                    padding: .only(left: 16),
+                    height: 62,
+                    child: ListView(
                       scrollDirection: .horizontal,
                       children: [
                         Container(
@@ -95,7 +94,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 62,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
-                            border: .all(color: Colors.teal)
+                            border: .all(color: Colors.teal),
                           ),
                         ),
                         Container(
@@ -103,7 +102,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 62,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
-                              border: .all(color: Colors.teal)
+                            border: .all(color: Colors.teal),
                           ),
                         ),
                         Container(
@@ -111,7 +110,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 62,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
-                              border: .all(color: Colors.teal)
+                            border: .all(color: Colors.teal),
                           ),
                         ),
                         Container(
@@ -119,7 +118,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 62,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
-                              border: .all(color: Colors.teal)
+                            border: .all(color: Colors.teal),
                           ),
                         ),
                         Container(
@@ -127,11 +126,12 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 62,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
-                              border: .all(color: Colors.teal)
+                            border: .all(color: Colors.teal),
                           ),
-                        )
-
-                  ])),
+                        ),
+                      ],
+                    ),
+                  ),
                   Gap(24),
                   Container(height: 240, child: Placeholder()),
                   Column(
