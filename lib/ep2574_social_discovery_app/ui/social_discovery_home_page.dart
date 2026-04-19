@@ -35,7 +35,15 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Row(children: []),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [Text("Hello,"), Text("Dream Walker!")],
+                        ),
+                      ),
+                    ],
+                  ),
                   Text(
                     "All The Moments\nThat Matter",
                     style: TextStyle(fontWeight: .bold, fontSize: 26),
