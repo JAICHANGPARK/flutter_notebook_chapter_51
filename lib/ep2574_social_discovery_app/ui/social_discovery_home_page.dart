@@ -133,7 +133,19 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     ),
                   ),
                   Gap(24),
-                  Container(height: 240, child: Placeholder()),
+                  Container(
+                    height: 240,
+                    child: ListView.builder(
+                      scrollDirection: .horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          margin: EdgeInsets.only(right: 16),
+                          width: 240,
+                          child: Placeholder(),
+                        );
+                      },
+                    ),
+                  ),
                   Column(
                     children: [
                       Row(
