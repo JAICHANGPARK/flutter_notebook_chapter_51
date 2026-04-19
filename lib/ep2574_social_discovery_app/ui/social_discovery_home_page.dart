@@ -59,6 +59,10 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 90,
                           child: Row(
                             children: [
+                              Expanded(child: Icon(Icons.notifications)),
+                              Expanded(child: Container(decoration: BoxDecoration(
+                                color: Colors.blue,
+                              ),))
 
                             ],
                           ),
