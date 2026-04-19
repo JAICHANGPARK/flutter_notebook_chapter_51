@@ -35,23 +35,26 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: .start,
-                          children: [Text("Hello,"), Text("Dream Walker!",style: TextStyle(
-                            fontWeight: .bold,
-                            fontSize: 24,
-                          ),)],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [Text("Hello,"), Text("Dream Walker!",style: TextStyle(
+                              fontWeight: .bold,
+                              fontSize: 24,
+                            ),)],
+                          ),
                         ),
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Color.fromRGBO(231, 235, 236, 1),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(231, 235, 236, 1),
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                   Text(
                     "All The Moments\nThat Matter",
