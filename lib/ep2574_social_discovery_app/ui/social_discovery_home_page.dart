@@ -159,8 +159,8 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                   spacing: 12,
                                   children: [
                                     Container(
-                                      height: 32,
-                                      width: 32,
+                                      height: 36,
+                                      width: 36,
                                       color: Colors.green,
                                     ),
                                     Text(
@@ -173,7 +173,12 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                               Positioned(
                                 left: 0,
                                 bottom: 0,
-                                child: Row(children: []),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(199, 209, 203, 1),
+                                  ),
+                                  child: Row(children: []),
+                                ),
                               ),
                             ],
                           ),
