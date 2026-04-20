@@ -179,7 +179,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                   ),
                                   padding: EdgeInsets.all(4),
                                   child: Row(
-                                    spacing: 4,
+                                    spacing: 6,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -203,6 +203,19 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       ),
                                       Container(
                                         padding: EdgeInsets.all(12),
+                                        decoration: BoxDecoration(
+                                          border: .all(color: Colors.white38,
+                                              width: .5),
+                                          color: Color.fromRGBO(199, 209, 203, 1),
+                                          boxShadow: [
+                                            BoxShadow(
+                                                color: Colors.black12,
+                                                blurRadius: 1,
+                                                spreadRadius: 2
+
+                                            )
+                                          ],
+                                        ),
                                         child: Icon(
                                           Icons.chat,
                                           color: Color.fromRGBO(71, 111, 91, 1),
@@ -210,6 +223,19 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       ),
                                       Container(
                                         padding: EdgeInsets.all(12),
+                                        decoration: BoxDecoration(
+                                          border: .all(color: Colors.white38,
+                                              width: .5),
+                                          color: Color.fromRGBO(199, 209, 203, 1),
+                                          boxShadow: [
+                                            BoxShadow(
+                                                color: Colors.black12,
+                                                blurRadius: 1,
+                                                spreadRadius: 2
+
+                                            )
+                                          ],
+                                        ),
                                         child: Icon(
                                           Icons.send,
                                           color: Color.fromRGBO(71, 111, 91, 1),
