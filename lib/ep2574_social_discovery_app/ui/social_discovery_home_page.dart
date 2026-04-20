@@ -184,8 +184,10 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       Container(
                                         padding: EdgeInsets.all(12),
                                         decoration: BoxDecoration(
-                                          border: .all(color: Colors.white30,
-                                          width: .5)
+                                          border: .all(color: Colors.white38,
+                                          width: .5),
+
+                                          boxShadow: [],
                                         ),
                                         child: Icon(
                                           Icons.favorite,
