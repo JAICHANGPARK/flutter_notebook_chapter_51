@@ -142,7 +142,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         return Container(
                           margin: EdgeInsets.only(right: 16),
                           width: 200,
-                          decoration: BoxDecoration(),
+                          decoration: BoxDecoration(
+                            color: Colors.grey
+                          ),
                           child: Stack(
                             children: [
                               Positioned(
