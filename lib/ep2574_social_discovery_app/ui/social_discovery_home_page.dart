@@ -98,12 +98,8 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           ),
                           padding: .all(6),
                           child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.grey[200],
-                            ),
-                            child: Center(
-                              child: Icon(Icons.add),
-                            ),
+                            decoration: BoxDecoration(color: Colors.grey[200]),
+                            child: Center(child: Icon(Icons.add)),
                           ),
                         ),
                         Container(
@@ -151,37 +147,34 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         return Container(
                           margin: EdgeInsets.only(right: 16),
                           width: 200,
-                          decoration: BoxDecoration(
-                            color: Colors.grey
-                          ),
+                          decoration: BoxDecoration(color: Colors.grey),
                           child: Stack(
                             children: [
                               Positioned(
-                                  left: 16,
-                                  top: 16,
-                                  child: Row(
-                                    spacing: 12,
-                                    children: [
-                                Container(
-                                  height: 32,
-                                  width: 32,
-                                  color: Colors.green,
+                                left: 16,
+                                top: 16,
+                                child: Row(
+                                  spacing: 12,
+                                  children: [
+                                    Container(
+                                      height: 32,
+                                      width: 32,
+                                      color: Colors.green,
+                                    ),
+                                    Text(
+                                      "Dreamwalker",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ],
                                 ),
-                                Text("Dreamwalker",style: TextStyle(
-                                  color: Colors.white,
-                                ),)
-                              ],)),
+                              ),
                               Positioned(
-                                  left: 0,
-                                  bottom: 0,
-                                  child: Row(
-                                children: [
-
-                                ],
-                              ))
-
+                                left: 0,
+                                bottom: 0,
+                                child: Row(children: []),
+                              ),
                             ],
-                          )
+                          ),
                         );
                       },
                     ),
@@ -198,7 +191,10 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                               "Suggested Connections",
                               style: TextStyle(fontWeight: .bold, fontSize: 18),
                             ),
-                            TextButton(onPressed: () {}, child: Text("See All")),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See All"),
+                            ),
                           ],
                         ),
                       ),
