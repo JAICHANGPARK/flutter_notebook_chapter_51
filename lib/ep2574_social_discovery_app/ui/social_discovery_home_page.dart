@@ -144,7 +144,20 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           width: 200,
                           child: Stack(
                             children: [
-                              
+                              Positioned(
+                                  left: 16,
+                                  top: 16,
+                                  child: Row(children: [
+                                Container(
+                                  height: 42,
+                                  width: 42,
+                                  color: Colors.green,
+                                ),
+                                Text("Dreamwalker",style: TextStyle(
+                                  color: Colors.white,
+                                ),)
+                              ],))
+
                             ],
                           )
                         );
