@@ -85,13 +85,13 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                   ),
                   Container(
                     padding: .only(left: 16),
-                    height: 62,
+                    height: 72,
                     child: ListView(
                       scrollDirection: .horizontal,
                       children: [
                         Container(
-                          height: 62,
-                          width: 62,
+                          height: 72,
+                          width: 72,
                           margin: .only(right: 16),
                           decoration: BoxDecoration(
                             border: .all(color: Colors.teal),
