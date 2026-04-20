@@ -189,9 +189,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                           color: Color.fromRGBO(199, 209, 203, 1),
                                           boxShadow: [
                                             BoxShadow(
-                                              color: Colors.black12!,
+                                              color: Colors.black12,
                                               blurRadius: 1,
-                                              spreadRadius: 1
+                                              spreadRadius: 2
 
                                             )
                                           ],
