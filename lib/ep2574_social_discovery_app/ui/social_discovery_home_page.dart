@@ -156,7 +156,15 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                 Text("Dreamwalker",style: TextStyle(
                                   color: Colors.white,
                                 ),)
-                              ],))
+                              ],)),
+                              Positioned(
+                                  left: 0,
+                                  bottom: 0,
+                                  child: Row(
+                                children: [
+
+                                ],
+                              ))
 
                             ],
                           )
