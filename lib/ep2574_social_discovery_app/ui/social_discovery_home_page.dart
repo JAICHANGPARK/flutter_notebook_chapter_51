@@ -142,12 +142,15 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         return Container(
                           margin: EdgeInsets.only(right: 16),
                           width: 200,
+                          decoration: BoxDecoration(),
                           child: Stack(
                             children: [
                               Positioned(
                                   left: 16,
                                   top: 16,
-                                  child: Row(children: [
+                                  child: Row(
+                                    spacing: 12,
+                                    children: [
                                 Container(
                                   height: 32,
                                   width: 32,
