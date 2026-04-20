@@ -142,7 +142,11 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         return Container(
                           margin: EdgeInsets.only(right: 16),
                           width: 200,
-                          child: Placeholder(),
+                          child: Stack(
+                            children: [
+                              
+                            ],
+                          )
                         );
                       },
                     ),
