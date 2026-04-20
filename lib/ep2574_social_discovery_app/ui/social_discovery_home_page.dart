@@ -96,6 +96,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           decoration: BoxDecoration(
                             border: .all(color: Colors.teal),
                           ),
+                          padding: .all(6),
                           child: Container(
                             decoration: BoxDecoration(
                               color: Colors.grey[200],
