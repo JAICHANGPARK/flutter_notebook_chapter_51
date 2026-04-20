@@ -178,21 +178,25 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                     color: Color.fromRGBO(199, 209, 203, 1),
                                   ),
                                   child: Row(
-                                      spacing: 4,
-                                      children: [
-                                    Container(
-                                      padding: EdgeInsets.all(12),
-                                      child: Icon(Icons.favorite),
-                                    ),
-                                    Container(
-                                      padding: EdgeInsets.all(12),
-                                      child: Icon(Icons.chat),
-                                    ),
-                                    Container(
-                                      padding: EdgeInsets.all(12),
-                                      child: Icon(Icons.send),
-                                    ),
-                                  ]),
+                                    spacing: 4,
+                                    children: [
+                                      Container(
+                                        padding: EdgeInsets.all(12),
+                                        child: Icon(
+                                          Icons.favorite,
+                                          color: Color.fromRGBO(71, 111, 91, 1),
+                                        ),
+                                      ),
+                                      Container(
+                                        padding: EdgeInsets.all(12),
+                                        child: Icon(Icons.chat),
+                                      ),
+                                      Container(
+                                        padding: EdgeInsets.all(12),
+                                        child: Icon(Icons.send),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
