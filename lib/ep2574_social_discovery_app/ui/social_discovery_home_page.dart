@@ -98,7 +98,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                           ),
                           padding: .all(6),
                           child: Container(
-                            decoration: BoxDecoration(color: Colors.grey[200]),
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(224, 228, 220, 1),
+                            ),
                             child: Center(child: Icon(Icons.add)),
                           ),
                         ),
