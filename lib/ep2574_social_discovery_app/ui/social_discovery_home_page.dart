@@ -186,11 +186,11 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                     ),
                                     Container(
                                       padding: EdgeInsets.all(12),
-                                      child: Icon(Icons.favorite),
+                                      child: Icon(Icons.chat),
                                     ),
                                     Container(
                                       padding: EdgeInsets.all(12),
-                                      child: Icon(Icons.favorite),
+                                      child: Icon(Icons.send),
                                     ),
                                   ]),
                                 ),
