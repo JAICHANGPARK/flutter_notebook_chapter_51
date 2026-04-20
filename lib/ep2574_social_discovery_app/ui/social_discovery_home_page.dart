@@ -149,8 +149,8 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                   top: 16,
                                   child: Row(children: [
                                 Container(
-                                  height: 42,
-                                  width: 42,
+                                  height: 32,
+                                  width: 32,
                                   color: Colors.green,
                                 ),
                                 Text("Dreamwalker",style: TextStyle(
