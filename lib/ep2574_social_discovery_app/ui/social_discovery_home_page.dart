@@ -177,7 +177,20 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                   decoration: BoxDecoration(
                                     color: Color.fromRGBO(199, 209, 203, 1),
                                   ),
-                                  child: Row(children: []),
+                                  child: Row(children: [
+                                    Container(
+                                      padding: EdgeInsets.all(12),
+                                      child: Icon(Icons.favorite),
+                                    ),
+                                    Container(
+                                      padding: EdgeInsets.all(12),
+                                      child: Icon(Icons.favorite),
+                                    ),
+                                    Container(
+                                      padding: EdgeInsets.all(12),
+                                      child: Icon(Icons.favorite),
+                                    ),
+                                  ]),
                                 ),
                               ),
                             ],
