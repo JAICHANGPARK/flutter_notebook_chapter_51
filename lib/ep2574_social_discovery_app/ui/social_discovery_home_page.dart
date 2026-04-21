@@ -370,6 +370,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     ],
                   ),
 
+                  Gap(15),
                   Align(
                     alignment: .center,
                     child: Container(
