@@ -322,6 +322,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       ],
                                     ),
                                   ),
+                                  Positioned(child: Container())
                                 ],
                               ),
                             );
