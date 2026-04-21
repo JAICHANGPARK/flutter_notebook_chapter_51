@@ -184,16 +184,22 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       Container(
                                         padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
-                                          border: .all(color: Colors.white38,
-                                          width: .5),
-                                          color: Color.fromRGBO(199, 209, 203, 1),
+                                          border: .all(
+                                            color: Colors.white38,
+                                            width: .5,
+                                          ),
+                                          color: Color.fromRGBO(
+                                            199,
+                                            209,
+                                            203,
+                                            1,
+                                          ),
                                           boxShadow: [
                                             BoxShadow(
                                               color: Colors.black12,
                                               blurRadius: 1,
-                                              spreadRadius: 2
-
-                                            )
+                                              spreadRadius: 2,
+                                            ),
                                           ],
                                         ),
                                         child: Icon(
@@ -204,16 +210,22 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       Container(
                                         padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
-                                          border: .all(color: Colors.white38,
-                                              width: .5),
-                                          color: Color.fromRGBO(199, 209, 203, 1),
+                                          border: .all(
+                                            color: Colors.white38,
+                                            width: .5,
+                                          ),
+                                          color: Color.fromRGBO(
+                                            199,
+                                            209,
+                                            203,
+                                            1,
+                                          ),
                                           boxShadow: [
                                             BoxShadow(
-                                                color: Colors.black12,
-                                                blurRadius: 1,
-                                                spreadRadius: 2
-
-                                            )
+                                              color: Colors.black12,
+                                              blurRadius: 1,
+                                              spreadRadius: 2,
+                                            ),
                                           ],
                                         ),
                                         child: Icon(
@@ -224,16 +236,22 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                       Container(
                                         padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
-                                          border: .all(color: Colors.white38,
-                                              width: .5),
-                                          color: Color.fromRGBO(199, 209, 203, 1),
+                                          border: .all(
+                                            color: Colors.white38,
+                                            width: .5,
+                                          ),
+                                          color: Color.fromRGBO(
+                                            199,
+                                            209,
+                                            203,
+                                            1,
+                                          ),
                                           boxShadow: [
                                             BoxShadow(
-                                                color: Colors.black12,
-                                                blurRadius: 1,
-                                                spreadRadius: 2
-
-                                            )
+                                              color: Colors.black12,
+                                              blurRadius: 1,
+                                              spreadRadius: 2,
+                                            ),
                                           ],
                                         ),
                                         child: Icon(
@@ -279,25 +297,29 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                             return Container(
                               margin: EdgeInsets.only(right: 16),
                               width: 240,
-                              decoration: BoxDecoration(
-                                color: Colors.grey,
-                              ),
+                              decoration: BoxDecoration(color: Colors.grey),
                               child: Stack(
                                 children: [
                                   Positioned(
-                                      left: 12,
-                                      bottom: 12,
-                                      child: Column(
-                                        crossAxisAlignment: .start,
-                                        children: [
-                                    Text("Dreamwalker",style: TextStyle(
-                                      fontWeight: .bold,
-                                      color: Colors.white,
-                                    ),),
-                                    Text("770 Followers")
-                                  ],))
+                                    left: 12,
+                                    bottom: 12,
+                                    child: Column(
+                                      spacing: 5,
+                                      crossAxisAlignment: .start,
+                                      children: [
+                                        Text(
+                                          "Dreamwalker",
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                        Text("770 Followers"),
+                                      ],
+                                    ),
+                                  ),
                                 ],
-                              )
+                              ),
                             );
                           },
                         ),
