@@ -326,6 +326,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                     ),
                                   ),
                                   Positioned(
+                                    
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(199, 209, 203, 1),
