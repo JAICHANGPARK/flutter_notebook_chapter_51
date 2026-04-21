@@ -374,7 +374,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                   Align(
                     alignment: .center,
                     child: Container(
-                      height: 72,
+                      // height: 72,
                       decoration: BoxDecoration(
                         border: .all(color: Colors.white30),
                       ),
