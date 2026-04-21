@@ -279,6 +279,9 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                             return Container(
                               margin: EdgeInsets.only(right: 16),
                               width: 240,
+                              decoration: BoxDecoration(
+                                color: Colors.grey,
+                              ),
                               child: Placeholder(),
                             );
                           },
