@@ -378,19 +378,20 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       decoration: BoxDecoration(
                         border: .all(color: Colors.white30),
                       ),
-padding: EdgeInsets.all(4),
-                      child: Row(mainAxisSize: .min, children: [
-                        Container(
-
-                          decoration: BoxDecoration(
-                            color: Color.fromRGBO(146, 168, 159, 1),
+                      padding: EdgeInsets.all(4),
+                      child: Row(
+                        mainAxisSize: .min,
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(146, 168, 159, 1),
+                            ),
+                            padding: EdgeInsets.all(12),
+                            child: Icon(Icons.home_filled, color: Colors.white),
                           ),
-                          padding: EdgeInsets.all(12),
-                          child: Icon(Icons.home_filled),
-                        )
-                      ]),
+                        ],
+                      ),
                     ),
-
                   ),
                 ],
               ),
