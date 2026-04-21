@@ -284,7 +284,10 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                               ),
                               child: Stack(
                                 children: [
-                                  
+                                  Positioned(child: Column(children: [
+                                    Text("Dreamwalker"),
+                                    Text("770 Followers")
+                                  ],))
                                 ],
                               )
                             );
