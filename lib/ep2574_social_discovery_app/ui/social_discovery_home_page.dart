@@ -326,7 +326,8 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                     ),
                                   ),
                                   Positioned(
-                                    
+                                    bottom: 0,
+                                    right: 0,
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(199, 209, 203, 1),
@@ -354,7 +355,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                           ],
                                         ),
                                         child: Icon(
-                                          Icons.favorite,
+                                          Icons.add,
                                           color: Color.fromRGBO(71, 111, 91, 1),
                                         ),
                                       ),
