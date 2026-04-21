@@ -182,7 +182,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                     spacing: 6,
                                     children: [
                                       Container(
-                                        padding: EdgeInsets.all(12),
+                                        padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
                                           border: .all(color: Colors.white38,
                                           width: .5),
@@ -202,7 +202,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                         ),
                                       ),
                                       Container(
-                                        padding: EdgeInsets.all(12),
+                                        padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
                                           border: .all(color: Colors.white38,
                                               width: .5),
@@ -222,7 +222,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                         ),
                                       ),
                                       Container(
-                                        padding: EdgeInsets.all(12),
+                                        padding: EdgeInsets.all(10),
                                         decoration: BoxDecoration(
                                           border: .all(color: Colors.white38,
                                               width: .5),
