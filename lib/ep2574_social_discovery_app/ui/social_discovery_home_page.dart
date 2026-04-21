@@ -282,7 +282,11 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                               decoration: BoxDecoration(
                                 color: Colors.grey,
                               ),
-                              child: Placeholder(),
+                              child: Stack(
+                                children: [
+                                  
+                                ],
+                              )
                             );
                           },
                         ),
