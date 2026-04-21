@@ -379,8 +379,18 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                         border: .all(color: Colors.white30),
                       ),
 
-                      child: Row(mainAxisSize: .min, children: []),
+                      child: Row(mainAxisSize: .min, children: [
+                        Container(
+
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(146, 168, 159, 1),
+                          ),
+                          padding: EdgeInsets.all(12),
+                          child: Icon(Icons.home_filled),
+                        )
+                      ]),
                     ),
+
                   ),
                 ],
               ),
