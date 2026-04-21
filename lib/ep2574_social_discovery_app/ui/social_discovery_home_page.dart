@@ -380,6 +380,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       ),
                       padding: EdgeInsets.all(4),
                       child: Row(
+                        spacing: 4,
                         mainAxisSize: .min,
                         children: [
                           Container(
@@ -388,6 +389,31 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                             ),
                             padding: EdgeInsets.all(12),
                             child: Icon(Icons.home_filled, color: Colors.white),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(146, 168, 159, 1),
+                            ),
+                            padding: EdgeInsets.all(12),
+                            child: Icon(Icons.camera_roll, color: Colors.white),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(146, 168, 159, 1),
+                            ),
+                            padding: EdgeInsets.all(12),
+                            child: Row(
+                              children: [
+                                Icon(Icons.home_filled, color: Colors.white),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(146, 168, 159, 1),
+                            ),
+                            padding: EdgeInsets.all(12),
+                            child: Icon(Icons.favorite, color: Colors.white),
                           ),
                         ],
                       ),
