@@ -370,7 +370,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                     ],
                   ),
 
-                  Gap(15),
+                  Gap(20),
                   Align(
                     alignment: .center,
                     child: Container(
@@ -378,7 +378,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                       decoration: BoxDecoration(
                         border: .all(color: Colors.white30),
                       ),
-
+padding: EdgeInsets.all(4),
                       child: Row(mainAxisSize: .min, children: [
                         Container(
 
