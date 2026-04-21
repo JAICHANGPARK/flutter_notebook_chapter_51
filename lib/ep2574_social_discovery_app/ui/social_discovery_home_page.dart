@@ -287,8 +287,13 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                   Positioned(
                                       left: 12,
                                       bottom: 12,
-                                      child: Column(children: [
-                                    Text("Dreamwalker"),
+                                      child: Column(
+                                        crossAxisAlignment: .start,
+                                        children: [
+                                    Text("Dreamwalker",style: TextStyle(
+                                      fontWeight: .bold,
+                                      color: Colors.white,
+                                    ),),
                                     Text("770 Followers")
                                   ],))
                                 ],
