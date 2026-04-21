@@ -312,6 +312,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                           style: TextStyle(
                                             fontWeight: .bold,
                                             color: Colors.white,
+                                            fontSize: 16,
                                           ),
                                         ),
                                         Text("770 Followers"),
