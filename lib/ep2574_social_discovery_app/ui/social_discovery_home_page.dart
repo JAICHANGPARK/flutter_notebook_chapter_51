@@ -356,7 +356,7 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                                         ),
                                         child: Icon(
                                           Icons.add,
-                                          color: Color.fromRGBO(71, 111, 91, 1),
+                                          color: Colors.white,
                                         ),
                                       ),
                                     ),
