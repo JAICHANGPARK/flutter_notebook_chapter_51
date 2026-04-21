@@ -403,10 +403,12 @@ class _SocialDiscoveryHomePageState extends State<SocialDiscoveryHomePage> {
                             ),
                             padding: EdgeInsets.all(12),
                             child: Row(
-                              spacing: 4,
+                              spacing: 6,
                               children: [
-                                Text("Message"),
-                                Icon(Icons.home_filled, color: Colors.white),
+                                Text("Message",style: TextStyle(
+                                  color: Colors.white,
+                                ),),
+                                Icon(Icons.chat, color: Colors.white),
                               ],
                             ),
                           ),
