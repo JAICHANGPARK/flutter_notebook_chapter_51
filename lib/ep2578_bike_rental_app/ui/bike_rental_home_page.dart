@@ -295,21 +295,24 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                       crossAxisAlignment: .start,
                                       children: [
                                         Row(
+                                        
                                           children: [
-                                            Column(
-                                              crossAxisAlignment: .start,
-                                              children: [
-                                                Text("Cruiser V"),
-                                                Row(
-                                                  children: [
-                                                    Icon(
-                                                      Icons
-                                                          .location_on_outlined,
-                                                    ),
-                                                    Text("Downtown Street 111"),
-                                                  ],
-                                                ),
-                                              ],
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: .start,
+                                                children: [
+                                                  Text("Cruiser V"),
+                                                  Row(
+                                                    children: [
+                                                      Icon(
+                                                        Icons
+                                                            .location_on_outlined,
+                                                      ),
+                                                      Text("Downtown Street 111"),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
                                             ),
                                             Icon(Icons.multitrack_audio),
                                           ],
