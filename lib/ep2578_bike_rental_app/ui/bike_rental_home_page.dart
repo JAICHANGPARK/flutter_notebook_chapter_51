@@ -59,128 +59,138 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     ),
                   ),
                   Gap(18),
-                  Expanded(child: SingleChildScrollView(
-                    padding: .zero,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      padding: .zero,
                       child: Column(
                         spacing: 16,
-                    crossAxisAlignment: .start,
-                    children: [
-                      Container(
-                        padding: .only(left: 16),
-                        height: 64,
-                        child: ListView(
-                          scrollDirection: .horizontal,
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                shape: .circle,
-                                border: .all(color: Colors.grey[200]!),
-                              ),
-                              padding: .all(14),
-                              child: Icon(Icons.search),
-                              margin: .only(right: 12),
-                            ),
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Colors.black,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 18),
-                              margin: .only(right: 12),
-                              child: Row(
-                                spacing: 5,
-                                children: [
-                                  Icon(Icons.pedal_bike, color: Colors.white),
-                                  Text(
-                                    "E-Bicycles",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 15,
-                                    ),
+                        crossAxisAlignment: .start,
+                        children: [
+                          Container(
+                            padding: .only(left: 16),
+                            height: 64,
+                            child: ListView(
+                              scrollDirection: .horizontal,
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    shape: .circle,
+                                    border: .all(color: Colors.grey[200]!),
                                   ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Colors.grey[200]!,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 18),
-                              margin: .only(right: 12),
-                              child: Row(
-                                spacing: 5,
-                                children: [
-                                  Icon(Icons.electric_scooter_outlined),
-                                  Text("E-Scooters"),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Colors.grey[200]!,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 18),
-                              margin: .only(right: 12),
-                              child: Row(
-                                spacing: 5,
-                                children: [
-                                  Icon(Icons.electric_scooter_outlined),
-                                  Text("E-Scooters"),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        height: 500,
-                        padding: EdgeInsets.only(left: 16),
-                        child: ListView.builder(
-                          itemCount: 10,
-                          scrollDirection: .horizontal,
-                          itemBuilder: (context, index) {
-                            return Container(
-                              margin: .only(right: 16),
-                              width: 320,
-                              decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(
-                                  borderRadius: .circular(24),
+                                  padding: .all(14),
+                                  child: Icon(Icons.search),
+                                  margin: .only(right: 12),
                                 ),
-                                color: Color.fromRGBO(227, 230, 252, 1),
-                              ),
-                              child: Stack(
-                                children: [
-                                  Positioned(
-                                      left: 16,
-                                      top: 16,
-                                      bottom: 16,
-                                      right: 16,
-                                      child: Column(children: [
-
-                                      ],))
-                                ],
-                              ),
-                            );
-                          },
-                        ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.black,
+                                  ),
+                                  padding: EdgeInsets.symmetric(horizontal: 18),
+                                  margin: .only(right: 12),
+                                  child: Row(
+                                    spacing: 5,
+                                    children: [
+                                      Icon(
+                                        Icons.pedal_bike,
+                                        color: Colors.white,
+                                      ),
+                                      Text(
+                                        "E-Bicycles",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 15,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey[200]!,
+                                  ),
+                                  padding: EdgeInsets.symmetric(horizontal: 18),
+                                  margin: .only(right: 12),
+                                  child: Row(
+                                    spacing: 5,
+                                    children: [
+                                      Icon(Icons.electric_scooter_outlined),
+                                      Text("E-Scooters"),
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey[200]!,
+                                  ),
+                                  padding: EdgeInsets.symmetric(horizontal: 18),
+                                  margin: .only(right: 12),
+                                  child: Row(
+                                    spacing: 5,
+                                    children: [
+                                      Icon(Icons.electric_scooter_outlined),
+                                      Text("E-Scooters"),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            height: 500,
+                            padding: EdgeInsets.only(left: 16),
+                            child: ListView.builder(
+                              itemCount: 10,
+                              scrollDirection: .horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  margin: .only(right: 16),
+                                  width: 320,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                    ),
+                                    color: Color.fromRGBO(227, 230, 252, 1),
+                                  ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 16,
+                                        top: 16,
+                                        bottom: 16,
+                                        right: 16,
+                                        child: Column(children: []),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              children: [
+                                Text(
+                                  "Find Bikes Nearby",
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: .bold,
+                                  ),
+                                ),
+                                Spacer(),
+                                Text("View more"),
+                                Icon(Icons.keyboard_arrow_right),
+                              ],
+                            ),
+                          ),
+                          Container(height: 120, child: Placeholder()),
+                        ],
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Row(
-                          children: [
-                            Text("Find Bikes Nearby"),
-                            Spacer(),
-                            Text("View more"),
-                            Icon(Icons.keyboard_arrow_right),
-                          ],
-                        ),
-                      ),
-                      Container(height: 120, child: Placeholder()),
-                    ],
-                  )),),
-
+                    ),
+                  ),
                 ],
               ),
             ),
