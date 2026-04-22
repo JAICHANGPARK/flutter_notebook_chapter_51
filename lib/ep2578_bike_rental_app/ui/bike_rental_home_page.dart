@@ -177,21 +177,31 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                             Spacer(),
                                             Container(
                                               height: 72,
-                                              decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white,),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(),
+                                                color: Colors.white,
+                                              ),
                                               padding: EdgeInsets.all(6),
                                               child: Row(
-
-
                                                 children: [
-                                                  CircleAvatar(radius: 30,),
-                                                  Expanded(child: Row(children: [
-                                                          Text("Unlock"),
-                                                    Icon(Icons.keyboard_double_arrow_right)
-                                                  ],)),
-                                                  CircleAvatar(radius: 30,),
+                                                  CircleAvatar(radius: 30),
+                                                  Expanded(
+                                                    child: Row(
+                                                      spacing: 12,
+                                                      mainAxisAlignment: .center,
+                                                      children: [
+                                                        Text("Unlock"),
+                                                        Icon(
+                                                          Icons
+                                                              .keyboard_double_arrow_right,
+                                                        ),
+                                                      ],
+                                                    ),
+                                                  ),
+                                                  CircleAvatar(radius: 30),
                                                 ],
                                               ),
-                                            )
+                                            ),
                                           ],
                                         ),
                                       ),
