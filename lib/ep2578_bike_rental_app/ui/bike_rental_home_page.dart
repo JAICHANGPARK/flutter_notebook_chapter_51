@@ -20,10 +20,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
               crossAxisAlignment: .start,
               children: [
                 Row(
+                  spacing: 12,
                   children: [
                     CircleAvatar(radius: 32),
                     Expanded(
                       child: Column(
+                        spacing: 6,
                         crossAxisAlignment: .start,
                         children: [
                           Text("Hello, Dream"),
