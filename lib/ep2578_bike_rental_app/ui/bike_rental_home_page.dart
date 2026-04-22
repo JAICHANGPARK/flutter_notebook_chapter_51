@@ -17,16 +17,15 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
         children: [
           SafeArea(
             child: Column(
+              crossAxisAlignment: .start,
               children: [
                 Row(
                   children: [
-                    CircleAvatar(
-                      radius: 32,
+                    CircleAvatar(radius: 32),
+                    Expanded(
+                      child: Column(crossAxisAlignment: .start, children: []),
                     ),
-                    Expanded(child: Column(children: [])),
-                    CircleAvatar(
-                      radius: 32,
-                    ),
+                    CircleAvatar(radius: 32),
                   ],
                 ),
                 Gap(24),
