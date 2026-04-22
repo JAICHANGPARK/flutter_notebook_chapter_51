@@ -6,7 +6,7 @@
 - Oripio
 - https://dribbble.com/shots/27304774-Smart-Bike-Rental-App
 
-<img src="https://cdn.dribbble.com/userupload/47397057/file/ce25b2c8874dad85a97a7f9bc8d1b356.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/47476148/file/bf131f57d4e95fe0c25c5ee4c9d6553f.jpg?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2574-2577
 - Connectly – Personal Moments & Social Discovery App
