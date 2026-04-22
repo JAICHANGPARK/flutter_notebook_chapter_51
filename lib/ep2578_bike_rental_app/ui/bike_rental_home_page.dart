@@ -27,10 +27,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
             Row(
               children: [
                 Text("Find Bikes Nearby"),
+                Spacer(),
                 Text("View more"),
                 Icon(Icons.keyboard_arrow_right),
               ],
             ),
+            Container(height: 120, child: Placeholder()),
           ],
         ),
       ),
