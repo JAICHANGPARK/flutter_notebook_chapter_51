@@ -274,7 +274,14 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                 border: .all(color: Colors.grey),
                               ),
                               height: 120,
-                              child: Row(children: []),
+                              padding: EdgeInsets.all(12),
+                              child: Row(children: [
+                                Container(
+                                  width: 160,
+                                  height: 120,
+                                  decoration: BoxDecoration(),
+                                )
+                              ]),
                             );
                           }),
                         ],
