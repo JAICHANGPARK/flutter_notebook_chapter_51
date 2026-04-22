@@ -30,7 +30,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                 children: [
                   Text(
                     "Unlock your ride in just seconds",
-                    style: TextStyle(fontWeight: .bold, fontSize: 32),
+                    style: TextStyle(fontWeight: .bold, fontSize: 38),
                   ),
                 ],
               ),
