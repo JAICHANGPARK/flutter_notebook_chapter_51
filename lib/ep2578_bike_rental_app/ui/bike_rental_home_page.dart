@@ -23,7 +23,16 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                   children: [
                     CircleAvatar(radius: 32),
                     Expanded(
-                      child: Column(crossAxisAlignment: .start, children: []),
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text("Hello, Dream"),
+                          Text(
+                            "Good Morning!",
+                            style: TextStyle(fontSize: 24, fontWeight: .bold),
+                          ),
+                        ],
+                      ),
                     ),
                     CircleAvatar(radius: 32),
                   ],
