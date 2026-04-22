@@ -24,8 +24,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
             ),
             SizedBox(height: 72, child: Placeholder(),),
             Container(
-              height: 420,
+              height: 520,
               child: Placeholder(),
+            ),
+            Row(
+              children: [
+                
+              ],
             )
           ],
         ),
