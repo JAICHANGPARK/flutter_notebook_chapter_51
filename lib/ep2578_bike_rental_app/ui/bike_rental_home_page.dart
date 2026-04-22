@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class BikeRentalHomePage extends StatefulWidget {
   const BikeRentalHomePage({super.key});
 
@@ -19,16 +18,18 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
             Row(
               children: [
                 CircleAvatar(),
-                Expanded(child: Column(children: [
-        
-                ],)),
-                CircleAvatar()
+                Expanded(child: Column(children: [])),
+                CircleAvatar(),
               ],
+            ),
+            SizedBox(height: 72, child: Placeholder(),),
+            Container(
+              height: 420,
+              child: Placeholder(),
             )
           ],
         ),
       ),
-
     );
   }
 }
