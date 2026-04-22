@@ -71,6 +71,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                           ),
                           padding: .all(14),
                           child: Icon(Icons.search),
+                          margin: .only(right: 12),
                         ),
                         Container(
                           decoration: ShapeDecoration(
