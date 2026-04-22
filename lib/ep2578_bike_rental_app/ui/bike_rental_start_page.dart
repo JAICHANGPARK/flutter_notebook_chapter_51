@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+import 'bike_rental_home_page.dart';
+
 class BikeRentalStartPage extends StatefulWidget {
   const BikeRentalStartPage({super.key});
 
