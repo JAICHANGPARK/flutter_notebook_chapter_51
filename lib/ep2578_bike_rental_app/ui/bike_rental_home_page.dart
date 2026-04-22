@@ -197,7 +197,9 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                               padding: EdgeInsets.all(6),
                                               child: Row(
                                                 children: [
-                                                  CircleAvatar(radius: 30),
+                                                  CircleAvatar(radius: 30,
+                                                  backgroundColor: Colors.grey[300]!,
+                                                  child: Icon(Icons.arrow_forward_outlined),),
                                                   Expanded(
                                                     child: Row(
                                                       spacing: 12,
