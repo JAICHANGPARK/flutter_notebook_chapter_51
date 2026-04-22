@@ -174,6 +174,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                 ],
                                               ),
                                             ),
+                                            Spacer(),
+                                            
                                           ],
                                         ),
                                       ),
