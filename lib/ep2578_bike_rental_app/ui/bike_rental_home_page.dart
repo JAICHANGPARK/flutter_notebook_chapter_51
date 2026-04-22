@@ -163,12 +163,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                         right: 24,
                                         child: Column(
                                           crossAxisAlignment: .start,
+                                          spacing: 5,
                                           children: [
                                             Text(
                                               "Urban Glide XX Bike",
                                               style: TextStyle(
                                                 fontWeight: .bold,
-                                                fontSize: 18,
+                                                fontSize: 20,
                                               ),
                                             ),
                                             Text("Price:"),
