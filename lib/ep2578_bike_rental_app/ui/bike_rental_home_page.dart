@@ -232,7 +232,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                     radius: 30,
                                                     backgroundColor:
                                                         Colors.black,
-                                                    foregroundColor: Colors.white,
+                                                    foregroundColor:
+                                                        Colors.white,
                                                     child: Icon(
                                                       Icons.lock_outlined,
                                                     ),
@@ -273,18 +274,45 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                 borderRadius: .circular(16),
                                 border: .all(color: Colors.grey),
                               ),
-                              height: 120,
+                              height: 140,
                               padding: EdgeInsets.all(12),
-                              child: Row(children: [
-                                Container(
-                                  width: 160,
-                                  height: 120,
-                                  decoration: BoxDecoration(
-                                    borderRadius: .circular(12),
-                                    color: Colors.blue[100]!,
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 150,
+                                    height: 120,
+                                    decoration: BoxDecoration(
+                                      borderRadius: .circular(12),
+                                      color: Colors.blue[100]!,
+                                    ),
                                   ),
-                                )
-                              ]),
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Column(
+                                              children: [
+                                                Text("Cruiser V"),
+                                                Row(
+                                                  children: [
+                                                    Icon(
+                                                      Icons
+                                                          .location_on_outlined,
+                                                    ),
+                                                    Text("Downtown Street 111"),
+                                                  ],
+                                                ),
+                                              ],
+                                            ),
+                                            Icon(Icons.multitrack_audio),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
                             );
                           }),
                         ],
