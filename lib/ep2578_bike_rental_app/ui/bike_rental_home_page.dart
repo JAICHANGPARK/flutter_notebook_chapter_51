@@ -63,7 +63,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     child: SingleChildScrollView(
                       padding: .zero,
                       child: Column(
-                        spacing: 16,
+                        spacing: 20,
                         crossAxisAlignment: .start,
                         children: [
                           Container(
