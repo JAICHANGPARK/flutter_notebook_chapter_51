@@ -13,17 +13,20 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(),
-              Expanded(child: Column(children: [
-                
-              ],))
-            ],
-          )
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Column(children: [
+        
+                ],)),
+                CircleAvatar()
+              ],
+            )
+          ],
+        ),
       ),
 
     );
