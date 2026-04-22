@@ -315,7 +315,21 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                           children: [
                                             Icon(Icons.directions_bike_sharp),
                                             Text("E-Bicycles"),
-
+                                            Spacer(),
+                                            Text.rich(
+                                              TextSpan(
+                                                children: [
+                                                  TextSpan(
+                                                    text: "\$2.7",
+                                                    style: TextStyle(
+                                                      fontSize: 16,
+                                                      fontWeight: .bold,
+                                                    ),
+                                                  ),
+                                                  TextSpan(text: "p/m"),
+                                                ],
+                                              ),
+                                            ),
                                           ],
                                         )
                                       ],
