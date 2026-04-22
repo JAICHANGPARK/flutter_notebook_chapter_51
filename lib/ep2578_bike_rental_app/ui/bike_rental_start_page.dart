@@ -9,10 +9,15 @@ class BikeRentalStartPage extends StatefulWidget {
 }
 
 class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
+  PageController pageController = PageController(
+    initialPage: 0
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+body: Stack(children: [
+  
+],),
     );
   }
 }
