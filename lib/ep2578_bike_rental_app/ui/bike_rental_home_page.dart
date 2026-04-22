@@ -201,12 +201,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                     radius: 30,
                                                     backgroundColor:
                                                         Colors.grey[300]!,
-                                                    foregroundColor: Colors.black,
+                                                    foregroundColor:
+                                                        Colors.black,
                                                     child: Icon(
                                                       Icons
                                                           .arrow_forward_outlined,
                                                     ),
-
                                                   ),
                                                   Expanded(
                                                     child: Row(
@@ -214,9 +214,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                       mainAxisAlignment:
                                                           .center,
                                                       children: [
-                                                        Text("Unlock",style: TextStyle(
-                                                          fontSize: 12,
-                                                        ),),
+                                                        Text(
+                                                          "Unlock",
+                                                          style: TextStyle(
+                                                            fontSize: 12,
+                                                          ),
+                                                        ),
                                                         Icon(
                                                           Icons
                                                               .keyboard_double_arrow_right,
@@ -225,7 +228,14 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                       ],
                                                     ),
                                                   ),
-                                                  CircleAvatar(radius: 30),
+                                                  CircleAvatar(
+                                                    radius: 30,
+                                                    backgroundColor:
+                                                        Colors.black,
+                                                    child: Icon(
+                                                      Icons.lock_outlined,
+                                                    ),
+                                                  ),
                                                 ],
                                               ),
                                             ),
