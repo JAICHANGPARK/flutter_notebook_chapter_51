@@ -311,6 +311,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                             Icon(Icons.multitrack_audio),
                                           ],
                                         ),
+                                        Row(
+                                          children: [
+                                            Icon(Icons.directions_bike_sharp),
+                                            Text("E-Bicycles"),
+
+                                          ],
+                                        )
                                       ],
                                     ),
                                   ),
