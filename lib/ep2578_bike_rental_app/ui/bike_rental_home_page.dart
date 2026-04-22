@@ -175,7 +175,10 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                               ),
                                             ),
                                             Spacer(),
-                                            
+                                            Container(
+                                              height: 62,
+                                              decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
+                                            )
                                           ],
                                         ),
                                       ),
