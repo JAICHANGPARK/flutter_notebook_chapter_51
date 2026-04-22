@@ -41,6 +41,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                       color: Colors.grey[100]!,
                       border: .all(color: Colors.white24),
                     ),
+                    padding: EdgeInsets.all(10),
                     child: Container(
                       decoration: BoxDecoration(
                         shape: .circle,
