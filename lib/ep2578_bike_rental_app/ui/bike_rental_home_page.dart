@@ -22,16 +22,15 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                 CircleAvatar(),
               ],
             ),
-            SizedBox(height: 72, child: Placeholder(),),
-            Container(
-              height: 520,
-              child: Placeholder(),
-            ),
+            SizedBox(height: 72, child: Placeholder()),
+            Container(height: 520, child: Placeholder()),
             Row(
               children: [
-                
+                Text("Find Bikes Nearby"),
+                Text("View more"),
+                Icon(Icons.keyboard_arrow_right),
               ],
-            )
+            ),
           ],
         ),
       ),
