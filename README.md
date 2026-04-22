@@ -2,7 +2,7 @@
 
 ## EP2578
 
-- Connectly – Personal Moments & Social Discovery App
+- Smart Bike Rental App
 - UIX Maruf Hossen
 - https://dribbble.com/shots/27281326-Connectly-Personal-Moments-Social-Discovery-App
 
