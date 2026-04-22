@@ -161,7 +161,14 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                         top: 16,
                                         bottom: 16,
                                         right: 16,
-                                        child: Column(children: []),
+                                        child: Column(
+                                          crossAxisAlignment: .start,
+                                          children: [
+                                            Text("Urban Glide XX Bike"),
+                                            Text("Price:"),
+                                            Text.rich(TextSpan(children: [])),
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
