@@ -136,12 +136,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                       ),
                       Container(
                         height: 520,
+                        padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           itemCount: 10,
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              width: 240,
+                              width: 320,
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: .circular(24),
