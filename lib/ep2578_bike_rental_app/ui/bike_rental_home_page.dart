@@ -277,6 +277,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               height: 140,
                               padding: EdgeInsets.all(12),
                               child: Row(
+
                                 spacing: 16,
                                 children: [
                                   Container(
@@ -289,6 +290,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                   ),
                                   Expanded(
                                     child: Column(
+                                      mainAxisAlignment: .center,
+                                      spacing: 12,
                                       crossAxisAlignment: .start,
                                       children: [
                                         Row(
@@ -322,11 +325,11 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                   TextSpan(
                                                     text: "\$2.7",
                                                     style: TextStyle(
-                                                      fontSize: 16,
+                                                      fontSize: 18,
                                                       fontWeight: .bold,
                                                     ),
                                                   ),
-                                                  TextSpan(text: "p/m"),
+                                                  TextSpan(text: " p/m"),
                                                 ],
                                               ),
                                             ),
