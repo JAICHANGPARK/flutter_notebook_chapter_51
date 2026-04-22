@@ -166,7 +166,14 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                           children: [
                                             Text("Urban Glide XX Bike"),
                                             Text("Price:"),
-                                            Text.rich(TextSpan(children: [])),
+                                            Text.rich(
+                                              TextSpan(
+                                                children: [
+                                                  TextSpan(text: "\$2.7"),
+                                                  TextSpan(text: "p/m"),
+                                                ],
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
