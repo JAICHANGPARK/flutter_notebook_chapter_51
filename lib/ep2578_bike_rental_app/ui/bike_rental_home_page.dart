@@ -139,7 +139,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             ),
                           ),
                           Container(
-                            height: 500,
+                            height: 480,
                             padding: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               itemCount: 10,
@@ -169,7 +169,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                               "Urban Glide XX Bike",
                                               style: TextStyle(
                                                 fontWeight: .bold,
-                                                fontSize: 20,
+                                                fontSize: 25,
                                               ),
                                             ),
                                             Text("Price:"),
