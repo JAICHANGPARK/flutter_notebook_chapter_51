@@ -186,12 +186,17 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               ],
                             ),
                           ),
-                          ...List.generate(5, (idx){
+                          ...List.generate(5, (idx) {
                             return Container(
-                                margin: .symmetric(horizontal: 16),
-                                height: 120, child: Placeholder());
+                              margin: .symmetric(horizontal: 16),
+                              decoration: BoxDecoration(
+                                borderRadius: .circular(16),
+                                border: .all(color: Colors.grey),
+                              ),
+                              height: 120,
+                              child: Row(children: []),
+                            );
                           }),
-
                         ],
                       ),
                     ),
