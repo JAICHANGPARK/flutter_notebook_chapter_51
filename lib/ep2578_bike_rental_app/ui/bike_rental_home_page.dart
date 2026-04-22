@@ -33,10 +33,16 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             spacing: 6,
                             crossAxisAlignment: .start,
                             children: [
-                              Text("Hello, Dream", style: TextStyle(fontSize: 16)),
+                              Text(
+                                "Hello, Dream",
+                                style: TextStyle(fontSize: 16),
+                              ),
                               Text(
                                 "Good Morning!",
-                                style: TextStyle(fontSize: 24, fontWeight: .bold),
+                                style: TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: .bold,
+                                ),
                               ),
                             ],
                           ),
@@ -53,7 +59,19 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     ),
                   ),
                   Gap(24),
-                  SizedBox(height: 72, child: Placeholder()),
+                  SizedBox(
+                    height: 72,
+                    child: ListView(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.grey[200]!),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Container(height: 520, child: Placeholder()),
                   Row(
                     children: [
