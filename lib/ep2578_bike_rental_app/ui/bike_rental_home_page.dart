@@ -176,7 +176,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                             Text.rich(
                                               TextSpan(
                                                 children: [
-                                                  TextSpan(text: "\$2.7"),
+                                                  TextSpan(
+                                                    text: "\$2.7",
+                                                    style: TextStyle(
+                                                      fontSize: 25,
+                                                      fontWeight: .bold,
+                                                    ),
+                                                  ),
                                                   TextSpan(text: "p/m"),
                                                 ],
                                               ),
