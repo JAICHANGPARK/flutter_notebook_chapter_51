@@ -59,6 +59,11 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     ),
                   ),
                   Gap(24),
+                  Expanded(child: SingleChildScrollView(child: Column(
+                    children: [
+                      
+                    ],
+                  )),),
                   Container(
                     padding: .only(left: 16),
                     height: 64,
@@ -135,6 +140,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                       scrollDirection: .horizontal,
                       itemBuilder: (context, index) {
                         return Container(
+                          width: 240,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               borderRadius: .circular(24),
