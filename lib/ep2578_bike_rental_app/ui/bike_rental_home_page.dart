@@ -277,6 +277,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               height: 140,
                               padding: EdgeInsets.all(12),
                               child: Row(
+                                spacing: 16,
                                 children: [
                                   Container(
                                     width: 150,
@@ -288,10 +289,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                   ),
                                   Expanded(
                                     child: Column(
+                                      crossAxisAlignment: .start,
                                       children: [
                                         Row(
                                           children: [
                                             Column(
+                                              crossAxisAlignment: .start,
                                               children: [
                                                 Text("Cruiser V"),
                                                 Row(
