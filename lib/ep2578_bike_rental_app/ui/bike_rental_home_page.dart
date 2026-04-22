@@ -137,6 +137,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             shape: RoundedSuperellipseBorder(
                               borderRadius: .circular(24),
                             ),
+                            color: Color.fromRGBO(227, 230, 252, 1),
                           ),
                         );
                       },
