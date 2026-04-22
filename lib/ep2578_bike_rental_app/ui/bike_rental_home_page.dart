@@ -135,13 +135,14 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                         ),
                       ),
                       Container(
-                        height: 520,
+                        height: 500,
                         padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           itemCount: 10,
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
+                              margin: .only(right: 16),
                               width: 320,
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
@@ -165,13 +166,16 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                           },
                         ),
                       ),
-                      Row(
-                        children: [
-                          Text("Find Bikes Nearby"),
-                          Spacer(),
-                          Text("View more"),
-                          Icon(Icons.keyboard_arrow_right),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Text("Find Bikes Nearby"),
+                            Spacer(),
+                            Text("View more"),
+                            Icon(Icons.keyboard_arrow_right),
+                          ],
+                        ),
                       ),
                       Container(height: 120, child: Placeholder()),
                     ],
