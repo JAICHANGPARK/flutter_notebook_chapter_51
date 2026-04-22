@@ -11,6 +11,8 @@ class BikeRentalStartPage extends StatefulWidget {
 class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
