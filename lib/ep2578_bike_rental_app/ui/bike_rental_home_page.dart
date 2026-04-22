@@ -78,6 +78,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.black,
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 18),
+                          margin: .only(right: 12),
                           child: Row(
                             children: [
                               Icon(Icons.pedal_bike),
@@ -90,6 +92,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.grey[200]!,
                           ),
+                          margin: .only(right: 12),
                           child: Row(
                             children: [
                               Icon(Icons.electric_scooter_outlined),
