@@ -131,6 +131,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                   Container(
                     height: 520,
                     child: ListView.builder(
+                      itemCount: 10,
+                      scrollDirection: .horizontal,
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: ShapeDecoration(
@@ -138,6 +140,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               borderRadius: .circular(24),
                             ),
                             color: Color.fromRGBO(227, 230, 252, 1),
+                          ),
+                          child: Stack(
+                            children: [
+                              Positioned(child: Column(children: [
+                                
+                              ],))
+                            ],
                           ),
                         );
                       },
