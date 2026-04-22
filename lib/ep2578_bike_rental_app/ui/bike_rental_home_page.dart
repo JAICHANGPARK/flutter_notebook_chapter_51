@@ -17,9 +17,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
           children: [
             Row(
               children: [
-                CircleAvatar(),
+                CircleAvatar(
+                  radius: 32,
+                ),
                 Expanded(child: Column(children: [])),
-                CircleAvatar(),
+                CircleAvatar(
+                  radius: 32,
+                ),
               ],
             ),
             SizedBox(height: 72, child: Placeholder()),
