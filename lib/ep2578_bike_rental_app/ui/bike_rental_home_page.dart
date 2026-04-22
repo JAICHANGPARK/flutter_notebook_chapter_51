@@ -12,6 +12,19 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+          Row(
+            children: [
+              CircleAvatar(),
+              Expanded(child: Column(children: [
+                
+              ],))
+            ],
+          )
+        ],
+      ),
 
     );
   }
