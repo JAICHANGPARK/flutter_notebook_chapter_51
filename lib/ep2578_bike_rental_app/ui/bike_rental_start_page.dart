@@ -39,7 +39,13 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                     decoration: BoxDecoration(
                       shape: .circle,
                       color: Colors.grey[100]!,
-                      border: .all(color: Colors.white24)
+                      border: .all(color: Colors.white24),
+                    ),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                 ],
