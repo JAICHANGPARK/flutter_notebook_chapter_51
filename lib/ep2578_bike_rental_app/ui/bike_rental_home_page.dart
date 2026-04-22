@@ -83,8 +83,11 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                           margin: .only(right: 12),
                           child: Row(
                             children: [
-                              Icon(Icons.pedal_bike),
-                              Text("E-Bicycles"),
+                              Icon(Icons.pedal_bike, color: Colors.white),
+                              Text(
+                                "E-Bicycles",
+                                style: TextStyle(color: Colors.white),
+                              ),
                             ],
                           ),
                         ),
