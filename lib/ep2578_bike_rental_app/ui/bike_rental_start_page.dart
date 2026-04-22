@@ -27,6 +27,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
               left: 24,
               right: 24,
               child: Column(
+                spacing: 20,
                 children: [
                   Text(
                     "Unlock your ride in just seconds",
