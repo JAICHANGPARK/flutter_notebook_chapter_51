@@ -32,6 +32,13 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                     "Unlock your ride in just seconds",
                     style: TextStyle(fontWeight: .bold, fontSize: 38),
                   ),
+                  Container(
+                    height: 160,
+                    width: 160,
+                    decoration: BoxDecoration(
+                    shape: .circle,
+
+                  ),)
                 ],
               ),
             ),
