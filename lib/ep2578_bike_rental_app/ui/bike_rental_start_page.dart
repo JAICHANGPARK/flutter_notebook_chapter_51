@@ -19,6 +19,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
           children: [
             Positioned(
               right: 16,
+              top: 24,
               child: SmoothPageIndicator(controller: pageController, count: 3),
             ),
           ],
