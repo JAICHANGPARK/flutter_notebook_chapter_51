@@ -82,11 +82,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                           padding: EdgeInsets.symmetric(horizontal: 18),
                           margin: .only(right: 12),
                           child: Row(
+                            spacing: 5,
                             children: [
                               Icon(Icons.pedal_bike, color: Colors.white),
                               Text(
                                 "E-Bicycles",
-                                style: TextStyle(color: Colors.white),
+                                style: TextStyle(color: Colors.white, fontSize: 15,),
                               ),
                             ],
                           ),
