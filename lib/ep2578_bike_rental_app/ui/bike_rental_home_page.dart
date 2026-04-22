@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class BikeRentalHomePage extends StatefulWidget {
   const BikeRentalHomePage({super.key});
@@ -19,27 +20,35 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
             child: Column(
               crossAxisAlignment: .start,
               children: [
-                Row(
-                  spacing: 12,
-                  children: [
-                    CircleAvatar(radius: 30),
-                    Expanded(
-                      child: Column(
-                        spacing: 6,
-                        crossAxisAlignment: .start,
-                        children: [
-                          Text("Hello, Dream",style: TextStyle(
-                            fontSize: 16,
-                          ),),
-                          Text(
-                            "Good Morning!",
-                            style: TextStyle(fontSize: 24, fontWeight: .bold),
-                          ),
-                        ],
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Row(
+                    spacing: 12,
+                    children: [
+                      CircleAvatar(radius: 30),
+                      Expanded(
+                        child: Column(
+                          spacing: 6,
+                          crossAxisAlignment: .start,
+                          children: [
+                            Text("Hello, Dream", style: TextStyle(fontSize: 16)),
+                            Text(
+                              "Good Morning!",
+                              style: TextStyle(fontSize: 24, fontWeight: .bold),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    CircleAvatar(radius: 30),
-                  ],
+                      CircleAvatar(
+                        radius: 30,
+                        child: Badge(
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedNotification01,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
                 Gap(24),
                 SizedBox(height: 72, child: Placeholder()),
