@@ -62,11 +62,37 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                   SizedBox(
                     height: 72,
                     child: ListView(
+                      scrollDirection: .horizontal,
                       children: [
                         Container(
                           decoration: BoxDecoration(
                             shape: .circle,
                             border: .all(color: Colors.grey[200]!),
+                          ),
+                          child: Icon(Icons.search),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.black,
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.pedal_bike),
+                              Text("E-Bicycles"),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.grey[200]!,
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.electric_scooter_outlined),
+                              Text("E-Scooters"),
+                            ],
                           ),
                         ),
                       ],
