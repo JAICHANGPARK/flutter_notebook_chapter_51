@@ -130,7 +130,17 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                   ),
                   Container(
                     height: 520,
-                    child: ListView.builder(itemBuilder: (context, index) {}),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(24),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ),
                   Row(
                     children: [
