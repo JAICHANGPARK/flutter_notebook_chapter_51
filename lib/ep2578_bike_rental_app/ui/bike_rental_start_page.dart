@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class BikeRentalStartPage extends StatefulWidget {
   const BikeRentalStartPage({super.key});
 
@@ -9,15 +8,10 @@ class BikeRentalStartPage extends StatefulWidget {
 }
 
 class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
-  PageController pageController = PageController(
-    initialPage: 0
-  );
+  PageController pageController = PageController(initialPage: 0);
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-body: Stack(children: [
-  
-],),
-    );
+    return Scaffold(body: Stack(children: []));
   }
 }
