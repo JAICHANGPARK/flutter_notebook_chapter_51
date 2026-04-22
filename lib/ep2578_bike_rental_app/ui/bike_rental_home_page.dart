@@ -143,8 +143,13 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                           ),
                           child: Stack(
                             children: [
-                              Positioned(child: Column(children: [
-                                
+                              Positioned(
+                                  left: 16,
+                                  top: 16,
+                                  bottom: 16,
+                                  right: 16,
+                                  child: Column(children: [
+
                               ],))
                             ],
                           ),
