@@ -232,6 +232,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                     radius: 30,
                                                     backgroundColor:
                                                         Colors.black,
+                                                    foregroundColor: Colors.white,
                                                     child: Icon(
                                                       Icons.lock_outlined,
                                                     ),
