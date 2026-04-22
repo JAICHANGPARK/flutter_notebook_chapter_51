@@ -34,7 +34,13 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                     style: TextStyle(fontWeight: .bold, fontSize: 38),
                   ),
                   GestureDetector(
-                    
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => BikeRentalHomePage(),
+                        ),
+                      );
+                    },
                     child: Container(
                       height: 92,
                       width: 92,
