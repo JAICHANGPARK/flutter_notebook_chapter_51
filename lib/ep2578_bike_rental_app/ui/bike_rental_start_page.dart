@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class BikeRentalStartPage extends StatefulWidget {
   const BikeRentalStartPage({super.key});
@@ -12,6 +13,17 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Stack(children: []));
+    return Scaffold(
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Positioned(
+              right: 16,
+              child: SmoothPageIndicator(controller: pageController, count: 3),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
