@@ -33,25 +33,28 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                     "Unlock your ride in just seconds",
                     style: TextStyle(fontWeight: .bold, fontSize: 38),
                   ),
-                  Container(
-                    height: 92,
-                    width: 92,
-                    decoration: BoxDecoration(
-                      shape: .circle,
-                      color: Colors.grey[100]!,
-                      border: .all(color: Colors.white24),
-                    ),
-                    padding: EdgeInsets.all(10),
+                  GestureDetector(
+                    
                     child: Container(
+                      height: 92,
+                      width: 92,
                       decoration: BoxDecoration(
                         shape: .circle,
-                        color: Colors.white,
+                        color: Colors.grey[100]!,
+                        border: .all(color: Colors.white24),
                       ),
                       padding: EdgeInsets.all(10),
-                      child: CircleAvatar(
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(Icons.arrow_forward_outlined),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          color: Colors.white,
+                        ),
+                        padding: EdgeInsets.all(10),
+                        child: CircleAvatar(
+                          backgroundColor: Colors.black,
+                          foregroundColor: Colors.white,
+                          child: Icon(Icons.arrow_forward_outlined),
+                        ),
                       ),
                     ),
                   ),
