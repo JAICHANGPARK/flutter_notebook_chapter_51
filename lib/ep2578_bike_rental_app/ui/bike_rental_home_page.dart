@@ -28,7 +28,9 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                         spacing: 6,
                         crossAxisAlignment: .start,
                         children: [
-                          Text("Hello, Dream"),
+                          Text("Hello, Dream",style: TextStyle(
+                            fontSize: 16,
+                          ),),
                           Text(
                             "Good Morning!",
                             style: TextStyle(fontSize: 24, fontWeight: .bold),
