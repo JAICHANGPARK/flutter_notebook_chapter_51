@@ -186,7 +186,11 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               ],
                             ),
                           ),
-                          Container(height: 120, child: Placeholder()),
+                          List.generate(5, (idx){
+
+                            return Container(height: 120, child: Placeholder());
+                          }).toList(),
+
                         ],
                       ),
                     ),
