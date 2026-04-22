@@ -87,7 +87,10 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               Icon(Icons.pedal_bike, color: Colors.white),
                               Text(
                                 "E-Bicycles",
-                                style: TextStyle(color: Colors.white, fontSize: 15,),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
                               ),
                             ],
                           ),
@@ -125,7 +128,10 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 520, child: Placeholder()),
+                  Container(
+                    height: 520,
+                    child: ListView.builder(itemBuilder: (context, index) {}),
+                  ),
                   Row(
                     children: [
                       Text("Find Bikes Nearby"),
