@@ -59,9 +59,12 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     ),
                   ),
                   Gap(24),
-                  Expanded(child: SingleChildScrollView(child: Column(
+                  Expanded(child: SingleChildScrollView(
+                    padding: .zero,
+                      child: Column(
+                    crossAxisAlignment: .start,
                     children: [
-                      
+
                     ],
                   )),),
                   Container(
