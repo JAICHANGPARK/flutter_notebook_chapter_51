@@ -279,7 +279,10 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                 Container(
                                   width: 160,
                                   height: 120,
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(12),
+                                    color: Colors.blue[100]!,
+                                  ),
                                 )
                               ]),
                             );
