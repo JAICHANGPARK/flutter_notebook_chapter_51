@@ -22,6 +22,19 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
               top: 24,
               child: SmoothPageIndicator(controller: pageController, count: 3),
             ),
+            Positioned(
+              bottom: 24,
+              left: 24,
+              right: 24,
+              child: Column(
+                children: [
+                  Text(
+                    "Unlock your ride in just seconds",
+                    style: TextStyle(fontWeight: .bold, fontSize: 32),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
