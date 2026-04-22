@@ -158,13 +158,19 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                     children: [
                                       Positioned(
                                         left: 16,
-                                        top: 16,
-                                        bottom: 16,
-                                        right: 16,
+                                        top: 24,
+                                        bottom: 24,
+                                        right: 24,
                                         child: Column(
                                           crossAxisAlignment: .start,
                                           children: [
-                                            Text("Urban Glide XX Bike"),
+                                            Text(
+                                              "Urban Glide XX Bike",
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                                fontSize: 18,
+                                              ),
+                                            ),
                                             Text("Price:"),
                                             Text.rich(
                                               TextSpan(
@@ -188,7 +194,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                   Expanded(
                                                     child: Row(
                                                       spacing: 12,
-                                                      mainAxisAlignment: .center,
+                                                      mainAxisAlignment:
+                                                          .center,
                                                       children: [
                                                         Text("Unlock"),
                                                         Icon(
