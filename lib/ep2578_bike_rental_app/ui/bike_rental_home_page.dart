@@ -22,7 +22,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                 Row(
                   spacing: 12,
                   children: [
-                    CircleAvatar(radius: 32),
+                    CircleAvatar(radius: 30),
                     Expanded(
                       child: Column(
                         spacing: 6,
@@ -38,7 +38,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                         ],
                       ),
                     ),
-                    CircleAvatar(radius: 32),
+                    CircleAvatar(radius: 30),
                   ],
                 ),
                 Gap(24),
