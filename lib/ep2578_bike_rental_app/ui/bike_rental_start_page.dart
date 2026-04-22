@@ -33,12 +33,13 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                     style: TextStyle(fontWeight: .bold, fontSize: 38),
                   ),
                   Container(
-                    height: 160,
-                    width: 160,
+                    height: 100,
+                    width: 100,
                     decoration: BoxDecoration(
-                    shape: .circle,
-
-                  ),)
+                      shape: .circle,
+                      color: Colors.grey[200]!,
+                    ),
+                  ),
                 ],
               ),
             ),
