@@ -47,6 +47,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
                         shape: .circle,
                         color: Colors.white,
                       ),
+                      padding: EdgeInsets.all(10),
                       child: CircleAvatar(
                         backgroundColor: Colors.black,
                         child: Icon(Icons.arrow_forward_outlined),
