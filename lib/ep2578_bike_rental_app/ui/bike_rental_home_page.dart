@@ -210,7 +210,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                   ),
                                                   Expanded(
                                                     child: Row(
-                                                      spacing: 12,
+                                                      spacing: 6,
                                                       mainAxisAlignment:
                                                           .center,
                                                       children: [
@@ -220,6 +220,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                         Icon(
                                                           Icons
                                                               .keyboard_double_arrow_right,
+                                                          size: 16,
                                                         ),
                                                       ],
                                                     ),
