@@ -59,7 +59,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                     ),
                   ),
                   Gap(24),
-                  SizedBox(
+                  Container(
+                    padding: .only(left: 16),
                     height: 64,
                     child: ListView(
                       scrollDirection: .horizontal,
