@@ -60,7 +60,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                   ),
                   Gap(24),
                   SizedBox(
-                    height: 72,
+                    height: 64,
                     child: ListView(
                       scrollDirection: .horizontal,
                       children: [
@@ -69,7 +69,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                             shape: .circle,
                             border: .all(color: Colors.grey[200]!),
                           ),
-                          padding: .all(16),
+                          padding: .all(14),
                           child: Icon(Icons.search),
                         ),
                         Container(
