@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/bike_rental_start_page.dart';
 
 class BikeRentalApp extends StatelessWidget {
