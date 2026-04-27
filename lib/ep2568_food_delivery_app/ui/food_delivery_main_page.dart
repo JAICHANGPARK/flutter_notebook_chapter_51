@@ -47,7 +47,6 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               Container(
                 margin: .only(left: 16),
                 height: 90,
-
                 child: Builder(
                   builder: (context) {
                     List<String> items = [
