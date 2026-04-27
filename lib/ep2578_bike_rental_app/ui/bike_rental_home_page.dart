@@ -78,8 +78,8 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                     border: .all(color: Colors.grey[200]!),
                                   ),
                                   padding: .all(14),
-                                  child: Icon(Icons.search),
                                   margin: .only(right: 12),
+                                  child: Icon(Icons.search),
                                 ),
                                 Container(
                                   decoration: ShapeDecoration(
