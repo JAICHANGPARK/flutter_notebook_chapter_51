@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-
 import 'bike_rental_home_page.dart';
 
 class BikeRentalStartPage extends StatefulWidget {
@@ -22,7 +21,7 @@ class _BikeRentalStartPageState extends State<BikeRentalStartPage> {
             Positioned(
               right: 16,
               top: 24,
-              child: SmoothPageIndicator(controller: pageController, count: 3),
+              child: SmoothPageIndicator(controller: pageController, count: 3,),
             ),
             Positioned(
               bottom: 24,
