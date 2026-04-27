@@ -277,7 +277,6 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                               height: 140,
                               padding: EdgeInsets.all(12),
                               child: Row(
-
                                 spacing: 16,
                                 children: [
                                   Container(
@@ -295,7 +294,6 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                       crossAxisAlignment: .start,
                                       children: [
                                         Row(
-                                        
                                           children: [
                                             Expanded(
                                               child: Column(
@@ -308,7 +306,9 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                                         Icons
                                                             .location_on_outlined,
                                                       ),
-                                                      Text("Downtown Street 111"),
+                                                      Text(
+                                                        "Downtown Street 111",
+                                                      ),
                                                     ],
                                                   ),
                                                 ],
@@ -337,7 +337,7 @@ class _BikeRentalHomePageState extends State<BikeRentalHomePage> {
                                               ),
                                             ),
                                           ],
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
