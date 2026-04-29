@@ -3,8 +3,8 @@
 ## EP2584
 
 - Real Estate Mobile App UI/UX Design | Property Finder & Home App
-- Oripio
-- https://dribbble.com/shots/27304774-Smart-Bike-Rental-App
+- Shasanko Creations ✈
+- https://dribbble.com/shots/27323130-Real-Estate-Mobile-App-UI-UX-Design-Property-Finder-Home-App
 
 <img src="https://cdn.dribbble.com/userupload/47476148/file/bf131f57d4e95fe0c25c5ee4c9d6553f.jpg?resize=1905x1429&vertical=center" alt=""/>
 
