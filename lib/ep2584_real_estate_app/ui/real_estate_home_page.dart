@@ -28,8 +28,22 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
-          Positioned(child: SafeArea(child: Column(children: [
-            
+          Positioned(child: SafeArea(child: Column(
+            crossAxisAlignment: .start,
+            children: [
+              Row(
+                children: [
+                  Container(
+                    padding: EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(color: Colors.grey),
+                      color: Colors.white,
+                    ),
+                    child: Icon(Icons.menu),
+                  )
+                ],
+              )
           ],)))
         ],
       ),
