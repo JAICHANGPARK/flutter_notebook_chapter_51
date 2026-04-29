@@ -32,6 +32,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             crossAxisAlignment: .start,
             children: [
               Row(
+                spacing: 12,
                 children: [
                   Container(
                     padding: EdgeInsets.all(16),
@@ -50,7 +51,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       border: .all(color: Colors.grey[400]!),
                       color: Colors.white,
                     ),
-                    child: Icon(Icons.menu, size:24,),
+                    child: Badge(child: Icon(Icons.notifications_none),
+                    backgroundColor: Colors.greenAccent,)
                   ),
                  CircleAvatar(radius: 28,)
                 ],
