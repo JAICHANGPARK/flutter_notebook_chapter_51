@@ -41,7 +41,18 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       color: Colors.white,
                     ),
                     child: Icon(Icons.menu, size:24,),
-                  )
+                  ),
+                  Spacer(),
+                  Container(
+                    padding: EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(color: Colors.grey[400]!),
+                      color: Colors.white,
+                    ),
+                    child: Icon(Icons.menu, size:24,),
+                  ),
+                 CircleAvatar(radius: 28,)
                 ],
               )
           ],)))
