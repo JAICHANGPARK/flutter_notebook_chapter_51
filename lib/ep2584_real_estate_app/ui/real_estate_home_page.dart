@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
 
@@ -14,13 +13,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [
-                
-              ],)
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Color.fromRGBO(242, 248, 221, 1)],
+                ),
+              ),
             ),
-          ))
+          ),
         ],
       ),
     );
