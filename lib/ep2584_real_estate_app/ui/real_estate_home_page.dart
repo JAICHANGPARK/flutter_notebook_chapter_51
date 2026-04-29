@@ -29,33 +29,37 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             ),
           ),
           Positioned(child: SafeArea(child: Column(
+            spacing: 16,
             crossAxisAlignment: .start,
             children: [
-              Row(
-                spacing: 12,
-                children: [
-                  Container(
-                    padding: EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      shape: .circle,
-                      border: .all(color: Colors.grey[400]!),
-                      color: Colors.white,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.grey[400]!),
+                        color: Colors.white,
+                      ),
+                      child: Icon(Icons.menu, size:24,),
                     ),
-                    child: Icon(Icons.menu, size:24,),
-                  ),
-                  Spacer(),
-                  Container(
-                    padding: EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      shape: .circle,
-                      border: .all(color: Colors.grey[400]!),
-                      color: Colors.white,
+                    Spacer(),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.grey[400]!),
+                        color: Colors.white,
+                      ),
+                      child: Badge(child: Icon(Icons.notifications_none, size: 29,),
+                      backgroundColor: Colors.greenAccent,)
                     ),
-                    child: Badge(child: Icon(Icons.notifications_none),
-                    backgroundColor: Colors.greenAccent,)
-                  ),
-                 CircleAvatar(radius: 28,)
-                ],
+                   CircleAvatar(radius: 28,)
+                  ],
+                ),
               )
           ],)))
         ],
