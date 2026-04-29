@@ -2,7 +2,7 @@
 
 ## EP2584
 
-- Smart Bike Rental App
+- Real Estate Mobile App UI/UX Design | Property Finder & Home App
 - Oripio
 - https://dribbble.com/shots/27304774-Smart-Bike-Rental-App
 
