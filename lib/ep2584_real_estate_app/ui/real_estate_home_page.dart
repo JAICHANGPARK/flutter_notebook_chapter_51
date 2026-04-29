@@ -22,11 +22,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   colors: [
                     Color.fromRGBO(242, 248, 221, 1),
                     Color.fromRGBO(240, 246, 239, 1),
+                    Color.fromRGBO(240, 247, 242, 1),
                   ],
                 ),
               ),
             ),
           ),
+          Positioned(child: SafeArea(child: Column(children: [
+            
+          ],)))
         ],
       ),
     );
