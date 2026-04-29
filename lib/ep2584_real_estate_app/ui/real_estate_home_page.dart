@@ -70,6 +70,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                 height: 64,
                 child: Placeholder(),
               ),
+              Text("Recomment for You"),
+              Expanded(child: ListView.builder(itemBuilder: (context,index){
+                return Container(
+                  height: 240,
+                  child: Placeholder(),
+                );
+              }))
           ],)))
         ],
       ),
