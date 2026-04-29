@@ -14,7 +14,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Container())
+          Positioned.fill(child: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(colors: [
+                
+              ],)
+            ),
+          ))
         ],
       ),
     );
