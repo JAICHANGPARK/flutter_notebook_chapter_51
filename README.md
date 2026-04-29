@@ -1,5 +1,13 @@
 # flutter_notebook_chapter_51
 
+## EP2584
+
+- Smart Bike Rental App
+- Oripio
+- https://dribbble.com/shots/27304774-Smart-Bike-Rental-App
+
+<img src="https://cdn.dribbble.com/userupload/47476148/file/bf131f57d4e95fe0c25c5ee4c9d6553f.jpg?resize=1905x1429&vertical=center" alt=""/>
+
 
 ## EP2578-2583
 
