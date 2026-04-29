@@ -34,13 +34,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               Row(
                 children: [
                   Container(
-                    padding: EdgeInsets.all(12),
+                    padding: EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       shape: .circle,
                       border: .all(color: Colors.grey),
                       color: Colors.white,
                     ),
-                    child: Icon(Icons.menu),
+                    child: Icon(Icons.menu, size:24,),
                   )
                 ],
               )
