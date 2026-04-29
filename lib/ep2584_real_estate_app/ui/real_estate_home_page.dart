@@ -17,7 +17,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(242, 248, 221, 1)],
+                  colors: [
+                    Color.fromRGBO(242, 248, 221, 1),
+                    Color.fromRGBO(240, 246, 239, 1),
+                  ],
                 ),
               ),
             ),
