@@ -37,7 +37,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     padding: EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       shape: .circle,
-                      border: .all(color: Colors.grey),
+                      border: .all(color: Colors.grey[400]!),
                       color: Colors.white,
                     ),
                     child: Icon(Icons.menu, size:24,),
