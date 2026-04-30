@@ -98,6 +98,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     padding: .only(
                       left: 16
                     ),
+                    margin: EdgeInsets.symmetric(vertical: 12),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -106,7 +107,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             color: Color.fromRGBO(245, 254, 142, 1),
                             borderRadius: .circular(24),
                           ),
-                          margin: .only(right: 16),
+                          margin: .only(right: 12),
                           padding: EdgeInsets.symmetric(horizontal: 24),
                           child: Center(
                             child: Text(
@@ -121,7 +122,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               side: BorderSide(color: Colors.grey[300]!),
                             ),
                           ),
-                          margin: .only(right: 16),
+                          margin: .only(right: 12),
                           padding: .only(left: 4, right: 12),
                           child: Row(
                             spacing: 8,
