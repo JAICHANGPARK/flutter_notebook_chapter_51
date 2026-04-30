@@ -28,56 +28,71 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
-          Positioned(child: SafeArea(child: Column(
-            spacing: 16,
-            crossAxisAlignment: .start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Row(
-                  spacing: 12,
-                  children: [
-                    Container(
-                      padding: EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        shape: .circle,
-                        border: .all(color: Colors.grey[400]!),
-                        color: Colors.white,
-                      ),
-                      child: Icon(Icons.menu, size:24,),
+          Positioned(
+            child: SafeArea(
+              child: Column(
+                spacing: 16,
+                crossAxisAlignment: .start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      spacing: 12,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.grey[400]!),
+                            color: Colors.white,
+                          ),
+                          child: Icon(Icons.menu, size: 24),
+                        ),
+                        Spacer(),
+                        Container(
+                          padding: EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.grey[400]!),
+                            color: Colors.white,
+                          ),
+                          child: Badge(
+                            child: Icon(Icons.notifications_none, size: 29),
+                            backgroundColor: Colors.greenAccent,
+                          ),
+                        ),
+                        CircleAvatar(radius: 28),
+                      ],
                     ),
-                    Spacer(),
-                    Container(
-                      padding: EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        shape: .circle,
-                        border: .all(color: Colors.grey[400]!),
-                        color: Colors.white,
-                      ),
-                      child: Badge(child: Icon(Icons.notifications_none, size: 29,),
-                      backgroundColor: Colors.greenAccent,)
-                    ),
-                   CircleAvatar(radius: 28,)
-                  ],
-                ),
-              ),
-              Container(
-                height: 64,
-                child: Placeholder(),
-              ),
+                  ),
+                  Container(
+                    child: Row(
+                      spacing: 24,
+                      children: [
+                        Expanded(
+                          child: Text(
+                            "Made for You\nExplore Properties",
+                            style: TextStyle(fontWeight: .bold, fontSize: 32),
+                          ),
+                        ),
 
-              Container(
-                height: 64,
-                child: Placeholder(),
+                      ],
+                    ),
+                  ),
+
+                  Container(height: 64, child: Placeholder()),
+                  Text("Recomment for You"),
+                  Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(height: 240, child: Placeholder());
+                      },
+                    ),
+                  ),
+                ],
               ),
-              Text("Recomment for You"),
-              Expanded(child: ListView.builder(itemBuilder: (context,index){
-                return Container(
-                  height: 240,
-                  child: Placeholder(),
-                );
-              }))
-          ],)))
+            ),
+          ),
         ],
       ),
     );
