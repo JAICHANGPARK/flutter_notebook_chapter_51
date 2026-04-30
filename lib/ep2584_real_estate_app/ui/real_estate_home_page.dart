@@ -104,7 +104,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             borderRadius: .circular(24),
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 24),
-                          child: Center(child: Text("All")),
+                          child: Center(
+                            child: Text(
+                              "All",
+                              style: TextStyle(fontWeight: .bold, fontSize: 16),
+                            ),
+                          ),
                         ),
                       ],
                     ),
