@@ -82,7 +82,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             color: Colors.white,
                             borderRadius: .circular(32),
                           ),
-                          padding: EdgeInsets.symmetric(vertical: 26, horizontal: 16),
+                          padding: EdgeInsets.symmetric(
+                            vertical: 26,
+                            horizontal: 16,
+                          ),
 
                           child: Icon(Icons.search),
                         ),
@@ -90,12 +93,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
 
-                  Container(height: 64, child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-
-                    ],
-                  ),),
+                  Container(
+                    height: 64,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(245, 254, 142, 1),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Center(child: Text("All")),
+                        ),
+                      ],
+                    ),
+                  ),
                   Text("Recomment for You"),
                   Expanded(
                     child: ListView.builder(
