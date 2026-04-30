@@ -95,6 +95,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
 
                   Container(
                     height: 52,
+                    padding: .only(
+                      left: 16
+                    ),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -118,12 +121,45 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               side: BorderSide(color: Colors.grey[300]!),
                             ),
                           ),
+                          margin: .only(right: 16),
                           padding: .only(left: 4, right: 12),
                           child: Row(
                             spacing: 8,
                             children: [
                               CircleAvatar(radius: 24),
                               Text("House", style: TextStyle(fontSize: 16)),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[300]!),
+                            ),
+                          ),
+                          margin: .only(right: 16),
+                          padding: .only(left: 4, right: 12),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              CircleAvatar(radius: 24),
+                              Text("Apartment", style: TextStyle(fontSize: 16)),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[300]!),
+                            ),
+                          ),
+                          margin: .only(right: 16),
+                          padding: .only(left: 4, right: 12),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              CircleAvatar(radius: 24),
+                              Text("Apartment", style: TextStyle(fontSize: 16)),
                             ],
                           ),
                         ),
