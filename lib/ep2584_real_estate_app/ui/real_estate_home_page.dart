@@ -75,7 +75,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             style: TextStyle(fontWeight: .bold, fontSize: 32),
                           ),
                         ),
-
+                        Container(
+                          decoration: BoxDecoration(border: ,color: Colors.white,),
+                        ),
                       ],
                     ),
                   ),
