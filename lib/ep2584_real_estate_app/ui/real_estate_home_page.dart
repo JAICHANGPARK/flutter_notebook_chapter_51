@@ -116,12 +116,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             shape: StadiumBorder(side: BorderSide(color: Colors.grey[300]!)),
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 24),
-                          child: Center(
-                            child: Text(
-                              "All",
-                              style: TextStyle(fontWeight: .bold, fontSize: 16),
-                            ),
-                          ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(),
+                              Text("House")
+                            ],
+                          )
                         ),
                       ],
                     ),
