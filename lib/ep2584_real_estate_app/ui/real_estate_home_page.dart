@@ -94,15 +94,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ),
 
                   Container(
-                    height: 64,
+                    height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(245, 254, 142, 1),
+                            borderRadius: .circular(24),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
                           child: Center(child: Text("All")),
                         ),
                       ],
