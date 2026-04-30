@@ -76,7 +76,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
                         ),
                         Container(
-                          decoration: BoxDecoration(border: ,color: Colors.white,),
+                          decoration: BoxDecoration(border:
+                            .all(color: Colors.grey[300]!),color: Colors.white,),
                         ),
                       ],
                     ),
