@@ -90,7 +90,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
 
-                  Container(height: 64, child: Placeholder()),
+                  Container(height: 64, child: ListView(
+                    children: [
+                      
+                    ],
+                  ),),
                   Text("Recomment for You"),
                   Expanded(
                     child: ListView.builder(
