@@ -115,8 +115,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(side: BorderSide(color: Colors.grey[300]!)),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 24),
+                          padding: .only(left: 4, right: 12)
                           child: Row(
+                            spacing: 12,
                             children: [
                               CircleAvatar(),
                               Text("House")
