@@ -66,6 +66,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       spacing: 24,
                       children: [
@@ -79,7 +80,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           decoration: BoxDecoration(
                             border: .all(color: Colors.grey[300]!),
                             color: Colors.white,
+                            borderRadius: .circular(32),
                           ),
+                          padding: EdgeInsets.symmetric(vertical: 26, horizontal: 16),
+
+                          child: Icon(Icons.search),
                         ),
                       ],
                     ),
