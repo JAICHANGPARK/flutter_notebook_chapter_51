@@ -91,8 +91,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ),
 
                   Container(height: 64, child: ListView(
+                    scrollDirection: Axis.horizontal,
                     children: [
-                      
+
                     ],
                   ),),
                   Text("Recomment for You"),
