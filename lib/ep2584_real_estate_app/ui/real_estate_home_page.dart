@@ -103,6 +103,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             color: Color.fromRGBO(245, 254, 142, 1),
                             borderRadius: .circular(24),
                           ),
+                          margin: .only(right: 16),
                           padding: EdgeInsets.symmetric(horizontal: 24),
                           child: Center(
                             child: Text(
@@ -119,11 +120,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
                           padding: .only(left: 4, right: 12),
                           child: Row(
-                            spacing: 12,
+                            spacing: 8,
                             children: [
-                              CircleAvatar(
-                                radius: 24,
-                              ),
+                              CircleAvatar(radius: 24),
                               Text("House", style: TextStyle(fontSize: 16)),
                             ],
                           ),
