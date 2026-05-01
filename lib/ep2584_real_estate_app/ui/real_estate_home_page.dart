@@ -170,13 +170,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),),
                   ),
                   Expanded(
-                    child: ListView.builder(
-                      itemBuilder: (context, index) {
-                        return Container(height: 240, decoration: BoxDecoration(
-                          color: Colors.white,
-                          border: Border.all(color: Colors.grey,)
-                        ),);
-                      },
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(8.0),
+                      child: ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container(height: 240, decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(color: Colors.grey,)
+                          ),);
+                        },
+                      ),
                     ),
                   ),
                 ],
