@@ -165,7 +165,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Text("Recomment for You",style: TextStyle(fontSize: 20,
                     ),),
                   ),
