@@ -166,8 +166,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Text("Recomment for You",style: TextStyle(fontSize: 20,
-                    ),),
+                    child: Text(
+                      "Recomment for You",
+                      style: TextStyle(fontSize: 20),
+                    ),
                   ),
                   Expanded(
                     child: Padding(
@@ -176,10 +178,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             margin: .only(bottom: 16),
-                            height: 240, decoration: BoxDecoration(
-                            color: Colors.white,
-                            border: Border.all(color: Colors.grey,)
-                          ),);
+                            height: 240,
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                side: BorderSide(color: Colors.grey[300]!),
+                              ),
+                              color: Colors.white,
+
+                            ),
+                          );
                         },
                       ),
                     ),
