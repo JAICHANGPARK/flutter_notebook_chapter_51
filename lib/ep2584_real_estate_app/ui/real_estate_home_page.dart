@@ -197,39 +197,44 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     ),
                                   ),
                                 ),
-                                Row(
+                                Column(
                                   children: [
-                                    Text("Homes"),
-                                    Container(
-                                      decoration: ShapeDecoration(
-                                        shape: StadiumBorder(),
-                                      ),
-                                      child: Text("\$440.00"),
+                                    Row(
+                                      children: [
+                                        Text("Homes"),
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                          ),
+                                          child: Text("\$440.00"),
+                                        ),
+                                      ],
                                     ),
-                                  ],
-                                ),
-                                Row(
-                                  children: [
-                                    Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                                      decoration: ShapeDecoration(
-                                        shape: StadiumBorder(
-                                          side: BorderSide(
-                                            color: Colors.grey[300]!,
+                                    Row(
+                                      children: [
+                                        Container(
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(
+                                              side: BorderSide(
+                                                color: Colors.grey[300]!,
+                                              ),
+                                            ),
+
+                                          ),
+                                          child: Row(
+                                            spacing: 4,
+                                            children: [
+                                              Icon(Icons.location_on_outlined),
+                                              Text("Dreams")
+                                            ],
                                           ),
                                         ),
-
-                                      ),
-                                      child: Row(
-                                        spacing: 4,
-                                        children: [
-                                          Icon(Icons.location_on_outlined),
-                                          Text("Dreams")
-                                        ],
-                                      ),
+                                      ],
                                     ),
                                   ],
-                                ),
+                                )
+
                               ],
                             ),
                           );
