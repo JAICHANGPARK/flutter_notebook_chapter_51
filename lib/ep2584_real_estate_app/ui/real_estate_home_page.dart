@@ -92,12 +92,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
-
                   Container(
                     height: 52,
-                    padding: .only(
-                      left: 16
-                    ),
+                    padding: .only(left: 16),
                     margin: EdgeInsets.symmetric(vertical: 12),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
