@@ -186,7 +186,32 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 side: BorderSide(color: Colors.grey[300]!),
                               ),
                               color: Colors.white,
-
+                            ),
+                            child: Column(
+                              spacing: 12,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.orange,
+                                    ),
+                                  ),
+                                ),
+                                Row(
+                                  children: [
+                                    Text("Homes"),
+                                    Container(
+                                      decoration: ShapeDecoration(shape: StadiumBorder(),),
+                                      child: Text("\$440.00"),
+                                    )
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    
+                                  ],
+                                )
+                              ],
                             ),
                           );
                         },
