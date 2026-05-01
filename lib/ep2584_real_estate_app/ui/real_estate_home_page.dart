@@ -120,7 +120,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ),
                           ),
                           margin: .only(right: 12),
-                          padding: .only(left: 4, right: 12, top: 4, bottom: 4),
+                          padding: .only(left: 2, right: 12, top: 2, bottom: 2),
                           child: Row(
                             spacing: 8,
                             children: [
