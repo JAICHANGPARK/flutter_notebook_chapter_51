@@ -199,6 +199,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                     child: Stack(
                                       children: [
                                         Positioned(
+                                          top: 6,
+                                          left: 6,
+                                          right: 6,
                                           child: Row(
                                             children: [
                                               Container(
@@ -206,6 +209,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                   shape: StadiumBorder(),
                                                   color: Colors.white,
                                                 ),
+                                                padding: EdgeInsets.symmetric(horizontal: 23, vertical: 12),
+                                                child: Text("Best Deal"),
                                               ),
                                               CircleAvatar(
                                                 backgroundColor: Colors.white,
