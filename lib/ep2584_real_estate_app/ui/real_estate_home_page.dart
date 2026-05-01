@@ -164,8 +164,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                   ),
-                  Text("Recomment for You",style: TextStyle(fontSize: 18,
-                  ),),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text("Recomment for You",style: TextStyle(fontSize: 20,
+                    ),),
+                  ),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
