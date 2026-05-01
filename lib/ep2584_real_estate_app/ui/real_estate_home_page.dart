@@ -211,6 +211,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 Row(
                                   children: [
                                     Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(
                                           side: BorderSide(
@@ -220,8 +221,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
 
                                       ),
                                       child: Row(
+                                        spacing: 4,
                                         children: [
                                           Icon(Icons.location_on_outlined),
+                                          Text("Dreams")
                                         ],
                                       ),
                                     ),
