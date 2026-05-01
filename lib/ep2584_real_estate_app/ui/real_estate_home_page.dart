@@ -30,6 +30,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
           ),
           Positioned(
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 crossAxisAlignment: .start,
