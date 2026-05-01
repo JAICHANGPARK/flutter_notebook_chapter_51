@@ -201,16 +201,32 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   children: [
                                     Text("Homes"),
                                     Container(
-                                      decoration: ShapeDecoration(shape: StadiumBorder(),),
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                      ),
                                       child: Text("\$440.00"),
-                                    )
+                                    ),
                                   ],
                                 ),
                                 Row(
                                   children: [
-                                    
+                                    Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(
+                                          side: BorderSide(
+                                            color: Colors.grey[300]!,
+                                          ),
+                                        ),
+
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Icon(Icons.location_on_outlined),
+                                        ],
+                                      ),
+                                    ),
                                   ],
-                                )
+                                ),
                               ],
                             ),
                           );
