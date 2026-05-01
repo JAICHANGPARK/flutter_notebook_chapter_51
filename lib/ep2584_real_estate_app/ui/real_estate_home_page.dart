@@ -203,13 +203,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           left: 6,
                                           right: 6,
                                           child: Row(
+                                            mainAxisAlignment: .spaceBetween,
                                             children: [
                                               Container(
                                                 decoration: ShapeDecoration(
                                                   shape: StadiumBorder(),
                                                   color: Colors.white,
                                                 ),
-                                                padding: EdgeInsets.symmetric(horizontal: 23, vertical: 12),
+                                                padding: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
                                                 child: Text("Best Deal"),
                                               ),
                                               CircleAvatar(
