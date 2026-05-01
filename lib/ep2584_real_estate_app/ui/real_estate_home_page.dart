@@ -213,7 +213,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                 child: Text("Best Deal"),
                                               ),
                                               CircleAvatar(
+                                                    radius: 28,
                                                 backgroundColor: Colors.white,
+                                                child: Icon(Icons.favorite_border),
                                               )
 
                                             ],
