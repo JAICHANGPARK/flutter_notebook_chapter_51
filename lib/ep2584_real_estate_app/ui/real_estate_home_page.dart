@@ -179,7 +179,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             margin: .only(bottom: 16),
-                            height: 240,
+                            height: 280,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: .circular(24),
@@ -188,12 +188,33 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               color: Colors.white,
                             ),
                             child: Column(
-
                               children: [
                                 Expanded(
                                   child: Container(
+                                    margin: EdgeInsets.all(3),
                                     decoration: BoxDecoration(
                                       color: Colors.orange,
+                                      borderRadius: .circular(24),
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          child: Row(
+                                            children: [
+                                              Container(
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(),
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                              CircleAvatar(
+                                                backgroundColor: Colors.white,
+                                              )
+
+                                            ],
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -216,76 +237,87 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       SingleChildScrollView(
                                         scrollDirection: .horizontal,
                                         child: Row(
+                                          spacing: 4,
                                           children: [
                                             Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 8,
+                                                vertical: 4,
+                                              ),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(
                                                   side: BorderSide(
                                                     color: Colors.grey[300]!,
                                                   ),
                                                 ),
-
                                               ),
                                               child: Row(
                                                 spacing: 4,
                                                 children: [
-                                                  Icon(Icons.location_on_outlined),
-                                                  Text("Dreams")
+                                                  Icon(
+                                                    Icons.location_on_outlined,
+                                                  ),
+                                                  Text("Dreams"),
                                                 ],
                                               ),
                                             ),
                                             Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 8,
+                                                vertical: 4,
+                                              ),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(
                                                   side: BorderSide(
                                                     color: Colors.grey[300]!,
                                                   ),
                                                 ),
-
                                               ),
                                               child: Row(
                                                 spacing: 4,
                                                 children: [
                                                   Icon(Icons.star_border),
-                                                  Text("4.5")
+                                                  Text("4.5"),
                                                 ],
                                               ),
                                             ),
                                             Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 8,
+                                                vertical: 4,
+                                              ),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(
                                                   side: BorderSide(
                                                     color: Colors.grey[300]!,
                                                   ),
                                                 ),
-
                                               ),
                                               child: Row(
                                                 spacing: 4,
                                                 children: [
                                                   Icon(Icons.bed),
-                                                  Text("4 Beds")
+                                                  Text("4 Beds"),
                                                 ],
                                               ),
                                             ),
                                             Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 8,
+                                                vertical: 4,
+                                              ),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(
                                                   side: BorderSide(
                                                     color: Colors.grey[300]!,
                                                   ),
                                                 ),
-
                                               ),
                                               child: Row(
                                                 spacing: 4,
                                                 children: [
                                                   Icon(Icons.bathtub_outlined),
-                                                  Text("3 Baths")
+                                                  Text("3 Baths"),
                                                 ],
                                               ),
                                             ),
@@ -294,8 +326,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       ),
                                     ],
                                   ),
-                                )
-
+                                ),
                               ],
                             ),
                           );
