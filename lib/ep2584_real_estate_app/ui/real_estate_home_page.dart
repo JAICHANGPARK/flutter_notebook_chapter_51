@@ -213,63 +213,84 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                           ),
                                         ],
                                       ),
-                                      Row(
-                                        children: [
-                                          Container(
-                                            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                            decoration: ShapeDecoration(
-                                              shape: StadiumBorder(
-                                                side: BorderSide(
-                                                  color: Colors.grey[300]!,
+                                      SingleChildScrollView(
+                                        scrollDirection: .horizontal,
+                                        child: Row(
+                                          children: [
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.grey[300]!,
+                                                  ),
                                                 ),
-                                              ),
 
+                                              ),
+                                              child: Row(
+                                                spacing: 4,
+                                                children: [
+                                                  Icon(Icons.location_on_outlined),
+                                                  Text("Dreams")
+                                                ],
+                                              ),
                                             ),
-                                            child: Row(
-                                              spacing: 4,
-                                              children: [
-                                                Icon(Icons.location_on_outlined),
-                                                Text("Dreams")
-                                              ],
-                                            ),
-                                          ),
-                                          Container(
-                                            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                            decoration: ShapeDecoration(
-                                              shape: StadiumBorder(
-                                                side: BorderSide(
-                                                  color: Colors.grey[300]!,
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.grey[300]!,
+                                                  ),
                                                 ),
-                                              ),
 
+                                              ),
+                                              child: Row(
+                                                spacing: 4,
+                                                children: [
+                                                  Icon(Icons.star_border),
+                                                  Text("4.5")
+                                                ],
+                                              ),
                                             ),
-                                            child: Row(
-                                              spacing: 4,
-                                              children: [
-                                                Icon(Icons.star_border),
-                                                Text("4.5")
-                                              ],
-                                            ),
-                                          ),
-                                          Container(
-                                            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                                            decoration: ShapeDecoration(
-                                              shape: StadiumBorder(
-                                                side: BorderSide(
-                                                  color: Colors.grey[300]!,
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.grey[300]!,
+                                                  ),
                                                 ),
-                                              ),
 
+                                              ),
+                                              child: Row(
+                                                spacing: 4,
+                                                children: [
+                                                  Icon(Icons.bed),
+                                                  Text("4 Beds")
+                                                ],
+                                              ),
                                             ),
-                                            child: Row(
-                                              spacing: 4,
-                                              children: [
-                                                Icon(Icons.bed),
-                                                Text("4 Beds")
-                                              ],
+                                            Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.grey[300]!,
+                                                  ),
+                                                ),
+
+                                              ),
+                                              child: Row(
+                                                spacing: 4,
+                                                children: [
+                                                  Icon(Icons.bathtub_outlined),
+                                                  Text("3 Baths")
+                                                ],
+                                              ),
                                             ),
-                                          ),
-                                        ],
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
