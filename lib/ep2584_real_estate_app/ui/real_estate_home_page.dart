@@ -181,6 +181,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             height: 240,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24),
                                 side: BorderSide(color: Colors.grey[300]!),
                               ),
                               color: Colors.white,
