@@ -366,7 +366,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ),
                   CircleAvatar( radius: 28,),
                   CircleAvatar( radius: 28,),
-                  CircleAvatar(),
+                  CircleAvatar( radius: 28,),
                   CircleAvatar(),
                 ],
               ),
