@@ -351,9 +351,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             ),
           ),
           Positioned(
+            bottom: 16,
+            left: 32,
+            right: 32,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder()),
+              decoration: ShapeDecoration(shape: StadiumBorder(),
+              color: Colors.white12),
+              child: Row(
+                children: [
+                  CircleAvatar(),
+                ],
+              ),
             ),
+
           ),
         ],
       ),
