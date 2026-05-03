@@ -360,6 +360,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Row(
                 children: [
                   CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
                 ],
               ),
             ),
