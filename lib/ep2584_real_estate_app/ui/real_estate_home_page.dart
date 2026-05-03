@@ -370,6 +370,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     CircleAvatar(
                       radius: 28,
                       backgroundColor: Color.fromRGBO(247, 254, 140, 1),
+                      foregroundColor: Colors.black,
                       child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                     ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white,
