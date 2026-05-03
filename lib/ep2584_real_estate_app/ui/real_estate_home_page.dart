@@ -366,7 +366,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   mainAxisSize: .min,
                   spacing: 4,
                   children: [
-                    CircleAvatar(radius: 28, ),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Color.fromRGBO(247, 254, 140, 1),
+                    ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
