@@ -359,7 +359,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               color: Colors.white12),
               child: Row(
                 children: [
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 32,
+                  ),
                   CircleAvatar(),
                   CircleAvatar(),
                   CircleAvatar(),
