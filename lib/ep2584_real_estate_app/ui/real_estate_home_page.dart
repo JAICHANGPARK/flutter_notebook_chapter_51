@@ -379,7 +379,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: HugeIcon(icon: HugeIcons.strokeRoundedCash01),
                     ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white,
-                      child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedInbox),
                     ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                   ],
