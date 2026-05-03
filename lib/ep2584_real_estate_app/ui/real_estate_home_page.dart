@@ -210,15 +210,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                   shape: StadiumBorder(),
                                                   color: Colors.white,
                                                 ),
-                                                padding: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
+                                                padding: EdgeInsets.symmetric(
+                                                  horizontal: 24,
+                                                  vertical: 20,
+                                                ),
                                                 child: Text("Best Deal"),
                                               ),
                                               CircleAvatar(
-                                                    radius: 28,
+                                                radius: 28,
                                                 backgroundColor: Colors.white,
-                                                child: Icon(Icons.favorite_border),
-                                              )
-
+                                                child: Icon(
+                                                  Icons.favorite_border,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
@@ -346,6 +350,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
+          Positioned(child: Container(decoration: ,))
         ],
       ),
     );
