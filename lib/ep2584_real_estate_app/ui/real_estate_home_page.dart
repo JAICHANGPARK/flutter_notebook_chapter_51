@@ -350,7 +350,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               ),
             ),
           ),
-          Positioned(child: Container(decoration: ,))
+          Positioned(
+            child: Container(
+              decoration: ShapeDecoration(shape: StadiumBorder()),
+            ),
+          ),
         ],
       ),
     );
