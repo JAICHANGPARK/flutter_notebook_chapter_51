@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
@@ -369,6 +370,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     CircleAvatar(
                       radius: 28,
                       backgroundColor: Color.fromRGBO(247, 254, 140, 1),
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                     ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
