@@ -367,8 +367,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   spacing: 4,
                   children: [
                     CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
+                    CircleAvatar(radius: 28,
+                    backgroundColor: Colors.white,),
+                    CircleAvatar(radius: 28,
+                      backgroundColor: Colors.white,),
                     CircleAvatar(radius: 28),
                     CircleAvatar(radius: 28),
                   ],
