@@ -359,7 +359,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.white,
+                  color: Colors.grey[100],
                 ),
                 padding: EdgeInsets.all(3),
                 child: Row(
