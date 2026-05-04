@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class WaterBottleHomePage extends StatefulWidget {
   const WaterBottleHomePage({super.key});
 
@@ -11,6 +10,18 @@ class WaterBottleHomePage extends StatefulWidget {
 class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color.fromRGBO(227, 232, 231, 1),
+      body: Column(
+        children: [
+          Expanded(child: Container()),
+          Expanded(
+            child: Column(
+              children: [SizedBox(height: 52, child: Placeholder())],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
