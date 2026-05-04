@@ -3,7 +3,7 @@
 ## EP2588
 
 - LARQ-Luxury Smart Water Bottle Mobile App UI
-- Shasanko Creations ✈
+- UIX Habib
 - https://dribbble.com/shots/27323130-Real-Estate-Mobile-App-UI-UX-Design-Property-Finder-Home-App
 
 <img src="https://cdn.dribbble.com/userupload/47540194/file/a10aa9a009693b8e86f4dbd031203c7a.png?resize=1905x1429&vertical=center" alt=""/>
