@@ -2,7 +2,7 @@
 
 ## EP2588
 
-- Real Estate Mobile App UI/UX Design | Property Finder & Home App
+- LARQ-Luxury Smart Water Bottle Mobile App UI
 - Shasanko Creations ✈
 - https://dribbble.com/shots/27323130-Real-Estate-Mobile-App-UI-UX-Design-Property-Finder-Home-App
 
