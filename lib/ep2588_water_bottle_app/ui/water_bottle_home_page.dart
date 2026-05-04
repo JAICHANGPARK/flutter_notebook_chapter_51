@@ -33,11 +33,20 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
               crossAxisAlignment: .start,
               children: [
                 Container(
-
+padding: EdgeInsets.only(left: 16),
                     height: 72, child: Placeholder()),
-                Text("Best Picks"),
-                Container(height: 160, child: Placeholder()),
-                Container(height: 160, child: Placeholder()),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    
+                    children: [
+                      Text("Best Picks"),
+                      Container(height: 160, child: Placeholder()),
+                      Container(height: 160, child: Placeholder()),
+                    ],
+                  ),
+                )
+
               ],
             ),
           ),
