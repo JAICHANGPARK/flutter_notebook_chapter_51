@@ -33,20 +33,30 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
               crossAxisAlignment: .start,
               children: [
                 Container(
-padding: EdgeInsets.only(left: 16),
-                    height: 72, child: Placeholder()),
+                  padding: EdgeInsets.only(left: 16),
+                  height: 72,
+                  child: Placeholder(),
+                ),
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
-                    
+                    crossAxisAlignment: .start,
+                    spacing: 16,
                     children: [
-                      Text("Best Picks"),
-                      Container(height: 160, child: Placeholder()),
-                      Container(height: 160, child: Placeholder()),
+                      Text("Best Picks", style: TextStyle(fontSize: 18)),
+                      Container(
+                        height: 140,
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(32),
+                          ),
+                          color: Colors.white,
+                        ),
+                      ),
+                      Container(height: 140, child: Placeholder()),
                     ],
                   ),
-                )
-
+                ),
               ],
             ),
           ),
