@@ -13,15 +13,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(227, 232, 231, 1),
       body: Column(
-        spacing: 16,
+        spacing: 24,
         children: [
           Expanded(
             child: Container(
               decoration: ShapeDecoration(
                 shape: RoundedSuperellipseBorder(
                   borderRadius: .only(
-                    bottomLeft: .circular(42),
-                    bottomRight: .circular(42),
+                    bottomLeft: .circular(62),
+                    bottomRight: .circular(62),
                   ),
                 ),
                 color: Color.fromRGBO(193, 214, 213, 1),
