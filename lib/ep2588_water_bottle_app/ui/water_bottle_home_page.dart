@@ -50,7 +50,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
                           ),
-                          color: Colors.white,
+                          color: Color.fromRGBO(244, 246, 246, 1),
                         ),
                       ),
                       Container(
@@ -58,8 +58,9 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
+                            side: BorderSide(color: Colors.white38)
                           ),
-                          color: Colors.white,
+                          color: Color.fromRGBO(244, 246, 246, 1),
                         ),
                       ),
                     ],
