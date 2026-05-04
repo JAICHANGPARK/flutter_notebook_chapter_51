@@ -14,14 +14,19 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
       backgroundColor: Color.fromRGBO(227, 232, 231, 1),
       body: Column(
         children: [
-          Expanded(child: Container(
-            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-              borderRadius: .only(
-                bottomLeft: .circular(32),
-                bottomRight: .circular(32),
-              )
-            )),
-          )),
+          Expanded(
+            child: Container(
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(
+                  borderRadius: .only(
+                    bottomLeft: .circular(32),
+                    bottomRight: .circular(32),
+                  ),
+                ),
+                color: Color.fromRGBO(193, 214, 213, 1),
+              ),
+            ),
+          ),
           Expanded(
             child: Column(
               crossAxisAlignment: .start,
