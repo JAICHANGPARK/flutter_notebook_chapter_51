@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/water_bottle_home_page.dart';
+
 
 class WaterBottleApp extends StatelessWidget {
   const WaterBottleApp({super.key});
@@ -7,7 +9,7 @@ class WaterBottleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ,
+      home: WaterBottleHomePage(),
     );
   }
 }
