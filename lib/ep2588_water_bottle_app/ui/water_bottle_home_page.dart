@@ -53,7 +53,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           color: Colors.white,
                         ),
                       ),
-                      Container(height: 140, child: Placeholder()),
+                      Container(
+                        height: 140,
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: .circular(32),
+                          ),
+                          color: Colors.white,
+                        ),
+                      ),
                     ],
                   ),
                 ),
