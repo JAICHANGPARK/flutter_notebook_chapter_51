@@ -43,12 +43,13 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     crossAxisAlignment: .start,
                     spacing: 16,
                     children: [
-                      Text("Best Picks", style: TextStyle(fontSize: 18)),
+                      Text("Best Picks", style: TextStyle(fontSize: 22)),
                       Container(
                         height: 140,
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
+                              side: BorderSide(color: Colors.white38)
                           ),
                           color: Color.fromRGBO(244, 246, 246, 1),
                         ),
