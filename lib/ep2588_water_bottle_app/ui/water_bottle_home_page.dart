@@ -17,7 +17,19 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
           Expanded(child: Container()),
           Expanded(
             child: Column(
-              children: [SizedBox(height: 52, child: Placeholder())],
+              crossAxisAlignment: .start,
+              children: [SizedBox(height: 52, child: Placeholder(),),
+              Text("Best Picks"),
+                Container(
+                  height: 160,
+                  child: Placeholder(),
+                ),
+                Container(
+                  height: 160,
+                  child: Placeholder(),
+                ),
+
+              ],
             ),
           ),
         ],
