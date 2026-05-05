@@ -52,12 +52,13 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         Spacer(),
                         Container(
+                          height: 54,
+                          width: 54,
                           decoration: BoxDecoration(
                             shape: .circle,
                             border: .all(color: Colors.white54),
                             color: Color.fromRGBO(230, 237, 237, 1),
                           ),
-                          padding: EdgeInsets.all(14),
                           child: HugeIcon(
                             icon: HugeIcons.strokeRoundedNotification02,
                           ),
