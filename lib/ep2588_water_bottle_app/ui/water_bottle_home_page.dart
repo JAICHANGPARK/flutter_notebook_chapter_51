@@ -30,9 +30,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                 children: [
                   Row(
                     children: [
-                      
+                      Text("NEW--Filtered\nwater, instantly"),
+                      Container(
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          border: .all(color: Colors.white54),
+                        ),
+                      ),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
@@ -58,7 +64,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
-                              side: BorderSide(color: Colors.white38)
+                            side: BorderSide(color: Colors.white38),
                           ),
                           color: Color.fromRGBO(244, 246, 246, 1),
                         ),
@@ -68,7 +74,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(32),
-                            side: BorderSide(color: Colors.white38)
+                            side: BorderSide(color: Colors.white38),
                           ),
                           color: Color.fromRGBO(244, 246, 246, 1),
                         ),
