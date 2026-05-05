@@ -82,6 +82,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     ),
                     Row(
                       mainAxisSize: .min,
+                      spacing: 12,
                       children: [
                         CircleAvatar(
                           radius: 8,
