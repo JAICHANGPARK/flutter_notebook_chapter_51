@@ -88,14 +88,22 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           backgroundColor: Color.fromRGBO(104, 136, 130, 1),
                         ),
                         Container(
-                          height: 12,
-                          width: 42,
+                          height: 16,
+                          width: 36,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.white38),
                             ),
                             color: Color.fromRGBO(209, 224, 222, 1),
                           ),
+                        ),
+                        CircleAvatar(
+                          radius: 8,
+                          backgroundColor: Color.fromRGBO(104, 136, 130, 1),
+                        ),
+                        CircleAvatar(
+                          radius: 8,
+                          backgroundColor: Color.fromRGBO(104, 136, 130, 1),
                         ),
                         CircleAvatar(
                           radius: 8,
