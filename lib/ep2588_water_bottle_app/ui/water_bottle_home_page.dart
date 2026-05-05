@@ -37,6 +37,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
               ),
               padding: .all(16),
               child: SafeArea(
+                bottom: false,
                 child: Column(
                   mainAxisAlignment: .spaceBetween,
                   children: [
@@ -82,7 +83,9 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     Row(
                       mainAxisSize: .min,
                       children: [
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 8,
+                        ),
                         Container(
                           height: 12,
                           width: 130,
