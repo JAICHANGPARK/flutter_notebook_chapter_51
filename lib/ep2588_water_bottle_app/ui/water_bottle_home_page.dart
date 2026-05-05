@@ -76,7 +76,6 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                             color: Color.fromRGBO(230, 237, 237, 1),
                           ),
                           padding: EdgeInsets.all(14),
-
                         ),
                       ],
                     ),
@@ -91,18 +90,19 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         Container(
                           height: 12,
                           width: 42,
-                          decoration: ShapeDecoration(shape: StadiumBorder(
-                            side: BorderSide(
-                             color:  Color.fromRGBO(193, 214, 213, 1),
-
-                            )
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.white38),
+                            ),
+                            color: Color.fromRGBO(209, 224, 222, 1),
                           ),
-
-                          ),
-
-                        )
+                        ),
+                        CircleAvatar(
+                          radius: 8,
+                          backgroundColor: Color.fromRGBO(104, 136, 130, 1),
+                        ),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),
