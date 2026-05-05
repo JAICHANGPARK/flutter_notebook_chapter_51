@@ -46,10 +46,21 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           style: TextStyle(
                             fontWeight: .bold,
                             color: Colors.white,
-                            fontSize: 20,
+                            fontSize: 24,
                           ),
                         ),
                         Spacer(),
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.white54),
+                            color: Color.fromRGBO(230, 237, 237, 1),
+                          ),
+                          padding: EdgeInsets.all(16),
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedNotification02,
+                          ),
+                        ),
                         Container(
                           decoration: BoxDecoration(
                             shape: .circle,
