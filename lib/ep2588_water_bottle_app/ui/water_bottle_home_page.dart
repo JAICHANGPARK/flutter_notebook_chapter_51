@@ -26,6 +26,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                 ),
                 color: Color.fromRGBO(193, 214, 213, 1),
               ),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      
+                    ],
+                  )
+                ],
+              ),
             ),
           ),
           Expanded(
