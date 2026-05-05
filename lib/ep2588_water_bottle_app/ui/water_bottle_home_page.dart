@@ -59,8 +59,10 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                             border: .all(color: Colors.white54),
                             color: Color.fromRGBO(230, 237, 237, 1),
                           ),
-                          child: HugeIcon(
-                            icon: HugeIcons.strokeRoundedNotification02,
+                          child: Center(
+                            child: HugeIcon(
+                              icon: HugeIcons.strokeRoundedNotification02,
+                            ),
                           ),
                         ),
                         Container(
