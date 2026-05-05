@@ -33,7 +33,12 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                   children: [
                     Row(
                       children: [
-                        Text("NEW--Filtered\nwater, instantly"),
+                        Text("NEW--Filtered\nwater, instantly",style: TextStyle(
+                          fontWeight: .bold,
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),),
+                        Spacer(),
                         Container(
                           decoration: BoxDecoration(
                             shape: .circle,
