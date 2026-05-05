@@ -27,22 +27,26 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                 ),
                 color: Color.fromRGBO(193, 214, 213, 1),
               ),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      Text("NEW--Filtered\nwater, instantly"),
-                      Container(
-                        decoration: BoxDecoration(
-                          shape: .circle,
-                          border: .all(color: Colors.white54),
+              padding: .all(16),
+              child: SafeArea(
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text("NEW--Filtered\nwater, instantly"),
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.white54),
+                            
+                          ),
+                          padding: EdgeInsets.all(12),
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
                         ),
-                        padding: EdgeInsets.all(12),
-                        child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
-                      ),
-                    ],
-                  ),
-                ],
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
