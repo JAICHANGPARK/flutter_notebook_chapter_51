@@ -25,7 +25,12 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     bottomRight: .circular(62),
                   ),
                 ),
-                color: Color.fromRGBO(193, 214, 213, 1),
+
+                gradient: LinearGradient(
+                  colors: [Color.fromRGBO(182, 205, 204, 1),
+                 Color.fromRGBO(193, 214, 213, 1),
+                  ],
+                ),
               ),
               padding: .all(16),
               child: SafeArea(
@@ -33,11 +38,14 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                   children: [
                     Row(
                       children: [
-                        Text("NEW--Filtered\nwater, instantly",style: TextStyle(
-                          fontWeight: .bold,
-                          color: Colors.white,
-                          fontSize: 20,
-                        ),),
+                        Text(
+                          "NEW--Filtered\nwater, instantly",
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Colors.white,
+                            fontSize: 20,
+                          ),
+                        ),
                         Spacer(),
                         Container(
                           decoration: BoxDecoration(
