@@ -78,6 +78,16 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                       ],
                     ),
+                    Row(
+                      children: [
+                        CircleAvatar(),
+                        Container(
+                          height: 12,
+                          width: 130,
+                          color: Colors.white38,
+                        )
+                      ],
+                    )
                   ],
                 ),
               ),
