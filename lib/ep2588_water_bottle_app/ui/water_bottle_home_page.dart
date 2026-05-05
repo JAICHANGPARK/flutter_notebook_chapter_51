@@ -27,8 +27,11 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                 ),
 
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(182, 205, 204, 1),
-                 Color.fromRGBO(193, 214, 213, 1),
+                  begin: .topLeft,
+                  end: .bottomRight,
+                  colors: [
+                    Color.fromRGBO(182, 205, 204, 1),
+                    Color.fromRGBO(193, 214, 213, 1),
                   ],
                 ),
               ),
