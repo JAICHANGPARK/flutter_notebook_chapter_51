@@ -82,7 +82,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     ),
                     Row(
                       mainAxisSize: .min,
-                      spacing: 12,
+                      spacing: 4,
                       children: [
                         CircleAvatar(
                           radius: 8,
@@ -91,8 +91,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         Container(
                           height: 12,
                           width: 42,
+                          decoration: ShapeDecoration(shape: StadiumBorder(
+                            side: BorderSide(
+                             color:  Color.fromRGBO(193, 214, 213, 1),
 
-                          color: Colors.white38,
+                            )
+                          ),
+
+                          ),
+
                         )
                       ],
                     )
