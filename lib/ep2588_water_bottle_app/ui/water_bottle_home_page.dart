@@ -85,10 +85,12 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                       children: [
                         CircleAvatar(
                           radius: 8,
+                          backgroundColor: Color.fromRGBO(104, 136, 130, 1),
                         ),
                         Container(
                           height: 12,
-                          width: 130,
+                          width: 42,
+
                           color: Colors.white38,
                         )
                       ],
