@@ -38,10 +38,12 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           decoration: BoxDecoration(
                             shape: .circle,
                             border: .all(color: Colors.white54),
-                            
+                            color: Color.fromRGBO(230, 237, 237, 1),
                           ),
-                          padding: EdgeInsets.all(12),
-                          child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
+                          padding: EdgeInsets.all(16),
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedNotification02,
+                          ),
                         ),
                       ],
                     ),
