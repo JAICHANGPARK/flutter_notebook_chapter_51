@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class WaterBottleHomePage extends StatefulWidget {
   const WaterBottleHomePage({super.key});
@@ -36,6 +37,8 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           shape: .circle,
                           border: .all(color: Colors.white54),
                         ),
+                        padding: EdgeInsets.all(12),
+                        child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
                       ),
                     ],
                   ),
