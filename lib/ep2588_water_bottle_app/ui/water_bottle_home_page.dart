@@ -137,6 +137,11 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           ),
                         ),
                       ),
+                      Container(
+                        decoration:ShapeDecoration(
+                          shape: StadiumBorder()
+                        ),
+                      )
                     ],
                     scrollDirection: Axis.horizontal,
                   ),
