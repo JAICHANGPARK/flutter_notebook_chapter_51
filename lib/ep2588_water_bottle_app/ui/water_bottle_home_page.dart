@@ -142,6 +142,9 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(243, 245, 245, 1),
                         ),
+                        child: Center(
+                          child: Text("Smart"),
+                        ),
                       ),
                     ],
                     scrollDirection: Axis.horizontal,
