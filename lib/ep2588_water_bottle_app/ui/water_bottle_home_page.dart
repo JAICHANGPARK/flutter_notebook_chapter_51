@@ -124,7 +124,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                   padding: EdgeInsets.only(left: 16),
                   height: 72,
                   child: ListView(children: [],
-
+scrollDirection: Axis.horizontal,
                   )
                 ),
                 Padding(
