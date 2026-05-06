@@ -184,7 +184,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     children: [
                       Text("Best Picks", style: TextStyle(fontSize: 22)),
                       Container(
-                        height: 160,
+                        height: 140,
                         padding: .all(12),
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
@@ -197,8 +197,8 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           spacing: 12,
                           children: [
                             Container(
-                              height: 140,
-                              width: 140,
+                              height: 120,
+                              width: 100,
                               child: Placeholder(),
                             ),
                             Expanded(
