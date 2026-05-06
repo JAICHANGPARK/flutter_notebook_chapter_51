@@ -210,6 +210,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                                       crossAxisAlignment: .start,
                                       children: [
                                         Text("PureV2"),
+                                        Spacer(),
                                         Text("Self-cleaning bottle"),
                                         Text("24h cold-UV-C"),
                                       ],
