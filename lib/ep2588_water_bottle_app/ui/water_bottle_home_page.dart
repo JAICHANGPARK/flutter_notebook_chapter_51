@@ -139,7 +139,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           ),
                         ),
                       ),
-                      Container(
+                      Container( margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
@@ -149,7 +149,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         child: Center(child: Text("Smart")),
                       ),
-                      Container(
+                      Container( margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
@@ -159,7 +159,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         child: Center(child: Text("Filtered")),
                       ),
-                      Container(
+                      Container( margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
