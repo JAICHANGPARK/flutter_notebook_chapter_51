@@ -122,7 +122,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
               children: [
                 Container(
                   padding: EdgeInsets.only(left: 16),
-                  height: 62,
+                  height: 54,
                   child: ListView(
                     children: [
                       Container(
@@ -140,6 +140,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                       ),
                       Container(
+                        padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(243, 245, 245, 1),
