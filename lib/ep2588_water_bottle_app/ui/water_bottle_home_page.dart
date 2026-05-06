@@ -198,11 +198,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
 
                             ),
                             Expanded(child: Column(children: [
-                              Row(
-                                children: [
-                                  Text("")
-                                ],
-                              )
+
                             ],))
                           ],
                         ),
