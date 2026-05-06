@@ -139,7 +139,8 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           ),
                         ),
                       ),
-                      Container( margin: .only(right: 12),
+                      Container(
+                        margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
@@ -149,7 +150,8 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         child: Center(child: Text("Smart")),
                       ),
-                      Container( margin: .only(right: 12),
+                      Container(
+                        margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
@@ -159,7 +161,8 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         child: Center(child: Text("Filtered")),
                       ),
-                      Container( margin: .only(right: 12),
+                      Container(
+                        margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(
@@ -195,11 +198,25 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                               height: 140,
                               width: 140,
                               child: Placeholder(),
-
                             ),
-                            Expanded(child: Column(children: [
-
-                            ],))
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Text("PureV2"),
+                                        Text("Self-cleaning bottle"),
+                                        Text("24h cold-UV-C"),
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    children: [CircleAvatar(), Text("\$29.00")],
+                                  ),
+                                ],
+                              ),
+                            ),
                           ],
                         ),
                       ),
