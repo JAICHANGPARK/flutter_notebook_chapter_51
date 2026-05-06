@@ -126,7 +126,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                   child: ListView(
                     children: [
                       Container(
-                        margin: .only(right: 16),
+                        margin: .only(right: 12),
                         padding: EdgeInsets.symmetric(horizontal: 32),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
