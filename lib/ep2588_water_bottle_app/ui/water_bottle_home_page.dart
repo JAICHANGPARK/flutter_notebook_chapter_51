@@ -131,9 +131,10 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           color: Color.fromRGBO(102, 138, 128, 1),
                         ),
                         child: Center(
-                          child: Text("All",style: TextStyle(
-                            color: Colors.white,
-                          ),),
+                          child: Text(
+                            "All",
+                            style: TextStyle(color: Colors.white),
+                          ),
                         ),
                       ),
                     ],
