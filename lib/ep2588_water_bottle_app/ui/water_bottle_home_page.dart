@@ -149,6 +149,26 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                         child: Center(child: Text("Smart")),
                       ),
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 32),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.white38),
+                          ),
+                          color: Color.fromRGBO(243, 245, 245, 1),
+                        ),
+                        child: Center(child: Text("Filtered")),
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 32),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.white38),
+                          ),
+                          color: Color.fromRGBO(243, 245, 245, 1),
+                        ),
+                        child: Center(child: Text("Best Sellers")),
+                      ),
                     ],
                     scrollDirection: Axis.horizontal,
                   ),
