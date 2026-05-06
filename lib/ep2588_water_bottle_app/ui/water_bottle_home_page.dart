@@ -138,10 +138,11 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                         ),
                       ),
                       Container(
-                        decoration:ShapeDecoration(
-                          shape: StadiumBorder()
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(243, 245, 245, 1),
                         ),
-                      )
+                      ),
                     ],
                     scrollDirection: Axis.horizontal,
                   ),
