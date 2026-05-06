@@ -126,7 +126,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                   child: ListView(
                     children: [
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(102, 138, 128, 1),
+                        ),
+                        child: Center(
+                          child: Text("All",style: TextStyle(
+                            color: Colors.white,
+                          ),),
+                        ),
                       ),
                     ],
                     scrollDirection: Axis.horizontal,
