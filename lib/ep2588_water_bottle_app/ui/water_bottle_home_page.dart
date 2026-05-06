@@ -193,6 +193,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                           color: Color.fromRGBO(244, 246, 246, 1),
                         ),
                         child: Row(
+                          spacing: 12,
                           children: [
                             Container(
                               height: 140,
@@ -201,9 +202,11 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                             ),
                             Expanded(
                               child: Row(
+
                                 children: [
                                   Expanded(
                                     child: Column(
+                                      crossAxisAlignment: .start,
                                       children: [
                                         Text("PureV2"),
                                         Text("Self-cleaning bottle"),
