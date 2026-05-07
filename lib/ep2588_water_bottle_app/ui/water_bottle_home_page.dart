@@ -240,6 +240,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                                           134,
                                           1,
                                         ),
+                                        foregroundColor: Colors.white,
                                         child: Icon(Icons.shopping_bag_outlined),
                                       ),
                                       Text("\$129.00"),
