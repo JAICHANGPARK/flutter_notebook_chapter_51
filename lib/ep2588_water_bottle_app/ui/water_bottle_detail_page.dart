@@ -11,6 +11,8 @@ class WaterBottleDetailPage extends StatefulWidget {
 class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
