@@ -99,7 +99,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                           ],
                         ),
                         Container(
-                          height: 280,
+                          height: 290,
 
                           child: Column(
                             spacing: 8,
