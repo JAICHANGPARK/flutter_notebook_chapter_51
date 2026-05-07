@@ -20,10 +20,20 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                 children: [
                   Row(
                     children: [
+                      Container(
+                        height: 56,
+                        width: 56,
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          backgroundColor: Color.fromRGBO(179, 214, 223, 1),
+                        ),
+                        child: Icon(Icons.keyboard_arrow_left),
+                      ),
                       CircleAvatar(
-                        radius: 24,
+                        radius: 28,
                         backgroundColor: Color.fromRGBO(179, 214, 223, 1),
-                        child: Icon(Icons.arrow_back_ios_new),
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.keyboard_arrow_left),
                       ),
                     ],
                   ),
