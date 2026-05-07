@@ -23,7 +23,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                     fit: .cover,
                   ),
                 ),
-                Expanded(child: Container(),),
+                Expanded(child: Container()),
               ],
             ),
           ),
@@ -32,8 +32,13 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: MediaQuery.sizeOf(context).height / 1.4
-            )
+              height: MediaQuery.sizeOf(context).height / 1.4,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.white38, Color.fromRGBO(227, 232, 231, 1)],
+                ),
+              ),
+            ),
           ),
 
           Positioned.fill(
