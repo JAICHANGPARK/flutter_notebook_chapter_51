@@ -112,7 +112,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(24),
+                                            borderRadius: .circular(16),
                                           ),
                                           color: Colors.green,
                                         ),
@@ -125,13 +125,13 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                         children: [
                                           Expanded(child:  Container(
                                             decoration: ShapeDecoration(
-                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                               color: Colors.green,
                                             ),
                                           ),),
                                           Expanded(child: Container(
                                             decoration: ShapeDecoration(
-                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                               color: Colors.green,
                                             ),
                                           ),),
@@ -142,7 +142,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                 ),
                               ),
                               Container(
-                                height: 80,
+                                height: 88,
                                 child: Row(
                                   spacing: 8,
                                   children: [
