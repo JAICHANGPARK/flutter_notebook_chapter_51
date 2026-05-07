@@ -110,7 +110,13 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                   Expanded(child: Placeholder()),
                                   Container(
                                     height: 80,
-                                    width: 80,
+                                    width: 88,
+                                    child: Column(
+                                      children: [
+                                        Expanded(child: Placeholder()),
+
+                                      ],
+                                    ),
                                   )
                                 ],
                               ),
