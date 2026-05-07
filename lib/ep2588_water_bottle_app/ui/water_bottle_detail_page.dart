@@ -43,7 +43,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                     Color.fromRGBO(227, 232, 231, 1),
                     Color.fromRGBO(215, 224, 223, 1),
                   ],
-                  stops: [.05, .1, .2 , .7]
+                  stops: [.05, .1, .2 , .8]
                 ),
               ),
             ),
@@ -54,43 +54,48 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Row(
-                    spacing: 8,
+                  Column(
                     children: [
-                      Container(
-                        height: 60,
-                        width: 60,
-                        decoration: BoxDecoration(
-                          shape: .circle,
-                          color: Color.fromRGBO(199, 223, 229, 1),
-                          border: .all(color: Colors.white38),
-                        ),
-                        child: Icon(Icons.keyboard_arrow_left),
+                      Row(
+                        spacing: 8,
+                        children: [
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Color.fromRGBO(199, 223, 229, 1),
+                              border: .all(color: Colors.white38),
+                            ),
+                            child: Icon(Icons.keyboard_arrow_left),
+                          ),
+                          Spacer(),
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Color.fromRGBO(199, 223, 229, 1),
+                              border: .all(color: Colors.white38),
+                            ),
+                            child: Icon(Icons.shopping_bag_outlined),
+                          ),
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Color.fromRGBO(199, 223, 229, 1),
+                              border: .all(color: Colors.white38),
+                            ),
+                            child: Icon(Icons.upload),
+                          ),
+                        ],
                       ),
-                      Spacer(),
-                      Container(
-                        height: 60,
-                        width: 60,
-                        decoration: BoxDecoration(
-                          shape: .circle,
-                          color: Color.fromRGBO(199, 223, 229, 1),
-                          border: .all(color: Colors.white38),
-                        ),
-                        child: Icon(Icons.shopping_bag_outlined),
-                      ),
-                      Container(
-                        height: 60,
-                        width: 60,
-                        decoration: BoxDecoration(
-                          shape: .circle,
-                          color: Color.fromRGBO(199, 223, 229, 1),
-                          border: .all(color: Colors.white38),
-                        ),
-                        child: Icon(Icons.upload),
-                      ),
+                      Container(height: 240, child: Placeholder()),
                     ],
                   ),
-                  Container(height: 240, child: Placeholder()),
+
                   Row(
                     children: [
                       Text("PureV2"),
