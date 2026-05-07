@@ -74,7 +74,13 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                   SizedBox(
                     height: 62,
                     child: Placeholder(),
-                  )
+                  ),
+
+                  Text("Color"),
+                  SizedBox(
+                    height: 100,
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
