@@ -219,15 +219,30 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                                           style: TextStyle(fontSize: 18),
                                         ),
                                         Spacer(),
-                                        Text("Self-cleaning bottle",style: TextStyle(
-                                          fontSize: 13
-                                        ),),
+                                        Text(
+                                          "Self-cleaning bottle",
+                                          style: TextStyle(
+                                            // fontSize: 13
+                                          ),
+                                        ),
                                         Text("24h cold-UV-C"),
                                       ],
                                     ),
                                   ),
                                   Column(
-                                    children: [CircleAvatar(), Text("\$29.00")],
+                                    mainAxisAlignment: .spaceBetween,
+                                    children: [
+                                      CircleAvatar(
+                                        radius: 22,
+                                        backgroundColor: Color.fromRGBO(
+                                          110,
+                                          143,
+                                          134,
+                                          1,
+                                        ),
+                                      ),
+                                      Text("\$29.00"),
+                                    ],
                                   ),
                                 ],
                               ),
