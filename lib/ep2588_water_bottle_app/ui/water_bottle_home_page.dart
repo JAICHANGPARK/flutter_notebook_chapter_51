@@ -199,7 +199,9 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                             Container(
                               height: 120,
                               width: 100,
-                              child: Placeholder(),
+                              decoration: ShapeDecoration(
+                                shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                              ),
                             ),
                             Expanded(
                               child: Row(
