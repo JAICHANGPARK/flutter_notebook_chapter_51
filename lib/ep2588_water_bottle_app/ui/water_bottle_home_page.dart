@@ -183,75 +183,80 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     spacing: 16,
                     children: [
                       Text("Best Picks", style: TextStyle(fontSize: 22)),
-                      Container(
-                        height: 140,
-                        padding: .all(12),
-                        decoration: ShapeDecoration(
-                          shape: RoundedSuperellipseBorder(
-                            borderRadius: .circular(32),
-                            side: BorderSide(color: Colors.white38),
-                          ),
-                          color: Color.fromRGBO(244, 246, 246, 1),
-                        ),
-                        child: Row(
-                          spacing: 12,
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 100,
-                              decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(
-                                  borderRadius: .circular(16),
-                                ),
-                                color: Colors.greenAccent,
-                              ),
+                      GestureDetector(
+                        onTap: (){
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context)));
+                        },
+                        child: Container(
+                          height: 140,
+                          padding: .all(12),
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(32),
+                              side: BorderSide(color: Colors.white38),
                             ),
-                            Expanded(
-                              child: Row(
-                                children: [
-                                  Expanded(
-                                    child: Column(
-                                      spacing: 4,
-                                      crossAxisAlignment: .start,
+                            color: Color.fromRGBO(244, 246, 246, 1),
+                          ),
+                          child: Row(
+                            spacing: 12,
+                            children: [
+                              Container(
+                                height: 120,
+                                width: 100,
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(16),
+                                  ),
+                                  color: Colors.greenAccent,
+                                ),
+                              ),
+                              Expanded(
+                                child: Row(
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        spacing: 4,
+                                        crossAxisAlignment: .start,
+                                        children: [
+                                          Text(
+                                            "PureV2",
+                                            style: TextStyle(fontSize: 18),
+                                          ),
+                                          Spacer(),
+                                          Text(
+                                            "Self-cleaning bottle",
+                                            style: TextStyle(
+                                              // fontSize: 13
+                                            ),
+                                          ),
+                                          Text("24h cold-UV-C"),
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
+                                      mainAxisAlignment: .spaceBetween,
                                       children: [
-                                        Text(
-                                          "PureV2",
-                                          style: TextStyle(fontSize: 18),
-                                        ),
-                                        Spacer(),
-                                        Text(
-                                          "Self-cleaning bottle",
-                                          style: TextStyle(
-                                            // fontSize: 13
+                                        CircleAvatar(
+                                          radius: 22,
+                                          backgroundColor: Color.fromRGBO(
+                                            110,
+                                            143,
+                                            134,
+                                            1,
+                                          ),
+                                          foregroundColor: Colors.white,
+                                          child: Icon(
+                                            Icons.shopping_bag_outlined,
                                           ),
                                         ),
-                                        Text("24h cold-UV-C"),
+                                        Text("\$129.00"),
                                       ],
                                     ),
-                                  ),
-                                  Column(
-                                    mainAxisAlignment: .spaceBetween,
-                                    children: [
-                                      CircleAvatar(
-                                        radius: 22,
-                                        backgroundColor: Color.fromRGBO(
-                                          110,
-                                          143,
-                                          134,
-                                          1,
-                                        ),
-                                        foregroundColor: Colors.white,
-                                        child: Icon(
-                                          Icons.shopping_bag_outlined,
-                                        ),
-                                      ),
-                                      Text("\$129.00"),
-                                    ],
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                       Container(
