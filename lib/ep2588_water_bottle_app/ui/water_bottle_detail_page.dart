@@ -19,13 +19,14 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
               child: Column(
                 children: [
                   Row(
+                    spacing: 8,
                     children: [
                       Container(
                         height: 56,
                         width: 56,
                         decoration: BoxDecoration(
                           shape: .circle,
-                          color: Color.fromRGBO(179, 214, 223, 1),
+                          color: Color.fromRGBO(199, 223, 229, 1),
                           border: .all(color: Colors.white38),
                         ),
                         child: Icon(Icons.keyboard_arrow_left),
