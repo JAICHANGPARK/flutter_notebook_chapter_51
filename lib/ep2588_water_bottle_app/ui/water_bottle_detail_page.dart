@@ -35,7 +35,14 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
               height: MediaQuery.sizeOf(context).height / 1.4,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.white38, Color.fromRGBO(227, 232, 231, 1)],
+                  begin: .topCenter,
+                  end: .bottomCenter,
+                  colors: [
+                    Colors.white12,
+                    Colors.white38,
+                    Color.fromRGBO(227, 232, 231, 1),
+                    Color.fromRGBO(215, 224, 223, 1),
+                  ],
                 ),
               ),
             ),
