@@ -33,8 +33,8 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                       ),
                       Spacer(),
                       Container(
-                        height: 56,
-                        width: 56,
+                        height: 60,
+                        width: 60,
                         decoration: BoxDecoration(
                           shape: .circle,
                           color: Color.fromRGBO(199, 223, 229, 1),
