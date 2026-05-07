@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class WaterBottleDetailPage extends StatefulWidget {
   const WaterBottleDetailPage({super.key});
 
@@ -14,14 +13,25 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Column(
-            children: [
-
-            ],
-          ))
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        radius: 24,
+                        backgroundColor: Color.fromRGBO(179, 214, 223, 1),
+                        child: Icon(Icons.arrow_back_ios_new),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
-
     );
   }
 }
