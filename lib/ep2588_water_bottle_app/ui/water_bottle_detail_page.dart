@@ -25,7 +25,8 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                         width: 56,
                         decoration: BoxDecoration(
                           shape: .circle,
-                          backgroundColor: Color.fromRGBO(179, 214, 223, 1),
+                          color: Color.fromRGBO(179, 214, 223, 1),
+                          border: .all(color: Colors.white38),
                         ),
                         child: Icon(Icons.keyboard_arrow_left),
                       ),
