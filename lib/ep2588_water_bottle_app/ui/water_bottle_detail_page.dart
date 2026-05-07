@@ -14,9 +14,14 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
       backgroundColor: .fromRGBO(227, 232, 231, 1),
       body: Stack(
         children: [
-          Positioned.fill(child: Column(
-            children: [Expanded(child: Placeholder(),),],
-          )),
+          Positioned.fill(
+            child: Column(
+              children: [
+                Expanded(child: Placeholder()),
+                Expanded(child: Placeholder()),
+              ],
+            ),
+          ),
           Positioned.fill(
             child: SafeArea(
               child: Column(
@@ -58,32 +63,25 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                       ),
                     ],
                   ),
-                  Container(
-                    height: 240,
-                    child: Placeholder(),
-                  ),
+                  Container(height: 240, child: Placeholder()),
                   Row(
                     children: [
                       Text("PureV2"),
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),),
+                        decoration: ShapeDecoration(shape: StadiumBorder()),
                         child: Text("Bestseller"),
                       ),
                       Text("\$129.00"),
                     ],
                   ),
-                  Text("Smart filtered bottle that keeps water\nfresh and cold for up to 24 hours",),
-                  Text("Color"),
-                  SizedBox(
-                    height: 62,
-                    child: Placeholder(),
+                  Text(
+                    "Smart filtered bottle that keeps water\nfresh and cold for up to 24 hours",
                   ),
+                  Text("Color"),
+                  SizedBox(height: 62, child: Placeholder()),
 
                   Text("Color"),
-                  SizedBox(
-                    height: 100,
-                    child: Placeholder(),
-                  ),
+                  SizedBox(height: 100, child: Placeholder()),
                 ],
               ),
             ),
