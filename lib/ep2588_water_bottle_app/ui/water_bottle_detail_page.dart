@@ -67,7 +67,8 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                       ),
                       Text("\$129.00"),
                     ],
-                  )
+                  ),
+                  Text("Smart filtered bottle that keeps water\nfresh and cold for up to 24 hours",)
                 ],
               ),
             ),
