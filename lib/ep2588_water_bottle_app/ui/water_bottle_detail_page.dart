@@ -14,6 +14,9 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
       backgroundColor: .fromRGBO(227, 232, 231, 1),
       body: Stack(
         children: [
+          Positioned.fill(child: Column(
+            children: [Expanded(child: Placeholder(),),],
+          )),
           Positioned.fill(
             child: SafeArea(
               child: Column(
