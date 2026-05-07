@@ -43,7 +43,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                     Color.fromRGBO(227, 232, 231, 1),
                     Color.fromRGBO(215, 224, 223, 1),
                   ],
-                  stops: [.05, .1, .2 , .8]
+                  stops: [.05, .1, .2, .8],
                 ),
               ),
             ),
@@ -98,46 +98,62 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                             ),
                           ],
                         ),
-                        Container(height: 280,
+                        Container(
+                          height: 280,
 
-                            child: Column(
-                              spacing: 8,
-                          children: [
-                            Expanded(
-                              child: Row(
-                                spacing: 8,
-                                children: [
-                                  Expanded(child: Placeholder()),
-                                  Container(
-
-                                    width: 88,
-                                    child: Column(
-                                      spacing: 8,
-                                      children: [
-                                        Expanded(child: Placeholder()),
-                                        Expanded(child: Placeholder()),
-
-                                      ],
+                          child: Column(
+                            spacing: 8,
+                            children: [
+                              Expanded(
+                                child: Row(
+                                  spacing: 8,
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(),
+                                          color: Colors.green,
+                                        ),
+                                      ),
                                     ),
-                                  )
-                                ],
+                                    Container(
+                                      width: 88,
+                                      child: Column(
+                                        spacing: 8,
+                                        children: [
+                                          Expanded(child:  Container(
+                                            decoration: ShapeDecoration(
+                                              shape: RoundedSuperellipseBorder(),
+                                              color: Colors.green,
+                                            ),
+                                          ),),
+                                          Expanded(child: Container(
+                                            decoration: ShapeDecoration(
+                                              shape: RoundedSuperellipseBorder(),
+                                              color: Colors.green,
+                                            ),
+                                          ),),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                            Container(
-                              height: 80,
-                              child: Row(
-                                spacing: 8,
-                                children: [
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-
-                                ],
+                              Container(
+                                height: 80,
+                                child: Row(
+                                  spacing: 8,
+                                  children: [
+                                    Expanded(child: Placeholder()),
+                                    Expanded(child: Placeholder()),
+                                    Expanded(child: Placeholder()),
+                                    Expanded(child: Placeholder()),
+                                  ],
+                                ),
                               ),
-                            )
-                          ],
-                        )),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
