@@ -43,6 +43,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                     Color.fromRGBO(227, 232, 231, 1),
                     Color.fromRGBO(215, 224, 223, 1),
                   ],
+                  stops: [.05, .1, .2 , .7]
                 ),
               ),
             ),
