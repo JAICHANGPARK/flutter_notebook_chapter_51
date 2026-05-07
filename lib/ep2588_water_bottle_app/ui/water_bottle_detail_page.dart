@@ -113,7 +113,16 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                             ),
                             Container(
                               height: 72,
-                              child: Placeholder(),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+
+                                ],
+                              ),
                             )
                           ],
                         )),
