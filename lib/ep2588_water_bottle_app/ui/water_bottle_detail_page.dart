@@ -98,21 +98,25 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                             ),
                           ],
                         ),
-                        Container(height: 240, child: Column(
+                        Container(height: 280,
+
+                            child: Column(
+                              spacing: 8,
                           children: [
                             Expanded(
                               child: Row(
+                                spacing: 8,
                                 children: [
                                   Expanded(child: Placeholder()),
                                   Container(
-                                    height: 72,
-                                    width: 72,
+                                    height: 80,
+                                    width: 80,
                                   )
                                 ],
                               ),
                             ),
                             Container(
-                              height: 72,
+                              height: 80,
                               child: Row(
                                 spacing: 8,
                                 children: [
