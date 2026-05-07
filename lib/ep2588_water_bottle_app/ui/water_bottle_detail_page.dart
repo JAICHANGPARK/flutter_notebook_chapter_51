@@ -50,50 +50,57 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
           ),
 
           Positioned.fill(
+            top: 12,
             child: SafeArea(
+              bottom: false,
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: .start,
                 children: [
-                  Column(
-                    children: [
-                      Row(
-                        spacing: 8,
-                        children: [
-                          Container(
-                            height: 60,
-                            width: 60,
-                            decoration: BoxDecoration(
-                              shape: .circle,
-                              color: Color.fromRGBO(199, 223, 229, 1),
-                              border: .all(color: Colors.white38),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      spacing: 24,
+                      children: [
+                        Row(
+                          spacing: 8,
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                shape: .circle,
+                                color: Color.fromRGBO(199, 223, 229, 1),
+                                border: .all(color: Colors.white38),
+                              ),
+                              child: Icon(Icons.keyboard_arrow_left),
                             ),
-                            child: Icon(Icons.keyboard_arrow_left),
-                          ),
-                          Spacer(),
-                          Container(
-                            height: 60,
-                            width: 60,
-                            decoration: BoxDecoration(
-                              shape: .circle,
-                              color: Color.fromRGBO(199, 223, 229, 1),
-                              border: .all(color: Colors.white38),
+                            Spacer(),
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                shape: .circle,
+                                color: Color.fromRGBO(199, 223, 229, 1),
+                                border: .all(color: Colors.white38),
+                              ),
+                              child: Icon(Icons.shopping_bag_outlined),
                             ),
-                            child: Icon(Icons.shopping_bag_outlined),
-                          ),
-                          Container(
-                            height: 60,
-                            width: 60,
-                            decoration: BoxDecoration(
-                              shape: .circle,
-                              color: Color.fromRGBO(199, 223, 229, 1),
-                              border: .all(color: Colors.white38),
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                shape: .circle,
+                                color: Color.fromRGBO(199, 223, 229, 1),
+                                border: .all(color: Colors.white38),
+                              ),
+                              child: Icon(Icons.upload),
                             ),
-                            child: Icon(Icons.upload),
-                          ),
-                        ],
-                      ),
-                      Container(height: 240, child: Placeholder()),
-                    ],
+                          ],
+                        ),
+                        Container(height: 240, child: Placeholder()),
+                      ],
+                    ),
                   ),
 
                   Row(
