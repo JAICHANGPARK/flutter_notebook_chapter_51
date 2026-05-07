@@ -200,7 +200,10 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                               height: 120,
                               width: 100,
                               decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                                shape: RoundedSuperellipseBorder(
+                                  borderRadius: .circular(16),
+                                ),
+                                color: Colors.greenAccent,
                               ),
                             ),
                             Expanded(
@@ -208,6 +211,7 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                                 children: [
                                   Expanded(
                                     child: Column(
+                                      spacing: 4,
                                       crossAxisAlignment: .start,
                                       children: [
                                         Text(
@@ -215,7 +219,9 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                                           style: TextStyle(fontSize: 18),
                                         ),
                                         Spacer(),
-                                        Text("Self-cleaning bottle"),
+                                        Text("Self-cleaning bottle",style: TextStyle(
+                                          fontSize: 13
+                                        ),),
                                         Text("24h cold-UV-C"),
                                       ],
                                     ),
