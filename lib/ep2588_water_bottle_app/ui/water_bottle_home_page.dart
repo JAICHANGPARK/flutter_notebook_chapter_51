@@ -184,8 +184,12 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     children: [
                       Text("Best Picks", style: TextStyle(fontSize: 22)),
                       GestureDetector(
-                        onTap: (){
-                          Navigator.of(context).push(MaterialPageRoute(builder: (context)));
+                        onTap: () {
+                          Navigator.of(
+                            context,
+                          ).push(MaterialPageRoute(builder: (context) {
+                            return WaterBottleDetailPage();
+                          }));
                         },
                         child: Container(
                           height: 140,
