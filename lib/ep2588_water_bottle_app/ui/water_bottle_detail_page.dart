@@ -54,6 +54,20 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                       ),
                     ],
                   ),
+                  Container(
+                    height: 240,
+                    child: Placeholder(),
+                  ),
+                  Row(
+                    children: [
+                      Text("PureV2"),
+                      Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder(),),
+                        child: Text("Bestseller"),
+                      ),
+                      Text("\$129.00"),
+                    ],
+                  )
                 ],
               ),
             ),
