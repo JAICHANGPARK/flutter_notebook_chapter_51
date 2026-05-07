@@ -111,7 +111,9 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                     Expanded(
                                       child: Container(
                                         decoration: ShapeDecoration(
-                                          shape: RoundedSuperellipseBorder(),
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(24),
+                                          ),
                                           color: Colors.green,
                                         ),
                                       ),
@@ -123,13 +125,13 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                         children: [
                                           Expanded(child:  Container(
                                             decoration: ShapeDecoration(
-                                              shape: RoundedSuperellipseBorder(),
+                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
                                               color: Colors.green,
                                             ),
                                           ),),
                                           Expanded(child: Container(
                                             decoration: ShapeDecoration(
-                                              shape: RoundedSuperellipseBorder(),
+                                              shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
                                               color: Colors.green,
                                             ),
                                           ),),
@@ -144,10 +146,30 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                 child: Row(
                                   spacing: 8,
                                   children: [
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
+                                    Expanded(child:  Container(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                        color: Colors.green,
+                                      ),
+                                    ),),
+                                    Expanded(child:  Container(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                        color: Colors.green,
+                                      ),
+                                    ),),
+                                    Expanded(child:  Container(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(12),),
+                                        color: Colors.green,
+                                      ),
+                                    ),),
+                                    Expanded(child:  Container(
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(12),),
+                                        color: Colors.green,
+                                      ),
+                                    ),),
                                   ],
                                 ),
                               ),
