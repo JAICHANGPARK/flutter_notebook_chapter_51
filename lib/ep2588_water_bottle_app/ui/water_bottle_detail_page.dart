@@ -11,6 +11,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: .fromRGBO(227, 232, 231, 1),
       body: Stack(
         children: [
           Positioned.fill(
