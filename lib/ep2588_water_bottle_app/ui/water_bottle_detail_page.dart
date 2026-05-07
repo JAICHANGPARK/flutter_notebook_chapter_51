@@ -30,11 +30,26 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                         ),
                         child: Icon(Icons.keyboard_arrow_left),
                       ),
-                      CircleAvatar(
-                        radius: 28,
-                        backgroundColor: Color.fromRGBO(179, 214, 223, 1),
-                        foregroundColor: Colors.black,
-                        child: Icon(Icons.keyboard_arrow_left),
+                      Spacer(),
+                      Container(
+                        height: 56,
+                        width: 56,
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          color: Color.fromRGBO(179, 214, 223, 1),
+                          border: .all(color: Colors.white38),
+                        ),
+                        child: Icon(Icons.shopping_bag_outlined),
+                      ),
+                      Container(
+                        height: 56,
+                        width: 56,
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          color: Color.fromRGBO(179, 214, 223, 1),
+                          border: .all(color: Colors.white38),
+                        ),
+                        child: Icon(Icons.upload),
                       ),
                     ],
                   ),
