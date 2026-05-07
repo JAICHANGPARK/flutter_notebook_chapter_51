@@ -23,10 +23,19 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                     fit: .cover,
                   ),
                 ),
-                Expanded(child: Placeholder()),
+                Expanded(child: Container(),),
               ],
             ),
           ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              height: MediaQuery.sizeOf(context).height / 1.4
+            )
+          ),
+
           Positioned.fill(
             child: SafeArea(
               child: Column(
