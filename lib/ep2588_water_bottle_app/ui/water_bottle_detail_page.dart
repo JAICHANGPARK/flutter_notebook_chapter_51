@@ -148,25 +148,25 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
                                   children: [
                                     Expanded(child:  Container(
                                       decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                         color: Colors.green,
                                       ),
                                     ),),
                                     Expanded(child:  Container(
                                       decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(24),),
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                         color: Colors.green,
                                       ),
                                     ),),
                                     Expanded(child:  Container(
                                       decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(12),),
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                         color: Colors.green,
                                       ),
                                     ),),
                                     Expanded(child:  Container(
                                       decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(12),),
+                                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16),),
                                         color: Colors.green,
                                       ),
                                     ),),
