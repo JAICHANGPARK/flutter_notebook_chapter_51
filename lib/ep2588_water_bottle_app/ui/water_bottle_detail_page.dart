@@ -17,6 +17,7 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Row(
                     spacing: 8,
