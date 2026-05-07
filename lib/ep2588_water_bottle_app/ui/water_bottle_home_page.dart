@@ -203,13 +203,15 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                             ),
                             Expanded(
                               child: Row(
-
                                 children: [
                                   Expanded(
                                     child: Column(
                                       crossAxisAlignment: .start,
                                       children: [
-                                        Text("PureV2"),
+                                        Text(
+                                          "PureV2",
+                                          style: TextStyle(fontSize: 18),
+                                        ),
                                         Spacer(),
                                         Text("Self-cleaning bottle"),
                                         Text("24h cold-UV-C"),
