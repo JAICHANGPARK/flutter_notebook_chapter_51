@@ -17,7 +17,12 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
           Positioned.fill(
             child: Column(
               children: [
-                Expanded(child: Placeholder()),
+                Expanded(
+                  child: Image.network(
+                    "https://cdn.pixabay.com/photo/2015/01/03/21/02/twelve-apostles-587818_1280.jpg",
+                    fit: .cover,
+                  ),
+                ),
                 Expanded(child: Placeholder()),
               ],
             ),
