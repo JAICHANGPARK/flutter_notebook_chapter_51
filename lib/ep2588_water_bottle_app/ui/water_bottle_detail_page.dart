@@ -48,7 +48,6 @@ class _WaterBottleDetailPageState extends State<WaterBottleDetailPage> {
               ),
             ),
           ),
-
           Positioned.fill(
             top: 12,
             child: SafeArea(
