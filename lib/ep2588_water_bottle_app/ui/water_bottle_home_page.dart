@@ -26,7 +26,6 @@ class _WaterBottleHomePageState extends State<WaterBottleHomePage> {
                     bottomRight: .circular(62),
                   ),
                 ),
-
                 gradient: LinearGradient(
                   begin: .topLeft,
                   end: .bottomRight,
