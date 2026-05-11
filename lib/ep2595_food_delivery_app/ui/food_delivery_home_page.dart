@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
   const FoodDeliveryHomePage({super.key});
@@ -19,10 +20,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 24,
-                      ),
+                      CircleAvatar(backgroundColor: Colors.white, radius: 24),
                       Expanded(
                         child: Column(
                           children: [
@@ -37,20 +35,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ],
                         ),
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 24,
-                      ),
+                      CircleAvatar(backgroundColor: Colors.white, radius: 24),
                     ],
                   ),
-                  SizedBox(
-                    height: 42,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 160,
-                    child: Placeholder(),
-                  )
+                  SizedBox(height: 42, child: Placeholder()),
+                  Container(height: 160, child: Placeholder()),
+                  SmoothPageIndicator(controller: PageController(), count: 4),
                 ],
               ),
             ),
