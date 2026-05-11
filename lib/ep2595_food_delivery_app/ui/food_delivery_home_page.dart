@@ -14,15 +14,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: SafeArea(child: Column(children: [
-              Row(
+            child: SafeArea(
+              child: Column(
                 children: [
-                  CircleAvatar(),
-                  Expanded(child: Column(children: [],)),
-                  CircleAvatar(),
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Column(children: [])),
+                      CircleAvatar(),
+                    ],
+                  ),
                 ],
-              )
-            ])),
+              ),
+            ),
           ),
         ],
       ),
