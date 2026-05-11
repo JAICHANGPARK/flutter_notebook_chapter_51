@@ -42,6 +42,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Container(height: 160, child: Placeholder()),
                   SmoothPageIndicator(controller: PageController(), count: 4),
                   Container(height: 120, child: Placeholder()),
+                  Row(
+                    children: [
+                      Text('Coffee & tea moments'),
+                      TextButton(onPressed: (){}, child: Text("See all"))
+                    ],
+                  )
                 ],
               ),
             ),
