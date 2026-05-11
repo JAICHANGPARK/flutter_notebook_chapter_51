@@ -3,7 +3,8 @@
 ## EP2595
 
 - Healthy Food Delivery Mobile App
-- UIX Habib
+- Safayet Hossain
+
 - https://dribbble.com/shots/27340310-LARQ-Luxury-Smart-Water-Bottle-Mobile-App-UI
 
 <img src="https://cdn.dribbble.com/userupload/47602239/file/fca4f0c65455534f603e50cee051d7be.png?resize=1905x1429&vertical=center" alt=""/>
