@@ -20,7 +20,16 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Row(
                     children: [
                       CircleAvatar(),
-                      Expanded(child: Column(children: [])),
+                      Expanded(child: Column(children: [
+                        Text("Location"),
+                        Row(
+                          children: [
+                            Icon(Icons.location_on_outlined),
+                            Text("New York, USA"),
+                            
+                          ],
+                        )
+                      ])),
                       CircleAvatar(),
                     ],
                   ),
