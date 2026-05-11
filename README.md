@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_51
 
-## EP2588
+## EP2588-2594
 
 - LARQ-Luxury Smart Water Bottle Mobile App UI
 - UIX Habib
