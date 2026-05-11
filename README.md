@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/47590392/file/e4fc585f610cea189b292c7e833a61a1.png?resize=1905x1429&vertical=center" alt=""/>
 
-
 ## EP2588-2594
 
 - LARQ-Luxury Smart Water Bottle Mobile App UI
