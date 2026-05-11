@@ -47,7 +47,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       Text('Coffee & tea moments'),
                       TextButton(onPressed: (){}, child: Text("See all"))
                     ],
-                  )
+                  ),
+                  Column(children: List.generate(4, (index){
+                    return Container(
+                      height: 140,
+                      child: Placeholder(),
+                    );
+                  },),)
                 ],
               ),
             ),
