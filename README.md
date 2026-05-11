@@ -2,7 +2,7 @@
 
 ## EP2595
 
-- LARQ-Luxury Smart Water Bottle Mobile App UI
+- Healthy Food Delivery Mobile App
 - UIX Habib
 - https://dribbble.com/shots/27340310-LARQ-Luxury-Smart-Water-Bottle-Mobile-App-UI
 
