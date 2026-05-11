@@ -41,6 +41,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   SizedBox(height: 42, child: Placeholder()),
                   Container(height: 160, child: Placeholder()),
                   SmoothPageIndicator(controller: PageController(), count: 4),
+                  Container(height: 120, child: Placeholder()),
                 ],
               ),
             ),
