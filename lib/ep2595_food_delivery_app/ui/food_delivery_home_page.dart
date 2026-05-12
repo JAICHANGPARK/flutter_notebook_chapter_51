@@ -27,7 +27,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             Text("Location"),
                             Row(
                               children: [
-                                Icon(Icons.location_on_outlined),
+                                Icon(Icons.location_on_outlined,),
                                 Text("New York, USA"),
                                 Icon(Icons.keyboard_arrow_down),
                               ],
