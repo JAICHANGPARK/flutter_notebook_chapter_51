@@ -120,13 +120,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             child: Column(
                               mainAxisSize: .max,
                               children: [
-                                Text(""),
+                                Text("Free delivery for spaghetti"),
                               ],
                             ),
                           ),
-                          SmoothPageIndicator(
-                            controller: PageController(),
-                            count: 4,
+                          Center(
+                            child: SmoothPageIndicator(
+                              controller: PageController(),
+                              count: 4,
+                            ),
                           ),
                           Container(height: 120, child: Placeholder()),
                           Row(
