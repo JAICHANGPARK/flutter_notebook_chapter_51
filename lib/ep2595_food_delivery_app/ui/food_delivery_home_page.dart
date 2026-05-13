@@ -133,7 +133,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ),
                           Container(
                             height: 120,
-                            
+
+                            padding: .only(left: 16),
                             child: ListView.builder(
                               scrollDirection: .horizontal,
                               itemBuilder: (context, index) {
