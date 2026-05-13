@@ -45,8 +45,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   ),
                                   Text(
                                     "New York, USA",
-                                    style: TextStyle(fontWeight: .bold,
-                                    fontSize: 16,),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 16,
+                                    ),
                                   ),
                                   Icon(Icons.keyboard_arrow_down),
                                 ],
@@ -63,10 +65,25 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 42, child: ListView(
-                    
-                    children: [],
-                  )),
+                  SizedBox(
+                    height: 42,
+                    child: ListView(
+                      scrollDirection: .horizontal,
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            children: [
+                              
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
