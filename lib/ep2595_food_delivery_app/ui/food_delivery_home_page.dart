@@ -154,19 +154,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               },
                             ),
                           ),
-                          Row(
-                            mainAxisAlignment: .spaceBetween,
-                            children: [
-                              Text(
-                                'Coffee & tea moments',
-                                style: TextStyle(fontWeight: .bold,
-                                fontSize: 20,),
-                              ),
-                              TextButton(
-                                onPressed: () {},
-                                child: Text("See all"),
-                              ),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: .spaceBetween,
+                              children: [
+                                Text(
+                                  'Coffee & tea moments',
+                                  style: TextStyle(fontWeight: .bold,
+                                  fontSize: 20,),
+                                ),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
                           ),
                           Column(
                             children: List.generate(4, (index) {
