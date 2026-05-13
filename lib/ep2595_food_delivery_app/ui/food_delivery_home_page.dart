@@ -28,7 +28,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             Text("Location"),
                             Row(
                               children: [
-                                Icon(Icons.location_on_outlined,),
+                                Icon(Icons.location_on_outlined),
                                 Text("New York, USA"),
                                 Icon(Icons.keyboard_arrow_down),
                               ],
@@ -46,15 +46,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Row(
                     children: [
                       Text('Coffee & tea moments'),
-                      TextButton(onPressed: (){}, child: Text("See all"))
+                      TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-                  Column(children: List.generate(4, (index){
-                    return Container(
-                      height: 140,
-                      child: Placeholder(),
-                    );
-                  },),)
+                  Column(
+                    children: List.generate(4, (index) {
+                      return Container(height: 140, child: Placeholder());
+                    }),
+                  ),
                 ],
               ),
             ),
