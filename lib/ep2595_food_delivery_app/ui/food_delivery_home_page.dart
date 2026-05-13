@@ -71,13 +71,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
+                          
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
                           child: Row(
                             children: [
-                              
+                              Icon(Icons.fire_truck_outlined),
+                              Text("Pickup"),
                             ],
                           ),
                         ),
