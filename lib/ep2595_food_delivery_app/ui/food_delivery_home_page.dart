@@ -26,7 +26,6 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         CircleAvatar(
                           radius: 24,
                           backgroundColor: Colors.white,
-
                           foregroundColor: Colors.black,
                           child: Icon(Icons.search),
                         ),
@@ -46,7 +45,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        CircleAvatar(backgroundColor: Colors.white, radius: 24),
+                        CircleAvatar( radius: 24,
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.shopping_cart_outlined),),
                       ],
                     ),
                   ),
