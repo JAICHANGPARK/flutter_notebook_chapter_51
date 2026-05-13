@@ -71,7 +71,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
-                          
+                          padding: .symmetric(horizontal: 12),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
