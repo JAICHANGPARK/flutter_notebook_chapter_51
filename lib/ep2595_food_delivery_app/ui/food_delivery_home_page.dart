@@ -107,11 +107,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-                        spacing: 12,
+                        spacing: 16,
                         crossAxisAlignment: .start,
                         children: [
                           Container(
-                            height: 160,
+                            height: 180,
                             width: .infinity,
                             margin: .symmetric(horizontal: 16),
                             decoration: ShapeDecoration(
@@ -176,19 +176,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               ],
                             ),
                           ),
-                          Column(
-                            children: List.generate(4, (index) {
-                              return Container(
-                                margin: .symmetric(horizontal: 16, vertical: 12),
-                                height: 140,
-                                decoration: ShapeDecoration(
-                                  shape: RoundedSuperellipseBorder(
-                                    borderRadius: .circular(24),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Column(
+                              children: List.generate(4, (index) {
+                                return Container(
+                                  margin: .only(bottom: 12),
+                                  height: 140,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                    ),
+                                    color: Colors.white,
                                   ),
-                                  color: Colors.white,
-                                ),
-                              );
-                            }),
+                                );
+                              }),
+                            ),
                           ),
                         ],
                       ),
