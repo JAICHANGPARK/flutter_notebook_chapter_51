@@ -109,7 +109,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Column(
                         crossAxisAlignment: .start,
                         children: [
-                          Container(height: 160, child: Placeholder()),
+                          Container(
+                            height: 160,
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(16),
+                              ),
+                              color: Colors.black
+
+                            ),
+                            child: Column(),
+                          ),
                           SmoothPageIndicator(
                             controller: PageController(),
                             count: 4,
