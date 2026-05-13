@@ -116,9 +116,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 borderRadius: .circular(16),
                               ),
                               color: Colors.black
-
                             ),
-                            child: Column(),
+                            child: Column(
+                              mainAxisSize: .max,
+                              children: [
+                                Text(""),
+                              ],
+                            ),
                           ),
                           SmoothPageIndicator(
                             controller: PageController(),
