@@ -24,8 +24,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     child: Row(
                       children: [
                         CircleAvatar(
-                          backgroundColor: Colors.white,
                           radius: 24,
+                          backgroundColor: Colors.white,
+
                           foregroundColor: Colors.black,
                           child: Icon(Icons.search),
                         ),
