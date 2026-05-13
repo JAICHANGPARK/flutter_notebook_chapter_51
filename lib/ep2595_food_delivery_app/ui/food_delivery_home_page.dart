@@ -179,6 +179,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           Column(
                             children: List.generate(4, (index) {
                               return Container(
+                                margin: .symmetric(horizontal: 16, vertical: 12),
                                 height: 140,
                                 decoration: ShapeDecoration(
                                   shape: RoundedSuperellipseBorder(
