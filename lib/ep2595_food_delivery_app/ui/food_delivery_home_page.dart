@@ -12,6 +12,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(243, 239, 234, 1),
       body: Stack(
         children: [
           Positioned.fill(
