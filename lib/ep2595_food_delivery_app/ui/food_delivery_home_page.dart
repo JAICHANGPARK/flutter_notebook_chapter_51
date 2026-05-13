@@ -43,7 +43,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   ),
                                   Text(
                                     "New York, USA",
-                                    style: TextStyle(fontWeight: .bold),
+                                    style: TextStyle(fontWeight: .bold,
+                                    fontSize: 16,),
                                   ),
                                   Icon(Icons.keyboard_arrow_down),
                                 ],
