@@ -118,13 +118,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: .circular(16),
                               ),
-                              color: Colors.black
+                              color: Colors.black,
                             ),
                             child: Column(
                               mainAxisSize: .max,
-                              children: [
-                                Text("Free delivery for spaghetti"),
-                              ],
+                              children: [Text("Free delivery for spaghetti")],
                             ),
                           ),
                           Center(
@@ -133,9 +131,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               count: 4,
                             ),
                           ),
-                          Container(height: 120, child: ListView.builder(
-                            scrollDirection: .horizontal,
-                            itemBuilder: (context,index){},)),
+                          Container(
+                            height: 120,
+                            child: ListView.builder(
+                              scrollDirection: .horizontal,
+                              itemBuilder: (context, index) {
+                                return Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 32,
+                                      backgroundColor: Colors.white,
+                                    ),
+                                  ],
+                                );
+                              },
+                            ),
+                          ),
                           Row(
                             children: [
                               Text('Coffee & tea moments'),
