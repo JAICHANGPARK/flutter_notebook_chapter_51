@@ -23,7 +23,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
                       children: [
-                        CircleAvatar(backgroundColor: Colors.white, radius: 24),
+                        CircleAvatar(backgroundColor: Colors.white, radius: 24,
+                        
+                        child: Icon(Icons.search),),
                         Expanded(
                           child: Column(
                             children: [
