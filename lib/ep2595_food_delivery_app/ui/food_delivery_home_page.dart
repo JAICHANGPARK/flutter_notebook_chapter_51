@@ -31,9 +31,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         ),
                         Expanded(
                           child: Column(
+                            spacing: 4,
                             children: [
                               Text("Location"),
                               Row(
+                                spacing: 6,
                                 mainAxisAlignment: .center,
                                 crossAxisAlignment: .center,
                                 children: [
@@ -61,7 +63,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 42, child: Placeholder()),
+                  SizedBox(height: 42, child: ListView(
+                    
+                    children: [],
+                  )),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
