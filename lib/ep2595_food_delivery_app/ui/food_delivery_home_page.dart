@@ -27,6 +27,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           children: [
                             Text("Location"),
                             Row(
+                              mainAxisAlignment: .center,
+                              crossAxisAlignment: .center,
                               children: [
                                 Icon(Icons.location_on_outlined),
                                 Text("New York, USA"),
@@ -40,6 +42,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ],
                   ),
                   SizedBox(height: 42, child: Placeholder()),
+                  Expanded(child: SingleChildScrollView())
                   Container(height: 160, child: Placeholder()),
                   SmoothPageIndicator(controller: PageController(), count: 4),
                   Container(height: 120, child: Placeholder()),
