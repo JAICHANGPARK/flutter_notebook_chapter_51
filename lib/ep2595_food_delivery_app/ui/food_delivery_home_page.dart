@@ -18,6 +18,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
@@ -71,6 +72,20 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     child: ListView(
                       scrollDirection: .horizontal,
                       children: [
+                        Container(
+                          padding: .symmetric(horizontal: 16),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            spacing: 5,
+                            children: [
+                              Icon(Icons.fire_truck_outlined),
+                              Text("Pickup"),
+                            ],
+                          ),
+                        ),
                         Container(
                           padding: .symmetric(horizontal: 16),
                           decoration: ShapeDecoration(
