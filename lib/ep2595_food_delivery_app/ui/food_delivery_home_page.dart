@@ -147,7 +147,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         radius: 38,
                                         backgroundColor: Colors.white,
                                       ),
-                                      Text("Burger")
+                                      Text("Burger"),
                                     ],
                                   ),
                                 );
@@ -155,8 +155,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ),
                           ),
                           Row(
+                            mainAxisAlignment: .spaceBetween,
                             children: [
-                              Text('Coffee & tea moments'),
+                              Text(
+                                'Coffee & tea moments',
+                                style: TextStyle(fontWeight: .bold,
+                                fontSize: 20,),
+                              ),
                               TextButton(
                                 onPressed: () {},
                                 child: Text("See all"),
