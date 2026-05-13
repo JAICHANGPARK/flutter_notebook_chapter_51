@@ -23,9 +23,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
                       children: [
-                        CircleAvatar(backgroundColor: Colors.white, radius: 24,
-                        
-                        child: Icon(Icons.search),),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          radius: 24,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.search),
+                        ),
                         Expanded(
                           child: Column(
                             children: [
@@ -47,28 +50,38 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ),
                   ),
                   SizedBox(height: 42, child: Placeholder()),
-                  Expanded(child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: .start,
-                      children: [
-                        Container(height: 160, child: Placeholder()),
-                        SmoothPageIndicator(controller: PageController(), count: 4),
-                        Container(height: 120, child: Placeholder()),
-                        Row(
-                          children: [
-                            Text('Coffee & tea moments'),
-                            TextButton(onPressed: () {}, child: Text("See all")),
-                          ],
-                        ),
-                        Column(
-                          children: List.generate(4, (index) {
-                            return Container(height: 140, child: Placeholder());
-                          }),
-                        ),
-                      ],
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Container(height: 160, child: Placeholder()),
+                          SmoothPageIndicator(
+                            controller: PageController(),
+                            count: 4,
+                          ),
+                          Container(height: 120, child: Placeholder()),
+                          Row(
+                            children: [
+                              Text('Coffee & tea moments'),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: List.generate(4, (index) {
+                              return Container(
+                                height: 140,
+                                child: Placeholder(),
+                              );
+                            }),
+                          ),
+                        ],
+                      ),
                     ),
-                  ))
-
+                  ),
                 ],
               ),
             ),
