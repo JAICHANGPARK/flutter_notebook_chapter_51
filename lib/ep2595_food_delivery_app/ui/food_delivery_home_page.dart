@@ -178,12 +178,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           Column(
                             children: List.generate(4, (index) {
                               return Container(
-                                  height: 140,
-                                  decoration: RoundedSuperellipseBorder(
+                                height: 140,
+                                  decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
                                     borderRadius: .circular(24),
 
-                                  ),
-                                  color: Colors.white ,
+                                  ),color: Colors.white ,)
+
                               );
                             }),
                           ),
