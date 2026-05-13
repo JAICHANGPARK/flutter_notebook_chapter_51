@@ -42,21 +42,28 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ],
                   ),
                   SizedBox(height: 42, child: Placeholder()),
-                  Expanded(child: SingleChildScrollView())
-                  Container(height: 160, child: Placeholder()),
-                  SmoothPageIndicator(controller: PageController(), count: 4),
-                  Container(height: 120, child: Placeholder()),
-                  Row(
-                    children: [
-                      Text('Coffee & tea moments'),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                  Column(
-                    children: List.generate(4, (index) {
-                      return Container(height: 140, child: Placeholder());
-                    }),
-                  ),
+                  Expanded(child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Container(height: 160, child: Placeholder()),
+                        SmoothPageIndicator(controller: PageController(), count: 4),
+                        Container(height: 120, child: Placeholder()),
+                        Row(
+                          children: [
+                            Text('Coffee & tea moments'),
+                            TextButton(onPressed: () {}, child: Text("See all")),
+                          ],
+                        ),
+                        Column(
+                          children: List.generate(4, (index) {
+                            return Container(height: 140, child: Placeholder());
+                          }),
+                        ),
+                      ],
+                    ),
+                  ))
+
                 ],
               ),
             ),
