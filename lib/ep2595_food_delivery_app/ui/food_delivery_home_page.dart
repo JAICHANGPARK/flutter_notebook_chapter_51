@@ -107,6 +107,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
+                        spacing: 12,
                         crossAxisAlignment: .start,
                         children: [
                           Container(
@@ -132,7 +133,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               count: 4,
                             ),
                           ),
-                          Container(height: 120, child: Placeholder()),
+                          Container(height: 120, child: ListView.builder(
+                            scrollDirection: .horizontal,
+                            itemBuilder: (context,index){},)),
                           Row(
                             children: [
                               Text('Coffee & tea moments'),
