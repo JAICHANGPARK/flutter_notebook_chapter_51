@@ -111,6 +111,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         children: [
                           Container(
                             height: 160,
+                            width: .infinity,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: .circular(16),
