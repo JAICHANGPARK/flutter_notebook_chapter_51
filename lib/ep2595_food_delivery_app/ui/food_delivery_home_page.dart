@@ -133,16 +133,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ),
                           Container(
                             height: 120,
+                            
                             child: ListView.builder(
                               scrollDirection: .horizontal,
                               itemBuilder: (context, index) {
-                                return Column(
-                                  children: [
-                                    CircleAvatar(
-                                      radius: 32,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                  ],
+                                return Container(
+                                  padding: .only(right: 16),
+                                  child: Column(
+                                    spacing: 12,
+                                    children: [
+                                      CircleAvatar(
+                                        radius: 38,
+                                        backgroundColor: Colors.white,
+                                      ),
+                                      Text("Burger")
+                                    ],
+                                  ),
                                 );
                               },
                             ),
