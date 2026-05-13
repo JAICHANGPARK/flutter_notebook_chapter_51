@@ -162,15 +162,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 Text(
                                   'Coffee & tea moments',
                                   style: TextStyle(fontWeight: .bold,
-                                  fontSize: 20,),
+                                    fontSize: 20,),
                                 ),
                                 TextButton(
-                                  onPressed: () {},
-                                  child: Text("See all"),
-                                  style: TextButton.styleFrom(
-                                    foregroundColor: Colors.black
-                                        ,
-                                  )
+                                    onPressed: () {},
+                                    child: Text("See all"),
+                                    style: TextButton.styleFrom(
+                                      foregroundColor: Colors.black
+                                      ,
+                                    )
                                 ),
                               ],
                             ),
@@ -178,8 +178,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           Column(
                             children: List.generate(4, (index) {
                               return Container(
-                                height: 140,
-                                child: Placeholder(),
+                                  height: 140,
+                                  decoration: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(24),
+
+                                  ),
+                                  color: Colors.white ,
                               );
                             }),
                           ),
