@@ -143,12 +143,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               spacing: 12,
                               crossAxisAlignment: .start,
                               mainAxisSize: .max,
-                              
+
                               children: [
                                 Text(
                                   "Free delivery for\nspaghetti",
-                                  style: TextStyle(color: Colors.white,
-                                  fontSize: 24,),
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 24,
+                                  ),
                                 ),
                                 Text(
                                   "Up to 3 times per day",
@@ -159,7 +161,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     shape: StadiumBorder(),
                                     color: Colors.orange,
                                   ),
-                                  child: Text("Order now"),
+                                  padding: .symmetric(horizontal: 16,vertical: 8),
+                                  child: Text(
+                                    "Order now",
+                                    style: TextStyle(fontWeight: .bold,
+                                    fontSize: 12),
+                                  ),
                                 ),
                               ],
                             ),
