@@ -138,8 +138,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               ),
                               color: Colors.black,
                             ),
+                            padding: .all(16),
                             child: Column(
+                              crossAxisAlignment: .start,
                               mainAxisSize: .max,
+                              
                               children: [
                                 Text(
                                   "Free delivery for spaghetti",
