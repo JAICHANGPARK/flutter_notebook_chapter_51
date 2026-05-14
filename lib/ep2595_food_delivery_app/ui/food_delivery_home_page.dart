@@ -191,6 +191,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     color: Colors.white,
                                   ),
                                   child: Row(
+                                    spacing: 16,
                                     children: [
                                       Container(
                                         width: 160,
@@ -201,23 +202,26 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           color: Colors.brown[50],
                                         ),
                                       ),
-                                      Column(
-                                        children: [
-                                          Row(
-                                            children: [
-                                              Text('Maccchiato'),
-                                              Spacer(),
-                                              Icon(Icons.star),
-                                              Text("4.5")
-                                            ],
-                                          ),
-                                          Row(
-                                            children: [
-                                              Icon(Icons.timelapse),
-                                              Text("24 min 500 Km")
-                                            ],
-                                          )
-                                        ],
+                                      Expanded(
+                                        child: Column(
+                                          children: [
+                                            Row(
+                                              spacing: 8,
+                                              children: [
+                                                Text('Maccchiato'),
+                                                Spacer(),
+                                                Icon(Icons.star),
+                                                Text("4.5")
+                                              ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(Icons.timelapse),
+                                                Text("24 min 500 Km")
+                                              ],
+                                            )
+                                          ],
+                                        ),
                                       )
                                     ],
                                   ),
