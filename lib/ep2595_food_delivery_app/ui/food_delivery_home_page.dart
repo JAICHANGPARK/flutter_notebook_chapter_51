@@ -200,6 +200,18 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           color: Colors.brown[50],
                                         ),
                                       ),
+                                      Column(
+                                        children: [
+                                          Row(
+                                            children: [
+                                              Text('Maccchiato'),
+                                              Spacer(),
+                                              Icon(Icons.star),
+                                              Text("4.5")
+                                            ],
+                                          )
+                                        ],
+                                      )
                                     ],
                                   ),
                                 );
