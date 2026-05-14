@@ -227,6 +227,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                                   Icons.timelapse, size: 16,),
                                                 Text("24 min 500 Km")
                                               ],
+                                            ),
+                                            Row(
+                                              children: [
+                                                Text("\$12.25"),
+                                                CircleAvatar(
+                                                  backgroundColor: Colors.black,
+                                                  child: Icon(Icons.add),
+                                                )
+                                              ],
                                             )
                                           ],
                                         ),
