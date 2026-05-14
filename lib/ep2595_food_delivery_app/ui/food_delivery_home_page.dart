@@ -88,7 +88,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container( margin: .only(right: 12),
+                        Container(
+                          margin: .only(right: 12),
                           padding: .symmetric(horizontal: 20),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -102,7 +103,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container( margin: .only(right: 12),
+                        Container(
+                          margin: .only(right: 12),
                           padding: .symmetric(horizontal: 20),
 
                           decoration: ShapeDecoration(
@@ -138,7 +140,23 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ),
                             child: Column(
                               mainAxisSize: .max,
-                              children: [Text("Free delivery for spaghetti")],
+                              children: [
+                                Text(
+                                  "Free delivery for spaghetti",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                Text(
+                                  "Up to 3 times per day",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.orange,
+                                  ),
+                                  child: Text("Order now"),
+                                ),
+                              ],
                             ),
                           ),
                           Center(
