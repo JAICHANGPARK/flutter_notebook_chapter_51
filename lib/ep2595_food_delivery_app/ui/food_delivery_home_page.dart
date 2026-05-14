@@ -75,7 +75,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       children: [
                         Container(
                           padding: .symmetric(horizontal: 16),
-                          margin: .only(right: 16),
+                          margin: .only(right: 12),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
@@ -88,7 +88,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container( margin: .only(right: 16),
+                        Container( margin: .only(right: 12),
                           padding: .symmetric(horizontal: 16),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -102,9 +102,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container( margin: .only(right: 16),
+                        Container( margin: .only(right: 12),
                           padding: .symmetric(horizontal: 16),
-                          margin: .only(right: 16),
+
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
