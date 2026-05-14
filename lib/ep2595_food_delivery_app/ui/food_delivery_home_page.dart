@@ -102,7 +102,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container(
+                        Container( margin: .only(right: 16),
                           padding: .symmetric(horizontal: 16),
                           margin: .only(right: 16),
                           decoration: ShapeDecoration(
