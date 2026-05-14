@@ -168,10 +168,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 ),
                                 TextButton(
                                   onPressed: () {},
-                                  child: Text("See all"),
                                   style: TextButton.styleFrom(
                                     foregroundColor: Colors.black,
                                   ),
+                                  child: Text("See all"),
                                 ),
                               ],
                             ),
