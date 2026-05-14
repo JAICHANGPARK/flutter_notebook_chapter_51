@@ -209,38 +209,47 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                             Row(
                                               spacing: 8,
                                               children: [
-                                                Text('Maccchiato',
+                                                Text(
+                                                  'Maccchiato',
                                                   style: TextStyle(
                                                     fontSize: 18,
                                                     fontWeight: .bold,
-                                                  ),),
+                                                  ),
+                                                ),
                                                 Spacer(),
-                                                Icon(Icons.star, size: 16,
-                                                  color: Colors.yellow,),
-                                                Text("4.5")
+                                                Icon(
+                                                  Icons.star,
+                                                  size: 16,
+                                                  color: Colors.yellow,
+                                                ),
+                                                Text("4.5"),
                                               ],
                                             ),
                                             Row(
                                               spacing: 5,
                                               children: [
-                                                Icon(
-                                                  Icons.timelapse, size: 16,),
-                                                Text("24 min 500 Km")
+                                                Icon(Icons.timelapse, size: 16),
+                                                Text("24 min 500 Km"),
                                               ],
                                             ),
                                             Row(
                                               children: [
-                                                Text("\$12.25"),
+                                                Text(
+                                                  "\$12.25",
+                                                  style: TextStyle(
+                                                    fontWeight: .bold,
+                                                  ),
+                                                ),
                                                 CircleAvatar(
                                                   backgroundColor: Colors.black,
                                                   foregroundColor: Colors.white,
                                                   child: Icon(Icons.add),
-                                                )
+                                                ),
                                               ],
-                                            )
+                                            ),
                                           ],
                                         ),
-                                      )
+                                      ),
                                     ],
                                   ),
                                 );
