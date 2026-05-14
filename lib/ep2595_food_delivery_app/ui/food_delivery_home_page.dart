@@ -191,9 +191,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   ),
                                   child: Row(
                                     children: [
-                                    Container(
-                                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(borderRadius: .circular(16))),
-                                    )  
+                                      Container(
+                                        width: 180,
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(16),
+                                          ),
+                                          color: Colors.brown[50],
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 );
