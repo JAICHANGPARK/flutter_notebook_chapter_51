@@ -140,13 +140,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ),
                             padding: .all(16),
                             child: Column(
+                              spacing: 12,
                               crossAxisAlignment: .start,
                               mainAxisSize: .max,
                               
                               children: [
                                 Text(
-                                  "Free delivery for spaghetti",
-                                  style: TextStyle(color: Colors.white),
+                                  "Free delivery for\nspaghetti",
+                                  style: TextStyle(color: Colors.white,
+                                  fontSize: 24,),
                                 ),
                                 Text(
                                   "Up to 3 times per day",
