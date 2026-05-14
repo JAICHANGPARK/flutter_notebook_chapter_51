@@ -209,6 +209,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                               Icon(Icons.star),
                                               Text("4.5")
                                             ],
+                                          ),
+                                          Row(
+                                            children: [
+                                              Icon(Icons.timelapse),
+                                              Text("24 min 500 Km")
+                                            ],
                                           )
                                         ],
                                       )
