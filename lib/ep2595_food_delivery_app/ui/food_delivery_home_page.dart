@@ -204,6 +204,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       ),
                                       Expanded(
                                         child: Column(
+                                          spacing: 5,
                                           children: [
                                             Row(
                                               spacing: 8,
@@ -215,6 +216,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                               ],
                                             ),
                                             Row(
+                                              spacing: 5,
                                               children: [
                                                 Icon(Icons.timelapse),
                                                 Text("24 min 500 Km")
