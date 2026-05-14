@@ -88,7 +88,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                         ),
-                        Container(
+                        Container( margin: .only(right: 16),
                           padding: .symmetric(horizontal: 16),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -99,6 +99,21 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             children: [
                               Icon(Icons.timelapse),
                               Text("Under 30 min"),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          padding: .symmetric(horizontal: 16),
+                          margin: .only(right: 16),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            spacing: 5,
+                            children: [
+                              Icon(Icons.fire_truck_outlined),
+                              Text("Price"),
                             ],
                           ),
                         ),
