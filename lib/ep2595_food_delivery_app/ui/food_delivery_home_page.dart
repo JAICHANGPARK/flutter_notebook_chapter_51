@@ -17,6 +17,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 children: [
