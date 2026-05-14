@@ -232,12 +232,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                                 Text("24 min 500 Km"),
                                               ],
                                             ),
+                                            Spacer(),
                                             Row(
+                                              mainAxisAlignment: .spaceBetween,
                                               children: [
                                                 Text(
                                                   "\$12.25",
                                                   style: TextStyle(
                                                     fontWeight: .bold,
+                                                    fontSize: 20,
                                                   ),
                                                 ),
                                                 CircleAvatar(
