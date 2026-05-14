@@ -233,6 +233,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                                 Text("\$12.25"),
                                                 CircleAvatar(
                                                   backgroundColor: Colors.black,
+                                                  foregroundColor: Colors.white,
                                                   child: Icon(Icons.add),
                                                 )
                                               ],
