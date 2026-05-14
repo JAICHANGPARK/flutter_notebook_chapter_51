@@ -74,7 +74,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
-                          padding: .symmetric(horizontal: 16),
+                          padding: .symmetric(horizontal: 20),
                           margin: .only(right: 12),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -89,7 +89,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ),
                         ),
                         Container( margin: .only(right: 12),
-                          padding: .symmetric(horizontal: 16),
+                          padding: .symmetric(horizontal: 20),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
@@ -103,7 +103,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ),
                         ),
                         Container( margin: .only(right: 12),
-                          padding: .symmetric(horizontal: 16),
+                          padding: .symmetric(horizontal: 20),
 
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -112,7 +112,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           child: Row(
                             spacing: 5,
                             children: [
-                              Icon(Icons.fire_truck_outlined),
+                              Icon(Icons.local_fire_department_outlined),
                               Text("Price"),
                             ],
                           ),
