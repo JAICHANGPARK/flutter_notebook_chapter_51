@@ -161,11 +161,16 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     shape: StadiumBorder(),
                                     color: Colors.orange,
                                   ),
-                                  padding: .symmetric(horizontal: 16,vertical: 8),
+                                  padding: .symmetric(
+                                    horizontal: 16,
+                                    vertical: 8,
+                                  ),
                                   child: Text(
                                     "Order now",
-                                    style: TextStyle(fontWeight: .bold,
-                                    fontSize: 12),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -311,6 +316,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   ),
                 ],
               ),
+            ),
+          ),
+          Positioned(
+            bottom: 24,
+            left: 24,
+            right: 24,
+            child: Container(
+              decoration: ShapeDecoration(shape: StadiumBorder()),
             ),
           ),
         ],
