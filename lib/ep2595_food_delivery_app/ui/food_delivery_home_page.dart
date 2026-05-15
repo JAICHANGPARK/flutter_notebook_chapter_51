@@ -333,28 +333,59 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               child: Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.black,
-                    ),
-                    padding: .symmetric(horizontal: 16, vertical: 12),
-                    child: Row(
-                      spacing: 12,
-                      children: [
-                        HugeIcon(
-                          icon: HugeIcons.strokeRoundedHome01,
-                          size: 28,
-                          color: Colors.white,
-                        ),
-                        Text(
-                          "Home",
-                          style: TextStyle(fontSize: 16, color: Colors.white),
-                        ),
-                      ],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 0;
+                      });
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
+                      padding: .symmetric(horizontal: 16, vertical: 12),
+                      child: Row(
+                        spacing: 12,
+                        children: [
+                          HugeIcon(
+                            icon: HugeIcons.strokeRoundedHome01,
+                            size: 28,
+                            color: Colors.white,
+                          ),
+                          Text(
+                            "Home",
+                            style: TextStyle(fontSize: 16, color: Colors.white),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                  HugeIcon(icon: HugeIcons.strokeRoundedHandBag01, size: 32),
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 0;
+                      });
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
+                      padding: .symmetric(horizontal: 16, vertical: 12),
+                      child: Row(
+                        spacing: 12,
+                        children: [
+                          HugeIcon(icon: HugeIcons.strokeRoundedHandBag01, size: 28),
+                          Text(
+                            "Cart",
+                            style: TextStyle(fontSize: 16, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+
                   HugeIcon(icon: HugeIcons.strokeRoundedSearch01, size: 32),
                   HugeIcon(icon: HugeIcons.strokeRoundedChatUser01, size: 32),
                   HugeIcon(icon: HugeIcons.strokeRoundedUser, size: 32),
