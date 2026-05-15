@@ -385,8 +385,32 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       ),
                     ),
                   ),
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 1;
+                      });
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
+                      padding: .symmetric(horizontal: 16, vertical: 12),
+                      child: Row(
+                        spacing: 12,
+                        children: [
+                          HugeIcon(icon: HugeIcons.strokeRoundedSearch01, size: 28),
+                          Text(
+                            "Cart",
+                            style: TextStyle(fontSize: 16, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
 
-                  HugeIcon(icon: HugeIcons.strokeRoundedSearch01, size: 32),
+
                   HugeIcon(icon: HugeIcons.strokeRoundedChatUser01, size: 32),
                   HugeIcon(icon: HugeIcons.strokeRoundedUser, size: 32),
                 ],
