@@ -326,7 +326,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             left: 16,
             right: 16,
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(252, 181, 30, 1),
