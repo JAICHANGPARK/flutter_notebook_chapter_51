@@ -324,7 +324,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             left: 24,
             right: 24,
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(252, 181, 30, 1),
@@ -337,12 +337,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
+                    padding: .symmetric(horizontal: 16, vertical: 12),
                     child: Row(
                       children: [
                         HugeIcon(
                           icon: HugeIcons.strokeRoundedHome01,
                           size: 32,
                           color: Colors.white,
+                        ),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontSize: 16, color: Colors.white),
                         ),
                       ],
                     ),
