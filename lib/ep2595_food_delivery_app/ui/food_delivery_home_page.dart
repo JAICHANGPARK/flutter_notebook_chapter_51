@@ -490,8 +490,44 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       ),
                     ),
                   ),
-
-                  HugeIcon(icon: HugeIcons.strokeRoundedUser, size: 32),
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        pageNum = 3;
+                      });
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: pageNum == 3 ? Colors.black : Colors.transparent,
+                      ),
+                      padding: .symmetric(horizontal: 16, vertical: 12),
+                      child: Row(
+                        spacing: 12,
+                        children: pageNum == 3
+                            ? [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedUser,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
+                            : [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedUser,
+                                  size: 28,
+                                ),
+                              ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
