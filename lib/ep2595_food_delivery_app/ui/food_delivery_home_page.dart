@@ -387,20 +387,27 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: pageNum == 1 ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHandBag01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Cart",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
-                          ),
-                        ] : [HugeIcon(
-                          icon: HugeIcons.strokeRoundedHandBag01,
-                          size: 28,
-                        ),],
+                        children: pageNum == 1
+                            ? [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHandBag01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
+                            : [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHandBag01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
