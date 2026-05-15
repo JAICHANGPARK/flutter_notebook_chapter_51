@@ -364,7 +364,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   GestureDetector(
                     onTap: (){
                       setState(() {
-                        pageNum = 0;
+                        pageNum = 1;
                       });
                     },
                     child: Container(
