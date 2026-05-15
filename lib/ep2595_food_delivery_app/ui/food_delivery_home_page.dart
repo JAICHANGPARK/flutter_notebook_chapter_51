@@ -466,16 +466,17 @@ curve: Curves.easeIn,
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: [
+                        children: pageNum == 3 ? [
                           HugeIcon(
                             icon: HugeIcons.strokeRoundedChatUser01,
                             size: 28,
+                            color: Colors.white,
                           ),
                           Text(
                             "Cart",
                             style: TextStyle(fontSize: 16, color: Colors.white),
                           ),
-                        ],
+                        ] : [],
                       ),
                     ),
                   ),
