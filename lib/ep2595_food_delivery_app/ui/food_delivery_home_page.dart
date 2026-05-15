@@ -323,8 +323,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
           ),
           Positioned(
             bottom: 24,
-            left: 24,
-            right: 24,
+            left: 16,
+            right: 16,
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
               decoration: ShapeDecoration(
