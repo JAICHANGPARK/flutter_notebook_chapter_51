@@ -419,7 +419,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     },
                     child: AnimatedContainer(
                       duration: Duration(milliseconds: 200),
-curve: Curves.easeIn,
+                      curve: Curves.easeIn,
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: pageNum == 2 ? Colors.black : Colors.transparent,
@@ -466,21 +466,27 @@ curve: Curves.easeIn,
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: pageNum == 3 ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedChatUser01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Cart",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
-                          ),
-                        ] : [ HugeIcon(
-                          icon: HugeIcons.strokeRoundedChatUser01,
-                          size: 28,
-
-                        ),],
+                        children: pageNum == 3
+                            ? [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedChatUser01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
+                            : [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedChatUser01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
