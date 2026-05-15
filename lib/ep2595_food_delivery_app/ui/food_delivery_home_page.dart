@@ -11,6 +11,7 @@ class FoodDeliveryHomePage extends StatefulWidget {
 
 class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -334,7 +335,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 0;
                       });
@@ -347,22 +348,33 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHome01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Home",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
-                          ),
-                        ],
+                        children: pageNum == 0
+                            ? [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHome01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+
+                                Text(
+                                  "Home",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
+                            : [
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHome01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 1;
                       });
@@ -376,7 +388,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          HugeIcon(icon: HugeIcons.strokeRoundedHandBag01, size: 28),
+                          HugeIcon(
+                            icon: HugeIcons.strokeRoundedHandBag01,
+                            size: 28,
+                          ),
                           Text(
                             "Cart",
                             style: TextStyle(fontSize: 16, color: Colors.white),
@@ -386,7 +401,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 2;
                       });
@@ -400,7 +415,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          HugeIcon(icon: HugeIcons.strokeRoundedSearch01, size: 28),
+                          HugeIcon(
+                            icon: HugeIcons.strokeRoundedSearch01,
+                            size: 28,
+                          ),
                           Text(
                             "Search",
                             style: TextStyle(fontSize: 16, color: Colors.white),
@@ -411,7 +429,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   ),
 
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 3;
                       });
@@ -425,7 +443,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Row(
                         spacing: 12,
                         children: [
-                          HugeIcon(icon: HugeIcons.strokeRoundedChatUser01, size: 28),
+                          HugeIcon(
+                            icon: HugeIcons.strokeRoundedChatUser01,
+                            size: 28,
+                          ),
                           Text(
                             "Cart",
                             style: TextStyle(fontSize: 16, color: Colors.white),
