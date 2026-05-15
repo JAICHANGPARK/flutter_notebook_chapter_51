@@ -476,7 +476,11 @@ curve: Curves.easeIn,
                             "Cart",
                             style: TextStyle(fontSize: 16, color: Colors.white),
                           ),
-                        ] : [],
+                        ] : [ HugeIcon(
+                          icon: HugeIcons.strokeRoundedChatUser01,
+                          size: 28,
+
+                        ),],
                       ),
                     ),
                   ),
