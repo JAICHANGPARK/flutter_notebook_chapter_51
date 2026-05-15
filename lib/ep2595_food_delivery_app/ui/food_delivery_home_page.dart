@@ -323,7 +323,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             left: 24,
             right: 24,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder()),
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Color.fromRGBO(252, 181, 30, 1),
+              ),
             ),
           ),
         ],
