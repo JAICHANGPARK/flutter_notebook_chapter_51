@@ -339,10 +339,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ),
                     padding: .symmetric(horizontal: 16, vertical: 12),
                     child: Row(
+                      spacing: 12,
                       children: [
                         HugeIcon(
                           icon: HugeIcons.strokeRoundedHome01,
-                          size: 32,
+                          size: 28,
                           color: Colors.white,
                         ),
                         Text(
