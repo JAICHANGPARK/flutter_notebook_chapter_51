@@ -493,18 +493,18 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   GestureDetector(
                     onTap: () {
                       setState(() {
-                        pageNum = 3;
+                        pageNum = 4;
                       });
                     },
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: pageNum == 3 ? Colors.black : Colors.transparent,
+                        color: pageNum == 4 ? Colors.black : Colors.transparent,
                       ),
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: pageNum == 3
+                        children: pageNum ==4
                             ? [
                                 HugeIcon(
                                   icon: HugeIcons.strokeRoundedUser,
