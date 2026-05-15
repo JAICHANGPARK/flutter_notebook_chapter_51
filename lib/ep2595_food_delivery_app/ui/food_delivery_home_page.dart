@@ -332,7 +332,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               child: Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
-                  HugeIcon(icon: HugeIcons.strokeRoundedHome01, size: 32),
+                  Container(
+                      
+                      child: Row(
+                    children: [
+                      HugeIcon(icon: HugeIcons.strokeRoundedHome01, size: 32),
+                    ],
+                  )),
                   HugeIcon(icon: HugeIcons.strokeRoundedHandBag01, size: 32),
                   HugeIcon(icon: HugeIcons.strokeRoundedSearch01, size: 32),
                   HugeIcon(icon: HugeIcons.strokeRoundedChatUser01, size: 32),
