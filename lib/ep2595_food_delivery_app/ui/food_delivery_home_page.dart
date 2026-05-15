@@ -420,21 +420,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.black,
+                        color: pageNum == 2 ? Colors.black : Colors.transparent,
                       ),
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
                         spacing: 12,
-                        children: [
+                        children:  pageNum == 2 ? [
                           HugeIcon(
                             icon: HugeIcons.strokeRoundedSearch01,
                             size: 28,
+                            color: Colors.white,
                           ),
                           Text(
                             "Search",
                             style: TextStyle(fontSize: 16, color: Colors.white),
                           ),
-                        ],
+                        ] : [],
                       ),
                     ),
                   ),
