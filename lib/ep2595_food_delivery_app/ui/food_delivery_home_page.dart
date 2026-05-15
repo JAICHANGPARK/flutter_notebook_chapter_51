@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
@@ -326,6 +327,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(252, 181, 30, 1),
+              ),
+              child: Row(
+                children: [HugeIcon(icon: HugeIcons.strokeRoundedHome01)],
               ),
             ),
           ),
