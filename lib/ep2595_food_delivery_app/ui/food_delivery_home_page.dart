@@ -329,7 +329,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 color: Color.fromRGBO(252, 181, 30, 1),
               ),
               child: Row(
-                children: [HugeIcon(icon: HugeIcons.strokeRoundedHome01)],
+                children: [HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                  HugeIcon(icon: HugeIcons.strokeRoundedHandBag01),
+                  HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                  HugeIcon(icon: HugeIcons.strokeRoundedChatUser01),
+                  HugeIcon(icon: HugeIcons.strokeRoundedHome01)
+                ],
               ),
             ),
           ),
