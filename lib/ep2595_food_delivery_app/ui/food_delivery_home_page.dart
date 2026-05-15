@@ -342,7 +342,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.black,
+                        color: pageNum == 0 ? Colors.black : Colors.transparent,
                       ),
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
