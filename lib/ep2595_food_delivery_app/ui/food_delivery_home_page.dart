@@ -10,6 +10,7 @@ class FoodDeliveryHomePage extends StatefulWidget {
 }
 
 class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
