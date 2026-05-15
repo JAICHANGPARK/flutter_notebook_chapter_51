@@ -417,7 +417,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         pageNum = 2;
                       });
                     },
-                    child: Container(
+                    child: AnimatedContainer(
+                      duration: Duration(milliseconds: 200),
+curve: Curves.easeIn,
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: pageNum == 2 ? Colors.black : Colors.transparent,
@@ -459,7 +461,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.black,
+                        color: pageNum == 3 ? Colors.black : Colors.transparent,
                       ),
                       padding: .symmetric(horizontal: 16, vertical: 12),
                       child: Row(
