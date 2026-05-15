@@ -324,11 +324,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             left: 24,
             right: 24,
             child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(252, 181, 30, 1),
               ),
               child: Row(
+                mainAxisAlignment: .spaceAround,
                 children: [HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                   HugeIcon(icon: HugeIcons.strokeRoundedHandBag01),
                   HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
