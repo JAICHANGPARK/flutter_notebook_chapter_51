@@ -13,11 +13,11 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
     return SafeArea(
       bottom: false,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
+        padding: const EdgeInsets.symmetric(horizontal: 24),
         child: ListView.builder(
           itemBuilder: (context, index) {
             return Container(
-              height: 200,
+              height: 320,
               margin: .only(bottom: 16),
               decoration: ShapeDecoration(
                 shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
@@ -30,7 +30,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(
-                        shape: RoundedSuperellipseBorder(),
+                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
                         color: Colors.grey,
                       ),
                     ),
