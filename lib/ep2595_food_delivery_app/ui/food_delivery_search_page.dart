@@ -11,6 +11,10 @@ class FoodDeliverySearchPage extends StatefulWidget {
 class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return ListView.builder(itemBuilder: (context, index) {
+      return Container(
+        child: Placeholder(),
+      );
+    },);
   }
 }
