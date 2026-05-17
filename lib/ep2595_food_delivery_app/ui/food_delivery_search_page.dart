@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+
+class FoodDeliverySearchPage extends StatefulWidget {
+  const FoodDeliverySearchPage({super.key});
+
+  @override
+  State<FoodDeliverySearchPage> createState() => _FoodDeliverySearchPageState();
+}
+
+class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
