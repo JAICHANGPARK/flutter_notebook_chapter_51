@@ -11,8 +11,9 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      bottom: false,
       child: Padding(
-        padding: const EdgeInsets.symmetric(16.0),
+        padding: const EdgeInsets.symmetric(horizontal: 16),
         child: ListView.builder(
           itemBuilder: (context, index) {
             return Container(
@@ -29,6 +30,23 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       ),
                     ),
                   ),
+                  Row(
+                    children: [
+                      Text("Harmony"),
+                      Spacer(),
+                      Icon(Icons.star),
+                      Text("4.6")
+                    ],
+                  ),
+                  Row(
+                    spacing: 6,
+                    children: [
+                      Icon(Icons.timer_outlined),
+                      Text("10-15 mins"),
+                      Icon(Icons.directions_run),
+                      Text("Free delivery"),
+                    ],
+                  )
 
                 ],
               ),
