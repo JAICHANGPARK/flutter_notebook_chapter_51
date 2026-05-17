@@ -30,7 +30,9 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(
-                        shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(16),
+                        ),
                         color: Colors.grey,
                       ),
                     ),
@@ -44,11 +46,11 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                     ],
                   ),
                   Row(
-                    spacing: 6,
+                    spacing: 4,
                     children: [
-                      Icon(Icons.timer_outlined),
+                      Icon(Icons.timer_outlined, size: 14),
                       Text("10-15 mins"),
-                      Icon(Icons.directions_run),
+                      Icon(Icons.directions_run, size: 14),
                       Text("Free delivery"),
                     ],
                   ),
