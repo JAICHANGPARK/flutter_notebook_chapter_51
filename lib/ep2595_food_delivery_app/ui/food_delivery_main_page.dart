@@ -25,7 +25,7 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
               children: [
                 FoodDeliveryHomePage(),
                 Placeholder(),
-                FoodDeliverySearchPage(),
+              FoodDeliverySearchPage()
               ],
             ),
           ),
