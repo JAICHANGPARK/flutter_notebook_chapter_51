@@ -22,10 +22,11 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
         children: [
           Positioned.fill(
             child: IndexedStack(
+              index: pageNum,
               children: [
                 FoodDeliveryHomePage(),
                 Placeholder(),
-              FoodDeliverySearchPage()
+                FoodDeliverySearchPage(),
               ],
             ),
           ),
@@ -58,26 +59,26 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         spacing: 12,
                         children: pageNum == 0
                             ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHome01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHome01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
 
-                          Text(
-                            "Home",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ]
+                                Text(
+                                  "Home",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
                             : [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHome01,
-                            size: 28,
-                          ),
-                        ],
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHome01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
@@ -97,25 +98,25 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         spacing: 12,
                         children: pageNum == 1
                             ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHandBag01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Cart",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ]
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHandBag01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
                             : [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedHandBag01,
-                            size: 28,
-                          ),
-                        ],
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedHandBag01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
@@ -137,25 +138,25 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         spacing: 12,
                         children: pageNum == 2
                             ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedSearch01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Search",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ]
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedSearch01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Search",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
                             : [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedSearch01,
-                            size: 28,
-                          ),
-                        ],
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedSearch01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
@@ -176,25 +177,25 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         spacing: 12,
                         children: pageNum == 3
                             ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedChatUser01,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Cart",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ]
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedChatUser01,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
                             : [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedChatUser01,
-                            size: 28,
-                          ),
-                        ],
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedChatUser01,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
@@ -214,25 +215,25 @@ class _FoodDeliveryMainPageState extends State<FoodDeliveryMainPage> {
                         spacing: 12,
                         children: pageNum == 4
                             ? [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedUser,
-                            size: 28,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Cart",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ]
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedUser,
+                                  size: 28,
+                                  color: Colors.white,
+                                ),
+                                Text(
+                                  "Cart",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ]
                             : [
-                          HugeIcon(
-                            icon: HugeIcons.strokeRoundedUser,
-                            size: 28,
-                          ),
-                        ],
+                                HugeIcon(
+                                  icon: HugeIcons.strokeRoundedUser,
+                                  size: 28,
+                                ),
+                              ],
                       ),
                     ),
                   ),
