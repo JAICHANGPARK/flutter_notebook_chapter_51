@@ -21,6 +21,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
               margin: .only(bottom: 16),
 
               child: Column(
+                spacing: 4,
                 children: [
                   Expanded(
                     child: Container(
