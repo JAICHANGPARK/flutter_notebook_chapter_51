@@ -10,23 +10,25 @@ class FoodDeliverySearchPage extends StatefulWidget {
 class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemBuilder: (context, index) {
-        return Container(
-          child: Column(
-            children: [
-              Expanded(
-                child: Container(
-                  decoration: ShapeDecoration(
-                    shape: RoundedSuperellipseBorder(),
-                    color: Colors.grey,
+    return SafeArea(
+      child: ListView.builder(
+        itemBuilder: (context, index) {
+          return Container(
+            child: Column(
+              children: [
+                Expanded(
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(),
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
-              ),
-            ],
-          ),
-        );
-      },
+              ],
+            ),
+          );
+        },
+      ),
     );
   }
 }
