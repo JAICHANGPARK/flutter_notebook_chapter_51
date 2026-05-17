@@ -49,9 +49,11 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                     ],
                   ),
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
                       Text("\$45.10"),
                       CircleAvatar(
+                        radius: 17,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
                         child: Icon(Icons.add),
