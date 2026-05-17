@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodDeliverySearchPage extends StatefulWidget {
   const FoodDeliverySearchPage({super.key});
@@ -37,11 +38,12 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       ),
                     ),
                   ),
+                  Gap(4),
                   Row(
                     children: [
-                      Text("Harmony"),
+                      Text("Harmony", style: TextStyle(fontWeight: .bold)),
                       Spacer(),
-                      Icon(Icons.star),
+                      Icon(Icons.star, size: 14, color: Colors.yellow),
                       Text("4.6"),
                     ],
                   ),
@@ -54,10 +56,14 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       Text("Free delivery"),
                     ],
                   ),
+                  Gap(4),
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("\$45.10"),
+                      Text(
+                        "\$45.10",
+                        style: TextStyle(fontWeight: .bold, fontSize: 20),
+                      ),
                       CircleAvatar(
                         radius: 17,
                         backgroundColor: Colors.black,
