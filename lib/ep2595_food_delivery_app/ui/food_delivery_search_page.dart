@@ -53,6 +53,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       Text("\$45.10"),
                       CircleAvatar(
                         backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
                         child: Icon(Icons.add),
                       ),
                     ],
