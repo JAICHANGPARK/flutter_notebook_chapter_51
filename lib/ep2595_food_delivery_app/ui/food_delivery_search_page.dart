@@ -12,7 +12,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.symmetric(16.0),
         child: ListView.builder(
           itemBuilder: (context, index) {
             return Container(
