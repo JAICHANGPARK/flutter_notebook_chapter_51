@@ -47,6 +47,15 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       Icon(Icons.directions_run),
                       Text("Free delivery"),
                     ],
+                  ),
+                  Row(
+                    children: [
+                      Text("\$45.10"),
+                      CircleAvatar(
+                        backgroundColor: Colors.black,
+                        child: Icon(Icons.add),
+                      ),
+                    ],
                   )
 
                 ],
