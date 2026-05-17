@@ -19,7 +19,11 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
             return Container(
               height: 200,
               margin: .only(bottom: 16),
-
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                color: Colors.white,
+              ),
+              padding: .all(16),
               child: Column(
                 spacing: 4,
                 children: [
@@ -36,7 +40,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                       Text("Harmony"),
                       Spacer(),
                       Icon(Icons.star),
-                      Text("4.6")
+                      Text("4.6"),
                     ],
                   ),
                   Row(
@@ -59,8 +63,7 @@ class _FoodDeliverySearchPageState extends State<FoodDeliverySearchPage> {
                         child: Icon(Icons.add),
                       ),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             );
